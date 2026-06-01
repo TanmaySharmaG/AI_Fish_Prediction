@@ -1,0 +1,3001 @@
+chlorophyll,sst,ssh,salinity,month,location,fish_species
+3.25,25.8,0.21,33.94,9,Kochi,Sardine
+3.16,26.54,0.32,33.26,3,Kochi,Croakers
+3.06,29.2,0.45,35.71,1,Mumbai,Mackerel
+2.14,28.2,0.51,34.26,8,Kochi,Ribbonfish
+3.08,28.27,0.28,32.66,1,Kochi,Bombay Duck
+3.76,27.1,0.23,31.39,2,Gujarat,Bombay Duck
+2.55,26.95,0.36,32.29,9,Chennai,Croakers
+2.06,28.77,0.21,35.1,7,Gujarat,Mackerel
+3.75,26.94,0.42,33.25,1,Mumbai,Sardine
+3.5,24.45,0.24,31.47,4,Visakhapatnam,Croakers
+3.69,28.25,0.26,30.15,6,Visakhapatnam,Bombay Duck
+3.33,27.16,0.32,33.86,4,Gujarat,Croakers
+2.05,30.82,0.43,35.7,7,Chennai,Tuna
+3.42,24.97,0.4,32.74,2,Kochi,Sardine
+3.7,24.01,0.53,31.56,1,Mumbai,Sardine
+2.21,26.19,0.47,32.0,9,Mumbai,Croakers
+2.49,29.06,0.41,35.96,2,Kochi,Tuna
+2.39,28.04,0.36,36.92,2,Gujarat,Tuna
+3.02,28.78,0.51,32.22,3,Kochi,Bombay Duck
+3.75,28.53,0.21,32.2,2,Mumbai,Bombay Duck
+2.2,29.93,0.56,35.29,12,Mumbai,Ribbonfish
+2.35,29.87,0.3,36.41,8,Kochi,Tuna
+2.78,28.19,0.24,34.65,9,Kochi,Pomfret
+2.84,24.63,0.31,33.14,1,Chennai,Croakers
+2.38,31.9,0.59,36.87,5,Mumbai,Tuna
+2.8,29.22,0.22,34.49,1,Chennai,Mackerel
+2.84,26.03,0.58,30.98,8,Kochi,Bombay Duck
+2.65,30.54,0.32,35.51,1,Kochi,Ribbonfish
+3.09,26.64,0.24,35.43,2,Chennai,Mackerel
+1.61,31.66,0.21,36.35,2,Mumbai,Tuna
+3.46,29.06,0.54,34.38,2,Mumbai,Mackerel
+3.65,27.78,0.21,33.54,6,Mumbai,Bombay Duck
+2.32,27.44,0.47,32.72,1,Kochi,Pomfret
+2.29,26.93,0.37,34.14,12,Kochi,Pomfret
+2.47,25.56,0.6,32.62,11,Visakhapatnam,Pomfret
+2.52,25.28,0.36,33.81,10,Visakhapatnam,Croakers
+2.89,28.22,0.39,34.12,7,Gujarat,Ribbonfish
+4.37,26.46,0.42,33.97,6,Gujarat,Sardine
+3.63,24.8,0.2,31.26,2,Visakhapatnam,Sardine
+2.31,26.67,0.38,35.55,11,Mumbai,Mackerel
+2.04,29.99,0.45,36.72,3,Mumbai,Tuna
+3.15,26.8,0.34,32.48,10,Visakhapatnam,Croakers
+2.36,27.63,0.36,34.15,8,Mumbai,Ribbonfish
+3.88,26.21,0.4,33.4,3,Gujarat,Sardine
+2.94,27.79,0.25,33.9,4,Visakhapatnam,Pomfret
+2.01,31.44,0.54,35.18,1,Mumbai,Tuna
+2.18,29.8,0.6,35.84,11,Kochi,Tuna
+1.53,28.89,0.4,36.01,5,Kochi,Tuna
+2.25,26.7,0.37,33.56,11,Gujarat,Mackerel
+2.22,25.4,0.52,34.97,9,Mumbai,Pomfret
+1.9,27.45,0.4,35.97,6,Visakhapatnam,Ribbonfish
+2.96,27.0,0.5,33.14,6,Visakhapatnam,Pomfret
+3.75,28.17,0.28,33.23,12,Chennai,Bombay Duck
+2.39,26.19,0.39,33.16,7,Mumbai,Pomfret
+2.69,29.43,0.56,34.31,1,Gujarat,Mackerel
+3.25,27.53,0.54,33.15,7,Gujarat,Bombay Duck
+2.61,27.28,0.51,35.9,7,Mumbai,Ribbonfish
+2.32,30.78,0.46,36.73,3,Mumbai,Tuna
+1.93,29.26,0.24,36.35,2,Kochi,Tuna
+3.48,26.01,0.6,34.74,11,Chennai,Mackerel
+2.38,27.38,0.22,34.16,6,Chennai,Croakers
+2.4,27.59,0.44,34.2,6,Kochi,Mackerel
+2.08,31.14,0.53,36.56,2,Chennai,Tuna
+3.65,25.54,0.36,33.14,6,Mumbai,Croakers
+3.1,26.64,0.38,33.11,8,Mumbai,Bombay Duck
+1.87,30.94,0.39,36.39,1,Gujarat,Tuna
+3.38,27.42,0.5,33.67,9,Gujarat,Mackerel
+3.03,27.06,0.39,34.67,4,Mumbai,Mackerel
+2.72,26.71,0.55,30.72,1,Gujarat,Bombay Duck
+3.84,28.21,0.42,33.35,2,Gujarat,Bombay Duck
+3.79,27.06,0.48,33.38,8,Kochi,Bombay Duck
+2.72,26.49,0.34,33.46,11,Kochi,Mackerel
+2.65,27.57,0.34,31.96,6,Kochi,Croakers
+2.81,28.54,0.21,34.06,10,Gujarat,Mackerel
+3.0,27.09,0.51,31.73,9,Mumbai,Sardine
+4.96,27.19,0.54,32.35,2,Kochi,Sardine
+2.06,28.96,0.36,33.54,5,Kochi,Pomfret
+2.78,29.93,0.36,35.0,9,Gujarat,Mackerel
+1.54,30.56,0.45,36.05,8,Gujarat,Tuna
+3.58,26.38,0.42,32.72,8,Kochi,Bombay Duck
+1.53,30.54,0.31,36.63,6,Visakhapatnam,Tuna
+3.31,25.19,0.59,32.7,1,Visakhapatnam,Croakers
+3.92,24.72,0.57,32.4,4,Mumbai,Sardine
+3.55,27.25,0.55,31.36,8,Gujarat,Croakers
+2.97,26.27,0.44,33.99,6,Kochi,Pomfret
+2.71,27.82,0.51,34.34,3,Kochi,Ribbonfish
+2.93,28.85,0.25,32.69,2,Kochi,Pomfret
+2.77,29.04,0.53,35.3,7,Visakhapatnam,Tuna
+4.91,25.52,0.23,31.29,5,Visakhapatnam,Sardine
+2.73,25.45,0.24,34.84,2,Chennai,Pomfret
+1.68,28.49,0.45,35.68,6,Chennai,Tuna
+3.43,25.94,0.4,32.03,10,Kochi,Sardine
+1.98,29.07,0.49,35.25,9,Gujarat,Ribbonfish
+2.58,28.65,0.27,32.33,5,Gujarat,Bombay Duck
+2.21,26.72,0.4,31.1,3,Gujarat,Croakers
+3.8,28.51,0.31,31.9,8,Gujarat,Bombay Duck
+3.25,24.19,0.21,32.0,5,Kochi,Croakers
+2.37,25.81,0.3,33.81,7,Mumbai,Croakers
+1.89,30.63,0.27,36.96,5,Visakhapatnam,Tuna
+3.26,28.18,0.26,31.03,8,Kochi,Bombay Duck
+2.6,26.86,0.27,31.28,5,Chennai,Croakers
+3.68,24.0,0.37,33.14,9,Mumbai,Croakers
+2.54,30.33,0.42,34.61,8,Kochi,Ribbonfish
+2.64,28.14,0.6,34.35,9,Mumbai,Ribbonfish
+1.74,31.28,0.39,36.51,10,Mumbai,Tuna
+2.83,28.05,0.6,32.88,2,Gujarat,Pomfret
+2.77,29.34,0.42,35.09,3,Gujarat,Mackerel
+2.23,29.27,0.33,34.46,9,Chennai,Ribbonfish
+3.07,24.38,0.28,33.11,9,Mumbai,Croakers
+4.1,26.39,0.35,31.73,3,Chennai,Bombay Duck
+3.64,28.43,0.31,30.68,8,Gujarat,Bombay Duck
+3.59,26.87,0.37,34.28,3,Chennai,Croakers
+2.29,24.83,0.41,31.86,2,Mumbai,Croakers
+2.78,30.98,0.48,35.07,9,Kochi,Tuna
+2.55,27.83,0.47,33.07,8,Kochi,Pomfret
+3.51,25.86,0.34,33.15,2,Gujarat,Sardine
+2.45,30.09,0.28,34.29,3,Chennai,Ribbonfish
+4.09,28.69,0.55,33.2,11,Gujarat,Bombay Duck
+2.17,31.37,0.46,36.74,7,Chennai,Tuna
+4.75,25.1,0.3,33.08,10,Chennai,Sardine
+2.76,29.23,0.43,35.55,10,Visakhapatnam,Ribbonfish
+2.59,30.43,0.4,34.78,6,Chennai,Ribbonfish
+3.61,26.04,0.23,32.96,6,Kochi,Croakers
+2.67,29.51,0.34,35.73,8,Gujarat,Ribbonfish
+2.71,27.64,0.55,34.29,2,Mumbai,Pomfret
+2.15,28.81,0.3,35.46,1,Chennai,Ribbonfish
+3.88,24.05,0.22,33.57,5,Visakhapatnam,Sardine
+2.82,27.22,0.44,32.93,1,Chennai,Bombay Duck
+2.95,27.39,0.25,33.16,11,Visakhapatnam,Mackerel
+2.97,27.55,0.46,34.27,10,Kochi,Mackerel
+3.35,26.53,0.51,35.43,7,Gujarat,Mackerel
+3.25,29.51,0.37,33.48,7,Gujarat,Mackerel
+2.29,26.41,0.33,34.91,8,Visakhapatnam,Mackerel
+4.2,28.39,0.37,33.4,1,Kochi,Bombay Duck
+3.84,28.45,0.56,33.44,8,Mumbai,Bombay Duck
+2.99,27.99,0.22,35.22,9,Chennai,Mackerel
+2.61,28.03,0.28,35.32,4,Chennai,Mackerel
+2.41,30.62,0.42,34.29,5,Gujarat,Ribbonfish
+2.75,30.16,0.49,34.49,2,Visakhapatnam,Ribbonfish
+2.61,29.29,0.32,35.11,1,Mumbai,Ribbonfish
+1.81,31.6,0.48,35.7,7,Chennai,Tuna
+3.6,27.78,0.25,32.57,4,Mumbai,Bombay Duck
+2.15,28.1,0.3,34.9,10,Kochi,Pomfret
+3.64,26.8,0.38,33.23,9,Gujarat,Bombay Duck
+3.77,28.36,0.6,32.83,1,Kochi,Bombay Duck
+2.6,30.3,0.24,36.7,5,Chennai,Tuna
+2.67,25.15,0.45,31.01,8,Gujarat,Croakers
+3.5,27.92,0.24,32.61,8,Kochi,Croakers
+2.56,30.95,0.2,35.34,10,Chennai,Ribbonfish
+3.34,25.66,0.38,34.42,12,Kochi,Croakers
+3.38,26.2,0.49,31.27,9,Gujarat,Bombay Duck
+2.94,25.76,0.2,31.35,4,Kochi,Croakers
+2.1,31.7,0.23,35.96,11,Chennai,Tuna
+3.46,25.52,0.4,34.82,11,Mumbai,Croakers
+2.03,28.09,0.54,36.4,8,Gujarat,Tuna
+3.07,28.98,0.46,30.28,12,Kochi,Bombay Duck
+2.45,26.02,0.38,34.62,10,Mumbai,Pomfret
+2.32,27.43,0.5,34.44,8,Gujarat,Pomfret
+3.08,24.36,0.26,34.73,8,Kochi,Croakers
+2.1,30.35,0.35,35.63,8,Chennai,Tuna
+2.38,28.68,0.4,34.15,12,Mumbai,Ribbonfish
+1.58,30.21,0.3,35.82,8,Visakhapatnam,Tuna
+3.57,26.17,0.53,32.04,4,Gujarat,Croakers
+2.59,28.16,0.49,35.81,12,Chennai,Mackerel
+2.75,24.92,0.42,32.8,10,Kochi,Croakers
+3.58,27.03,0.28,32.14,5,Mumbai,Sardine
+2.68,24.44,0.24,32.46,7,Visakhapatnam,Croakers
+4.09,26.91,0.42,32.51,4,Mumbai,Sardine
+2.73,27.06,0.39,35.84,5,Visakhapatnam,Mackerel
+2.68,26.99,0.54,34.39,3,Kochi,Mackerel
+2.74,28.07,0.57,35.01,2,Gujarat,Tuna
+2.24,27.67,0.43,32.28,11,Kochi,Croakers
+2.56,28.87,0.3,36.8,7,Mumbai,Tuna
+4.07,24.85,0.33,33.28,3,Mumbai,Sardine
+2.55,29.5,0.32,34.41,4,Mumbai,Ribbonfish
+2.27,29.39,0.36,35.26,2,Visakhapatnam,Mackerel
+3.29,26.02,0.27,32.7,4,Mumbai,Sardine
+3.31,26.86,0.37,32.65,10,Kochi,Bombay Duck
+2.89,29.31,0.22,33.58,4,Kochi,Mackerel
+2.75,27.93,0.34,32.61,9,Visakhapatnam,Bombay Duck
+2.67,28.96,0.22,30.31,6,Mumbai,Bombay Duck
+3.3,29.92,0.34,33.11,5,Chennai,Mackerel
+2.58,29.58,0.52,34.81,9,Mumbai,Mackerel
+2.26,28.79,0.55,32.02,1,Chennai,Pomfret
+4.03,26.43,0.51,30.31,4,Chennai,Bombay Duck
+2.86,25.84,0.52,34.98,9,Mumbai,Pomfret
+2.28,27.45,0.56,35.73,8,Gujarat,Ribbonfish
+2.09,27.82,0.33,32.22,1,Gujarat,Pomfret
+2.05,30.34,0.2,35.54,9,Chennai,Ribbonfish
+3.63,28.68,0.37,30.98,11,Kochi,Bombay Duck
+2.64,27.26,0.4,34.13,3,Chennai,Mackerel
+3.55,26.17,0.38,34.32,1,Mumbai,Croakers
+3.48,24.02,0.4,33.7,1,Visakhapatnam,Sardine
+2.56,26.11,0.32,34.18,11,Gujarat,Croakers
+3.49,26.17,0.39,35.2,10,Visakhapatnam,Mackerel
+1.82,28.34,0.56,33.98,1,Mumbai,Pomfret
+2.48,30.8,0.32,35.94,12,Mumbai,Ribbonfish
+2.55,26.56,0.39,34.04,4,Gujarat,Croakers
+2.44,25.99,0.48,32.3,8,Chennai,Pomfret
+3.16,29.34,0.34,33.81,5,Visakhapatnam,Mackerel
+2.49,25.01,0.38,34.7,8,Gujarat,Croakers
+2.23,26.3,0.36,32.58,1,Kochi,Pomfret
+2.49,28.19,0.38,34.3,2,Chennai,Mackerel
+2.21,27.17,0.41,34.21,12,Chennai,Pomfret
+3.28,27.99,0.34,34.85,5,Visakhapatnam,Mackerel
+2.64,31.87,0.29,35.09,12,Chennai,Tuna
+3.42,27.99,0.36,31.9,10,Kochi,Bombay Duck
+2.99,27.31,0.5,33.25,8,Gujarat,Mackerel
+3.0,26.9,0.21,30.56,5,Mumbai,Bombay Duck
+3.27,26.26,0.3,33.87,7,Mumbai,Croakers
+2.55,27.16,0.35,30.06,4,Kochi,Bombay Duck
+3.06,26.78,0.54,32.51,9,Kochi,Croakers
+2.17,30.5,0.5,35.22,5,Visakhapatnam,Tuna
+2.65,29.9,0.37,35.29,9,Kochi,Mackerel
+2.91,27.81,0.4,33.57,7,Visakhapatnam,Bombay Duck
+3.42,27.78,0.2,33.04,7,Mumbai,Bombay Duck
+3.74,24.76,0.27,32.66,2,Gujarat,Croakers
+2.8,27.02,0.31,35.56,3,Kochi,Ribbonfish
+4.19,27.1,0.28,32.43,3,Kochi,Sardine
+2.21,31.81,0.53,35.74,6,Kochi,Tuna
+1.98,25.65,0.46,32.74,1,Mumbai,Pomfret
+2.47,28.52,0.58,35.44,5,Chennai,Mackerel
+2.81,26.11,0.22,33.8,2,Visakhapatnam,Mackerel
+2.87,30.58,0.25,34.96,7,Mumbai,Ribbonfish
+3.87,26.72,0.31,33.1,12,Chennai,Sardine
+2.1,28.43,0.21,35.69,11,Chennai,Tuna
+2.51,30.61,0.55,34.1,12,Gujarat,Ribbonfish
+2.77,27.11,0.26,34.42,9,Mumbai,Pomfret
+3.92,28.25,0.23,32.54,3,Mumbai,Bombay Duck
+3.93,27.73,0.52,33.69,4,Kochi,Sardine
+3.93,25.48,0.37,33.31,11,Visakhapatnam,Sardine
+2.38,28.94,0.55,35.36,1,Visakhapatnam,Tuna
+3.06,26.29,0.21,33.01,10,Chennai,Bombay Duck
+2.72,26.08,0.51,33.09,9,Mumbai,Mackerel
+2.0,28.1,0.55,32.47,6,Visakhapatnam,Pomfret
+2.99,27.05,0.34,34.08,4,Visakhapatnam,Ribbonfish
+2.5,27.54,0.21,34.64,7,Gujarat,Ribbonfish
+2.11,26.28,0.29,35.62,10,Kochi,Mackerel
+3.16,26.57,0.35,33.28,2,Chennai,Croakers
+2.6,27.86,0.31,34.93,5,Mumbai,Pomfret
+2.71,27.52,0.46,32.16,6,Chennai,Croakers
+2.25,28.04,0.3,34.28,11,Chennai,Mackerel
+4.39,25.88,0.32,33.22,11,Mumbai,Sardine
+2.99,26.59,0.52,33.63,12,Kochi,Pomfret
+1.77,31.27,0.35,36.38,10,Visakhapatnam,Tuna
+2.15,29.44,0.37,35.31,9,Mumbai,Mackerel
+2.79,26.2,0.2,34.24,9,Kochi,Mackerel
+2.74,27.8,0.5,34.48,4,Chennai,Ribbonfish
+3.9,24.41,0.44,31.8,2,Gujarat,Sardine
+2.16,27.46,0.56,34.17,3,Gujarat,Pomfret
+2.85,26.84,0.4,32.68,5,Visakhapatnam,Croakers
+2.98,29.04,0.59,34.46,2,Kochi,Mackerel
+2.33,30.42,0.27,36.07,10,Chennai,Tuna
+2.55,30.88,0.48,35.61,4,Visakhapatnam,Tuna
+3.68,26.95,0.54,33.25,12,Gujarat,Sardine
+1.91,27.76,0.39,34.71,5,Visakhapatnam,Pomfret
+3.25,28.22,0.45,30.65,2,Visakhapatnam,Bombay Duck
+2.17,26.1,0.34,32.08,4,Kochi,Pomfret
+2.42,27.99,0.59,32.08,9,Mumbai,Croakers
+3.5,26.19,0.55,32.92,12,Mumbai,Bombay Duck
+2.06,30.76,0.49,35.92,5,Mumbai,Tuna
+2.0,28.61,0.2,33.06,11,Chennai,Pomfret
+3.2,27.87,0.36,33.46,11,Chennai,Sardine
+2.03,26.19,0.56,32.17,3,Mumbai,Pomfret
+3.16,26.48,0.55,32.24,9,Gujarat,Croakers
+2.46,28.81,0.44,36.97,12,Gujarat,Tuna
+2.68,28.94,0.26,34.13,3,Chennai,Ribbonfish
+2.71,27.09,0.36,35.82,7,Kochi,Ribbonfish
+1.84,25.41,0.25,34.35,4,Kochi,Pomfret
+3.24,24.26,0.25,33.33,1,Gujarat,Sardine
+3.2,27.91,0.35,33.78,4,Gujarat,Bombay Duck
+2.57,29.08,0.33,34.29,12,Chennai,Ribbonfish
+2.57,28.2,0.45,35.64,10,Gujarat,Tuna
+3.27,27.49,0.35,32.6,4,Gujarat,Bombay Duck
+1.71,28.59,0.41,36.26,8,Visakhapatnam,Tuna
+2.66,27.14,0.32,33.58,7,Mumbai,Mackerel
+3.67,26.78,0.27,31.65,10,Chennai,Bombay Duck
+2.33,28.04,0.2,34.5,4,Visakhapatnam,Ribbonfish
+2.72,26.72,0.53,33.96,12,Mumbai,Pomfret
+2.58,27.61,0.21,32.14,3,Chennai,Bombay Duck
+3.17,28.21,0.31,30.36,5,Visakhapatnam,Bombay Duck
+3.15,28.34,0.49,31.31,2,Chennai,Bombay Duck
+4.85,24.74,0.4,33.88,12,Visakhapatnam,Sardine
+2.02,25.47,0.37,34.72,3,Gujarat,Pomfret
+3.5,29.9,0.35,34.32,11,Kochi,Mackerel
+2.95,27.19,0.32,32.17,8,Mumbai,Croakers
+3.82,27.45,0.46,31.71,10,Gujarat,Bombay Duck
+2.8,25.8,0.32,33.86,8,Chennai,Croakers
+2.39,27.76,0.38,32.47,7,Kochi,Pomfret
+1.83,29.14,0.28,36.29,6,Chennai,Tuna
+1.99,26.1,0.47,34.16,2,Gujarat,Pomfret
+2.98,28.6,0.3,35.29,3,Kochi,Ribbonfish
+4.97,25.85,0.59,33.37,8,Mumbai,Sardine
+2.42,27.65,0.25,33.32,5,Visakhapatnam,Pomfret
+2.52,26.52,0.22,34.32,12,Chennai,Pomfret
+1.9,30.47,0.33,36.58,9,Gujarat,Tuna
+3.0,26.35,0.51,35.67,9,Mumbai,Mackerel
+3.59,27.92,0.48,34.96,1,Visakhapatnam,Croakers
+1.79,29.98,0.55,36.28,1,Kochi,Tuna
+4.31,27.56,0.36,31.48,4,Visakhapatnam,Sardine
+3.72,27.25,0.57,32.31,4,Kochi,Sardine
+2.53,29.68,0.26,34.91,7,Gujarat,Mackerel
+4.96,24.34,0.37,33.44,2,Mumbai,Sardine
+2.18,25.95,0.45,33.52,3,Visakhapatnam,Pomfret
+4.03,26.94,0.37,30.14,6,Visakhapatnam,Bombay Duck
+4.33,26.47,0.29,33.17,3,Mumbai,Sardine
+2.25,28.28,0.5,34.4,6,Visakhapatnam,Pomfret
+1.65,31.38,0.37,36.08,1,Visakhapatnam,Tuna
+3.19,29.93,0.55,34.01,10,Gujarat,Mackerel
+2.43,28.32,0.57,35.06,7,Kochi,Tuna
+2.55,29.86,0.39,35.33,5,Gujarat,Ribbonfish
+2.59,30.51,0.33,34.09,7,Mumbai,Ribbonfish
+3.77,26.39,0.27,31.79,7,Gujarat,Bombay Duck
+2.12,28.27,0.56,35.45,10,Kochi,Tuna
+2.41,29.12,0.36,35.12,11,Kochi,Ribbonfish
+2.63,28.4,0.21,31.97,11,Kochi,Bombay Duck
+3.19,27.03,0.42,31.04,6,Mumbai,Bombay Duck
+2.6,30.4,0.28,35.06,7,Gujarat,Ribbonfish
+4.1,28.04,0.38,33.66,1,Visakhapatnam,Bombay Duck
+3.26,26.6,0.35,35.78,4,Chennai,Mackerel
+1.96,30.33,0.43,35.78,4,Chennai,Tuna
+2.31,26.31,0.26,33.96,7,Visakhapatnam,Croakers
+2.05,27.7,0.41,35.01,10,Chennai,Ribbonfish
+2.38,26.65,0.35,33.72,3,Visakhapatnam,Croakers
+2.14,28.2,0.42,34.74,12,Gujarat,Ribbonfish
+3.22,28.0,0.24,35.62,9,Mumbai,Mackerel
+2.43,26.41,0.43,33.16,2,Visakhapatnam,Mackerel
+2.18,28.24,0.21,35.87,8,Gujarat,Tuna
+2.34,27.6,0.31,35.48,6,Kochi,Ribbonfish
+2.92,26.48,0.48,35.25,5,Gujarat,Mackerel
+2.49,25.64,0.51,33.09,6,Kochi,Croakers
+2.54,29.53,0.38,33.93,9,Visakhapatnam,Mackerel
+3.25,29.75,0.32,33.62,2,Visakhapatnam,Mackerel
+1.99,27.9,0.57,32.16,3,Kochi,Pomfret
+2.11,26.71,0.23,34.31,5,Chennai,Pomfret
+2.03,28.04,0.48,32.92,8,Mumbai,Pomfret
+3.67,27.54,0.51,31.6,8,Visakhapatnam,Bombay Duck
+3.39,26.76,0.23,35.57,2,Mumbai,Mackerel
+2.42,29.07,0.27,34.07,8,Kochi,Ribbonfish
+2.13,28.73,0.5,35.55,12,Gujarat,Tuna
+1.89,25.16,0.57,34.34,3,Visakhapatnam,Pomfret
+2.78,26.86,0.25,34.72,4,Kochi,Mackerel
+4.78,26.82,0.43,32.63,3,Mumbai,Sardine
+2.57,27.2,0.39,32.26,9,Kochi,Pomfret
+2.96,28.44,0.56,30.97,2,Kochi,Bombay Duck
+1.88,29.59,0.5,36.44,3,Mumbai,Tuna
+2.74,28.11,0.44,34.74,9,Mumbai,Ribbonfish
+3.52,26.08,0.37,32.27,5,Mumbai,Bombay Duck
+2.43,26.1,0.26,34.57,4,Kochi,Mackerel
+2.59,27.73,0.41,34.24,3,Mumbai,Ribbonfish
+1.66,30.91,0.48,36.64,12,Kochi,Tuna
+2.91,30.12,0.48,34.65,9,Visakhapatnam,Ribbonfish
+4.14,24.77,0.21,33.79,6,Kochi,Sardine
+3.14,26.23,0.53,31.3,3,Chennai,Croakers
+1.96,27.53,0.23,34.84,11,Chennai,Ribbonfish
+2.55,26.57,0.53,33.05,6,Mumbai,Bombay Duck
+3.5,27.84,0.57,32.93,3,Mumbai,Croakers
+3.47,25.71,0.31,33.5,10,Chennai,Sardine
+2.75,30.85,0.36,36.71,7,Visakhapatnam,Tuna
+3.34,28.31,0.4,33.02,4,Kochi,Bombay Duck
+1.68,29.52,0.51,35.78,10,Kochi,Tuna
+3.21,28.33,0.4,32.71,4,Chennai,Bombay Duck
+4.54,27.24,0.52,32.49,1,Kochi,Sardine
+3.79,28.45,0.57,30.91,8,Mumbai,Bombay Duck
+2.98,26.81,0.37,36.0,8,Gujarat,Mackerel
+2.15,29.83,0.42,33.66,3,Gujarat,Mackerel
+3.39,26.04,0.53,34.74,8,Gujarat,Mackerel
+2.59,26.4,0.38,34.13,9,Visakhapatnam,Pomfret
+3.4,26.65,0.23,32.28,4,Visakhapatnam,Bombay Duck
+1.95,27.02,0.42,34.12,11,Kochi,Pomfret
+2.05,27.43,0.43,34.38,2,Mumbai,Pomfret
+2.58,30.62,0.32,35.55,3,Visakhapatnam,Ribbonfish
+2.43,30.07,0.52,36.78,4,Kochi,Tuna
+3.13,26.3,0.35,34.35,11,Chennai,Croakers
+2.25,29.94,0.58,35.87,7,Kochi,Tuna
+3.04,26.49,0.26,34.64,7,Chennai,Croakers
+2.83,27.6,0.36,32.85,11,Chennai,Pomfret
+4.07,24.95,0.25,31.86,11,Kochi,Sardine
+2.13,25.52,0.44,33.47,5,Chennai,Pomfret
+2.81,26.02,0.53,33.33,9,Kochi,Mackerel
+1.92,31.65,0.32,36.51,1,Gujarat,Tuna
+2.79,29.92,0.39,34.81,3,Gujarat,Ribbonfish
+3.7,26.81,0.41,32.09,6,Gujarat,Sardine
+1.91,29.85,0.24,35.33,10,Mumbai,Tuna
+1.58,30.74,0.39,36.81,2,Chennai,Tuna
+2.26,24.71,0.21,33.09,11,Gujarat,Croakers
+3.55,27.64,0.33,33.96,12,Gujarat,Bombay Duck
+3.61,27.3,0.53,32.37,5,Visakhapatnam,Sardine
+2.6,28.02,0.37,32.71,7,Gujarat,Pomfret
+2.15,27.74,0.57,34.96,12,Mumbai,Pomfret
+2.09,26.34,0.25,33.96,2,Mumbai,Pomfret
+2.07,28.95,0.49,35.69,1,Gujarat,Ribbonfish
+3.59,26.25,0.34,34.84,5,Kochi,Croakers
+2.67,30.18,0.29,35.27,9,Mumbai,Tuna
+2.89,26.59,0.39,32.68,3,Visakhapatnam,Croakers
+2.56,25.51,0.59,33.52,7,Chennai,Pomfret
+3.25,29.63,0.6,35.23,10,Mumbai,Mackerel
+1.85,25.6,0.25,32.04,12,Chennai,Pomfret
+2.63,27.6,0.55,32.35,8,Chennai,Croakers
+4.54,24.11,0.33,33.42,12,Mumbai,Sardine
+2.92,29.4,0.51,34.1,1,Chennai,Ribbonfish
+2.83,27.61,0.48,31.46,8,Gujarat,Croakers
+4.92,26.11,0.4,33.57,8,Gujarat,Sardine
+1.8,26.91,0.3,32.68,2,Kochi,Pomfret
+2.17,29.17,0.36,35.53,1,Gujarat,Ribbonfish
+2.78,28.66,0.36,35.42,10,Mumbai,Ribbonfish
+2.08,28.94,0.5,34.85,7,Chennai,Ribbonfish
+2.48,28.11,0.37,34.49,11,Gujarat,Ribbonfish
+2.96,26.52,0.41,32.39,6,Kochi,Bombay Duck
+2.03,28.13,0.27,35.61,9,Mumbai,Tuna
+2.68,31.6,0.32,36.13,12,Visakhapatnam,Tuna
+3.01,26.5,0.45,35.4,7,Kochi,Mackerel
+2.09,30.25,0.37,35.73,5,Visakhapatnam,Tuna
+4.62,24.68,0.21,31.01,10,Visakhapatnam,Sardine
+2.84,28.01,0.48,34.96,8,Kochi,Mackerel
+4.01,24.1,0.47,33.82,11,Mumbai,Sardine
+4.19,24.74,0.23,32.34,6,Kochi,Sardine
+2.84,27.44,0.42,33.24,5,Kochi,Mackerel
+2.37,28.28,0.39,35.34,2,Mumbai,Ribbonfish
+2.29,29.35,0.3,35.31,5,Chennai,Tuna
+1.65,28.59,0.37,36.3,7,Mumbai,Tuna
+4.23,25.42,0.53,32.35,7,Chennai,Sardine
+2.53,31.05,0.43,36.69,6,Chennai,Tuna
+2.18,27.32,0.43,33.13,7,Kochi,Pomfret
+2.94,28.53,0.44,35.8,11,Mumbai,Mackerel
+3.13,28.52,0.41,33.69,1,Gujarat,Bombay Duck
+4.59,24.91,0.41,33.12,12,Chennai,Sardine
+3.13,29.73,0.34,34.09,8,Gujarat,Mackerel
+3.15,28.09,0.46,31.81,11,Chennai,Bombay Duck
+2.2,29.14,0.55,33.7,8,Kochi,Mackerel
+4.92,25.93,0.44,32.77,7,Mumbai,Sardine
+3.42,27.25,0.28,34.91,5,Visakhapatnam,Mackerel
+2.72,28.72,0.32,36.93,3,Gujarat,Tuna
+3.47,28.8,0.55,35.21,1,Gujarat,Mackerel
+2.66,28.7,0.41,36.04,1,Visakhapatnam,Tuna
+1.95,27.81,0.41,34.62,4,Chennai,Pomfret
+2.71,28.3,0.57,33.81,3,Mumbai,Mackerel
+2.65,30.37,0.21,36.25,4,Gujarat,Tuna
+2.8,28.5,0.3,33.57,7,Mumbai,Pomfret
+2.05,26.7,0.58,34.97,3,Chennai,Pomfret
+2.52,27.02,0.59,34.2,2,Chennai,Pomfret
+1.68,31.09,0.28,35.43,1,Visakhapatnam,Tuna
+2.66,26.43,0.49,32.77,11,Gujarat,Pomfret
+4.06,27.79,0.55,33.83,12,Chennai,Sardine
+1.93,27.78,0.48,34.29,12,Gujarat,Pomfret
+2.76,29.5,0.42,35.82,3,Mumbai,Tuna
+1.85,28.93,0.42,35.41,6,Gujarat,Ribbonfish
+2.54,27.62,0.21,35.85,5,Mumbai,Ribbonfish
+4.11,27.76,0.39,30.42,9,Visakhapatnam,Bombay Duck
+3.04,28.56,0.41,32.82,10,Visakhapatnam,Bombay Duck
+3.65,24.27,0.4,33.3,2,Mumbai,Sardine
+2.42,26.09,0.43,34.53,11,Mumbai,Croakers
+2.74,25.3,0.36,32.32,2,Mumbai,Pomfret
+2.7,28.15,0.31,35.1,9,Visakhapatnam,Ribbonfish
+2.68,31.99,0.36,36.06,12,Mumbai,Tuna
+1.92,26.18,0.4,32.21,7,Mumbai,Pomfret
+3.11,27.09,0.48,33.21,11,Mumbai,Mackerel
+3.36,28.32,0.33,33.36,9,Gujarat,Mackerel
+3.7,27.84,0.37,33.37,1,Kochi,Sardine
+3.33,26.38,0.34,32.83,4,Chennai,Bombay Duck
+2.59,26.6,0.24,33.19,4,Kochi,Croakers
+4.54,27.95,0.31,31.95,8,Mumbai,Sardine
+4.98,26.2,0.48,32.77,10,Visakhapatnam,Sardine
+2.32,27.15,0.38,35.09,8,Gujarat,Ribbonfish
+3.16,28.84,0.41,34.05,3,Visakhapatnam,Mackerel
+1.5,31.37,0.23,36.99,11,Visakhapatnam,Tuna
+2.48,29.63,0.47,36.64,6,Kochi,Tuna
+4.65,25.2,0.29,33.64,11,Mumbai,Sardine
+2.45,28.44,0.44,34.51,12,Kochi,Ribbonfish
+3.74,26.89,0.28,31.42,5,Visakhapatnam,Bombay Duck
+3.66,27.7,0.4,31.65,3,Chennai,Sardine
+2.66,27.66,0.39,34.4,4,Kochi,Ribbonfish
+2.19,29.98,0.45,35.9,6,Gujarat,Mackerel
+2.43,29.79,0.5,33.95,3,Gujarat,Mackerel
+2.76,29.54,0.2,35.44,4,Gujarat,Ribbonfish
+2.24,26.72,0.52,32.35,12,Chennai,Pomfret
+2.99,27.28,0.38,33.26,2,Gujarat,Mackerel
+2.25,26.94,0.43,34.45,5,Kochi,Pomfret
+4.03,26.38,0.31,31.1,8,Mumbai,Bombay Duck
+1.8,29.18,0.31,35.03,6,Visakhapatnam,Tuna
+3.12,28.43,0.55,31.79,3,Gujarat,Bombay Duck
+3.29,27.13,0.45,31.35,8,Chennai,Bombay Duck
+2.59,25.24,0.34,32.25,4,Gujarat,Pomfret
+3.25,29.35,0.52,34.78,12,Visakhapatnam,Mackerel
+2.36,26.59,0.41,34.04,8,Visakhapatnam,Mackerel
+3.26,27.06,0.31,34.81,5,Visakhapatnam,Croakers
+2.45,26.11,0.27,33.2,9,Visakhapatnam,Pomfret
+3.72,28.59,0.55,33.01,7,Visakhapatnam,Bombay Duck
+1.91,31.64,0.36,36.54,12,Visakhapatnam,Tuna
+2.24,28.23,0.45,35.52,3,Kochi,Ribbonfish
+1.93,28.1,0.36,36.23,1,Visakhapatnam,Tuna
+2.55,28.83,0.51,35.56,1,Visakhapatnam,Tuna
+2.72,28.36,0.36,35.75,4,Gujarat,Ribbonfish
+2.24,25.3,0.35,32.0,2,Kochi,Croakers
+3.08,29.0,0.43,33.24,4,Mumbai,Bombay Duck
+2.23,28.48,0.34,34.53,6,Gujarat,Ribbonfish
+2.36,26.99,0.38,34.24,4,Chennai,Pomfret
+3.52,27.0,0.4,32.02,7,Gujarat,Sardine
+2.26,29.37,0.47,34.38,7,Chennai,Mackerel
+3.72,28.26,0.52,31.04,1,Kochi,Bombay Duck
+2.54,24.74,0.5,32.84,6,Visakhapatnam,Croakers
+2.94,27.44,0.34,34.64,11,Gujarat,Pomfret
+4.03,28.22,0.59,31.29,9,Visakhapatnam,Bombay Duck
+2.28,24.43,0.35,33.29,4,Gujarat,Croakers
+2.62,28.45,0.48,33.49,10,Kochi,Bombay Duck
+2.42,31.78,0.26,36.08,3,Chennai,Tuna
+2.2,29.6,0.35,34.06,11,Gujarat,Mackerel
+2.59,30.32,0.44,34.7,7,Visakhapatnam,Ribbonfish
+1.86,28.04,0.25,34.36,9,Gujarat,Ribbonfish
+2.79,27.63,0.26,35.71,1,Gujarat,Mackerel
+1.56,30.97,0.43,35.62,11,Mumbai,Tuna
+3.97,27.21,0.37,33.27,9,Mumbai,Sardine
+2.38,30.82,0.24,34.54,11,Kochi,Ribbonfish
+2.23,31.69,0.33,36.31,7,Mumbai,Tuna
+3.86,28.83,0.55,33.66,2,Mumbai,Bombay Duck
+3.06,28.01,0.51,33.89,3,Mumbai,Bombay Duck
+2.8,27.65,0.33,34.13,12,Visakhapatnam,Ribbonfish
+1.77,30.64,0.32,35.02,7,Gujarat,Tuna
+3.64,25.06,0.37,31.73,12,Gujarat,Croakers
+4.59,26.12,0.55,33.28,11,Chennai,Sardine
+2.78,24.93,0.5,33.84,7,Chennai,Croakers
+3.36,27.06,0.39,33.19,2,Kochi,Mackerel
+2.48,26.15,0.35,34.19,12,Mumbai,Mackerel
+4.81,27.93,0.5,32.26,11,Visakhapatnam,Sardine
+2.02,29.32,0.6,34.47,7,Kochi,Ribbonfish
+2.18,26.79,0.3,32.81,7,Mumbai,Pomfret
+2.34,30.38,0.38,34.17,11,Chennai,Ribbonfish
+2.01,28.98,0.23,34.58,3,Kochi,Pomfret
+3.52,26.08,0.47,33.17,2,Mumbai,Bombay Duck
+2.6,27.61,0.42,34.86,9,Mumbai,Ribbonfish
+2.89,27.12,0.59,31.68,1,Gujarat,Croakers
+3.34,29.61,0.52,34.25,2,Chennai,Mackerel
+2.15,29.18,0.25,33.4,8,Chennai,Mackerel
+4.7,27.82,0.48,32.79,12,Gujarat,Sardine
+3.0,26.63,0.36,32.87,11,Kochi,Pomfret
+2.83,30.33,0.6,35.93,1,Kochi,Ribbonfish
+2.24,27.84,0.47,33.92,4,Chennai,Croakers
+2.1,31.53,0.35,36.95,11,Gujarat,Tuna
+2.03,27.6,0.47,34.28,3,Mumbai,Ribbonfish
+3.72,26.98,0.43,33.35,8,Kochi,Croakers
+2.48,24.15,0.39,34.42,5,Kochi,Croakers
+2.89,29.91,0.36,34.46,3,Visakhapatnam,Mackerel
+2.61,28.27,0.56,33.16,2,Mumbai,Mackerel
+1.79,28.1,0.56,35.95,3,Mumbai,Tuna
+2.63,27.55,0.39,32.56,10,Chennai,Bombay Duck
+3.71,26.87,0.49,32.55,9,Visakhapatnam,Croakers
+2.72,26.11,0.58,32.67,12,Mumbai,Pomfret
+2.33,29.81,0.59,36.44,2,Visakhapatnam,Tuna
+3.48,26.16,0.51,33.4,5,Gujarat,Mackerel
+3.0,26.63,0.39,31.57,2,Visakhapatnam,Bombay Duck
+2.75,26.89,0.52,33.87,11,Visakhapatnam,Bombay Duck
+2.07,28.64,0.23,34.95,7,Gujarat,Mackerel
+2.17,28.44,0.38,34.14,12,Kochi,Pomfret
+1.86,27.65,0.37,34.95,2,Mumbai,Ribbonfish
+3.98,27.33,0.59,32.4,6,Kochi,Bombay Duck
+2.32,29.01,0.27,33.5,9,Chennai,Mackerel
+3.76,27.95,0.37,32.75,6,Chennai,Croakers
+2.41,28.13,0.4,35.57,4,Visakhapatnam,Mackerel
+2.39,27.85,0.3,34.0,8,Kochi,Mackerel
+3.61,28.14,0.36,33.32,3,Mumbai,Bombay Duck
+2.38,27.97,0.33,35.93,11,Chennai,Ribbonfish
+3.86,26.66,0.5,30.64,2,Visakhapatnam,Bombay Duck
+2.58,29.53,0.3,36.45,4,Mumbai,Tuna
+4.03,26.9,0.24,32.1,1,Visakhapatnam,Sardine
+2.66,28.08,0.41,33.24,5,Visakhapatnam,Pomfret
+1.68,31.97,0.22,36.15,7,Kochi,Tuna
+2.01,29.47,0.48,36.62,4,Chennai,Tuna
+2.61,25.36,0.38,34.13,5,Kochi,Pomfret
+4.21,27.79,0.46,33.9,2,Visakhapatnam,Sardine
+2.12,27.55,0.25,35.56,11,Mumbai,Ribbonfish
+1.63,29.58,0.55,35.6,3,Kochi,Tuna
+4.7,26.52,0.4,32.69,1,Kochi,Sardine
+1.91,31.96,0.26,35.32,10,Gujarat,Tuna
+4.08,27.84,0.49,31.04,12,Chennai,Bombay Duck
+3.6,24.84,0.27,32.45,8,Gujarat,Croakers
+4.34,24.07,0.56,33.37,10,Kochi,Sardine
+4.42,24.55,0.36,32.33,6,Chennai,Sardine
+1.76,29.09,0.44,36.3,9,Chennai,Tuna
+2.39,27.73,0.4,34.94,6,Chennai,Pomfret
+2.99,25.38,0.3,32.37,11,Gujarat,Pomfret
+3.12,26.44,0.49,35.06,8,Kochi,Mackerel
+2.56,31.13,0.24,35.69,3,Gujarat,Tuna
+4.07,27.52,0.4,32.79,4,Chennai,Bombay Duck
+2.71,30.62,0.59,35.11,11,Kochi,Tuna
+2.11,27.22,0.35,33.71,11,Chennai,Mackerel
+2.88,29.88,0.29,35.26,6,Chennai,Ribbonfish
+4.17,24.04,0.5,32.27,9,Gujarat,Sardine
+3.88,24.94,0.3,31.12,4,Chennai,Sardine
+2.82,26.37,0.47,32.13,6,Gujarat,Bombay Duck
+3.34,26.73,0.48,32.44,3,Kochi,Sardine
+3.29,26.55,0.35,31.44,11,Chennai,Croakers
+4.15,27.46,0.35,32.86,8,Gujarat,Bombay Duck
+3.32,26.0,0.21,33.68,11,Visakhapatnam,Croakers
+2.64,31.28,0.42,35.71,4,Gujarat,Tuna
+3.71,24.81,0.35,33.11,8,Mumbai,Croakers
+2.09,30.06,0.33,35.42,12,Gujarat,Tuna
+3.09,27.51,0.53,33.66,7,Visakhapatnam,Croakers
+2.58,30.18,0.37,34.66,9,Mumbai,Ribbonfish
+2.12,29.9,0.32,34.14,11,Gujarat,Mackerel
+2.66,27.8,0.45,32.5,1,Mumbai,Pomfret
+1.91,25.17,0.56,34.71,11,Chennai,Pomfret
+2.84,28.35,0.47,33.07,2,Mumbai,Pomfret
+2.1,28.6,0.55,34.31,8,Chennai,Ribbonfish
+2.75,27.14,0.24,32.05,3,Chennai,Pomfret
+3.07,26.91,0.5,34.4,2,Gujarat,Mackerel
+2.45,25.37,0.36,33.72,7,Chennai,Pomfret
+4.58,27.45,0.55,31.85,1,Visakhapatnam,Sardine
+2.97,26.69,0.3,33.13,2,Chennai,Mackerel
+3.36,28.94,0.3,30.73,10,Gujarat,Bombay Duck
+2.38,25.0,0.22,31.8,2,Gujarat,Croakers
+2.89,28.19,0.42,32.9,6,Gujarat,Pomfret
+2.14,30.83,0.53,34.4,1,Kochi,Ribbonfish
+2.33,28.5,0.3,33.82,5,Gujarat,Pomfret
+2.73,30.91,0.57,34.84,12,Kochi,Ribbonfish
+3.18,28.81,0.27,32.44,11,Gujarat,Bombay Duck
+1.89,29.61,0.23,35.26,3,Chennai,Ribbonfish
+3.12,27.15,0.51,34.39,9,Kochi,Mackerel
+2.63,29.04,0.43,33.58,2,Visakhapatnam,Mackerel
+1.96,29.75,0.53,34.43,2,Kochi,Ribbonfish
+3.04,24.76,0.31,33.92,2,Kochi,Sardine
+2.23,30.48,0.5,34.78,10,Mumbai,Ribbonfish
+2.27,27.23,0.57,34.92,8,Mumbai,Ribbonfish
+2.14,29.25,0.42,36.1,9,Kochi,Tuna
+1.98,25.72,0.2,33.4,2,Kochi,Pomfret
+2.0,27.0,0.31,35.63,9,Gujarat,Mackerel
+2.95,26.57,0.44,34.15,3,Gujarat,Pomfret
+2.54,26.7,0.27,32.96,3,Mumbai,Croakers
+2.52,25.32,0.4,31.33,7,Chennai,Croakers
+2.54,28.55,0.51,32.78,3,Gujarat,Pomfret
+3.56,26.92,0.48,31.14,4,Gujarat,Bombay Duck
+1.91,31.65,0.29,35.82,1,Visakhapatnam,Tuna
+2.68,30.92,0.48,35.06,7,Chennai,Ribbonfish
+2.66,28.16,0.45,35.09,8,Visakhapatnam,Tuna
+3.03,29.75,0.38,34.0,4,Chennai,Mackerel
+1.91,27.25,0.26,33.22,10,Chennai,Pomfret
+2.08,27.0,0.33,36.0,5,Gujarat,Mackerel
+2.38,27.58,0.23,33.93,10,Kochi,Pomfret
+2.79,24.18,0.48,31.28,3,Gujarat,Croakers
+2.18,27.09,0.56,34.05,9,Visakhapatnam,Ribbonfish
+1.52,30.96,0.59,36.05,9,Mumbai,Tuna
+2.84,29.39,0.35,34.05,6,Chennai,Ribbonfish
+2.51,25.44,0.42,34.63,2,Visakhapatnam,Croakers
+2.46,28.99,0.26,34.84,2,Chennai,Ribbonfish
+2.33,28.76,0.29,35.03,6,Kochi,Ribbonfish
+2.72,30.36,0.46,35.03,5,Kochi,Tuna
+2.9,26.27,0.28,33.73,2,Visakhapatnam,Bombay Duck
+1.52,29.18,0.42,36.06,9,Kochi,Tuna
+2.08,28.11,0.38,35.16,11,Gujarat,Mackerel
+2.48,31.65,0.41,35.3,6,Kochi,Tuna
+2.46,28.98,0.37,36.55,5,Kochi,Tuna
+1.94,26.72,0.33,32.19,9,Kochi,Pomfret
+3.89,28.09,0.47,30.48,12,Visakhapatnam,Bombay Duck
+2.26,27.54,0.55,33.79,10,Visakhapatnam,Croakers
+2.81,26.16,0.28,33.24,10,Mumbai,Pomfret
+2.95,28.86,0.57,35.37,2,Gujarat,Mackerel
+2.22,30.68,0.31,36.06,12,Mumbai,Tuna
+4.0,26.99,0.34,33.95,10,Visakhapatnam,Bombay Duck
+3.28,27.28,0.52,32.16,6,Visakhapatnam,Bombay Duck
+2.58,27.62,0.45,34.89,8,Visakhapatnam,Ribbonfish
+2.64,28.23,0.57,32.99,3,Visakhapatnam,Bombay Duck
+2.98,27.76,0.3,32.73,12,Gujarat,Pomfret
+2.19,25.9,0.32,34.76,4,Mumbai,Pomfret
+2.82,26.87,0.49,32.69,10,Kochi,Bombay Duck
+2.26,25.09,0.54,34.25,9,Gujarat,Croakers
+2.56,27.1,0.34,33.31,6,Visakhapatnam,Bombay Duck
+2.06,26.11,0.29,32.65,10,Visakhapatnam,Pomfret
+2.5,30.98,0.4,36.09,8,Visakhapatnam,Tuna
+1.94,29.46,0.25,35.94,1,Chennai,Tuna
+3.97,25.26,0.44,32.2,6,Mumbai,Sardine
+4.92,25.99,0.45,33.99,5,Mumbai,Sardine
+2.56,27.76,0.54,32.34,5,Mumbai,Pomfret
+2.78,27.2,0.36,33.17,1,Visakhapatnam,Pomfret
+3.64,26.26,0.56,31.49,9,Gujarat,Sardine
+2.37,29.33,0.47,36.33,8,Mumbai,Tuna
+2.55,26.49,0.59,33.05,8,Kochi,Pomfret
+3.12,26.43,0.32,33.64,9,Mumbai,Sardine
+3.86,26.6,0.37,32.54,4,Mumbai,Bombay Duck
+2.7,28.94,0.27,33.07,8,Mumbai,Bombay Duck
+2.68,26.85,0.52,32.94,10,Chennai,Bombay Duck
+2.16,26.75,0.46,35.7,12,Kochi,Mackerel
+2.37,27.66,0.32,33.19,9,Chennai,Mackerel
+2.08,28.17,0.46,35.69,2,Mumbai,Ribbonfish
+2.92,29.55,0.44,33.19,7,Kochi,Mackerel
+2.96,28.34,0.22,34.31,10,Gujarat,Ribbonfish
+2.04,26.06,0.39,32.8,7,Gujarat,Pomfret
+2.71,25.15,0.43,33.8,6,Chennai,Pomfret
+3.67,26.41,0.35,32.34,7,Visakhapatnam,Croakers
+2.8,30.5,0.28,35.68,10,Mumbai,Tuna
+1.64,29.99,0.5,35.88,4,Visakhapatnam,Tuna
+4.02,24.46,0.53,33.96,1,Mumbai,Sardine
+4.28,25.42,0.35,31.54,8,Chennai,Sardine
+2.52,29.17,0.58,34.23,5,Chennai,Ribbonfish
+1.73,29.11,0.21,35.43,3,Visakhapatnam,Tuna
+2.34,28.38,0.21,32.08,7,Chennai,Pomfret
+3.0,26.55,0.58,34.65,10,Mumbai,Croakers
+4.01,25.69,0.5,32.63,2,Chennai,Sardine
+1.8,31.04,0.24,36.2,3,Gujarat,Tuna
+3.66,28.61,0.42,30.55,5,Mumbai,Bombay Duck
+2.1,28.26,0.22,35.9,10,Gujarat,Ribbonfish
+3.18,27.46,0.25,34.1,11,Kochi,Croakers
+2.79,30.41,0.46,34.76,2,Visakhapatnam,Ribbonfish
+2.33,28.36,0.46,35.06,9,Kochi,Tuna
+2.15,29.33,0.27,35.82,8,Gujarat,Mackerel
+2.37,27.11,0.28,33.96,12,Visakhapatnam,Pomfret
+3.27,28.92,0.28,34.7,2,Mumbai,Mackerel
+2.76,29.99,0.54,36.67,2,Chennai,Tuna
+3.45,27.35,0.3,30.4,3,Kochi,Bombay Duck
+2.96,24.14,0.32,32.38,4,Chennai,Croakers
+2.52,31.64,0.6,35.34,3,Chennai,Tuna
+2.51,29.63,0.37,35.16,2,Chennai,Tuna
+3.12,24.61,0.52,31.01,6,Mumbai,Sardine
+2.75,28.77,0.42,35.3,6,Kochi,Ribbonfish
+2.0,27.69,0.45,34.55,3,Kochi,Pomfret
+3.64,27.42,0.21,32.17,1,Kochi,Bombay Duck
+1.82,29.15,0.23,34.02,3,Gujarat,Ribbonfish
+3.77,24.27,0.4,31.51,9,Kochi,Croakers
+4.73,25.72,0.36,32.18,5,Mumbai,Sardine
+2.7,25.96,0.51,34.5,7,Gujarat,Pomfret
+2.85,30.24,0.53,34.58,2,Mumbai,Ribbonfish
+3.48,25.36,0.37,31.63,4,Kochi,Croakers
+2.33,29.79,0.46,34.79,1,Mumbai,Ribbonfish
+2.79,31.1,0.59,36.05,4,Chennai,Tuna
+3.4,25.85,0.5,32.67,9,Chennai,Sardine
+4.04,28.43,0.31,30.8,7,Mumbai,Bombay Duck
+2.9,25.62,0.23,34.09,1,Kochi,Croakers
+1.86,30.17,0.33,35.87,3,Mumbai,Tuna
+3.77,25.44,0.31,34.93,4,Mumbai,Croakers
+2.19,30.22,0.32,36.74,10,Gujarat,Tuna
+2.38,31.38,0.52,35.98,3,Mumbai,Tuna
+4.15,27.1,0.33,31.19,9,Chennai,Bombay Duck
+2.59,29.89,0.27,34.06,4,Gujarat,Mackerel
+2.64,26.04,0.51,32.84,12,Mumbai,Pomfret
+3.25,26.06,0.45,35.78,12,Gujarat,Mackerel
+3.7,26.96,0.35,31.77,6,Kochi,Sardine
+4.38,25.35,0.52,31.56,5,Gujarat,Sardine
+3.85,27.09,0.35,33.72,9,Chennai,Bombay Duck
+2.64,26.98,0.28,35.47,6,Visakhapatnam,Mackerel
+2.07,30.65,0.21,34.2,1,Gujarat,Ribbonfish
+1.9,28.7,0.34,34.39,7,Mumbai,Pomfret
+3.45,25.23,0.47,31.36,9,Kochi,Sardine
+4.8,27.55,0.58,33.93,4,Kochi,Sardine
+2.85,28.31,0.54,32.98,2,Mumbai,Pomfret
+2.75,26.04,0.58,32.42,3,Mumbai,Croakers
+2.33,28.25,0.51,35.18,6,Visakhapatnam,Ribbonfish
+3.47,27.28,0.58,33.9,8,Mumbai,Mackerel
+3.3,26.63,0.44,31.89,1,Chennai,Bombay Duck
+2.61,26.62,0.22,33.45,8,Visakhapatnam,Bombay Duck
+3.82,26.84,0.38,31.36,2,Chennai,Bombay Duck
+2.23,27.02,0.58,33.34,4,Chennai,Croakers
+2.09,26.02,0.4,35.33,2,Kochi,Mackerel
+2.26,25.66,0.38,32.99,11,Kochi,Pomfret
+2.22,30.98,0.36,35.14,6,Chennai,Tuna
+2.11,29.84,0.56,34.72,4,Visakhapatnam,Mackerel
+4.67,24.45,0.42,33.02,6,Gujarat,Sardine
+2.35,27.47,0.33,33.29,6,Chennai,Mackerel
+2.63,28.96,0.29,34.93,8,Gujarat,Ribbonfish
+2.54,27.39,0.54,32.31,1,Visakhapatnam,Pomfret
+2.25,29.25,0.45,35.11,1,Mumbai,Tuna
+4.17,24.07,0.22,31.01,8,Chennai,Sardine
+2.31,25.45,0.27,33.96,1,Mumbai,Pomfret
+3.3,25.13,0.58,32.46,10,Visakhapatnam,Croakers
+3.82,24.54,0.56,33.68,6,Mumbai,Sardine
+3.08,27.78,0.38,33.27,6,Chennai,Croakers
+3.75,24.56,0.27,32.8,1,Gujarat,Sardine
+2.32,26.16,0.5,33.75,12,Gujarat,Pomfret
+2.87,27.21,0.41,33.37,5,Visakhapatnam,Pomfret
+2.08,28.32,0.32,34.75,10,Chennai,Pomfret
+2.99,25.26,0.24,34.19,4,Kochi,Croakers
+2.33,27.61,0.45,35.87,3,Chennai,Mackerel
+3.17,24.82,0.51,32.93,5,Gujarat,Sardine
+2.45,28.88,0.52,35.26,7,Chennai,Mackerel
+3.2,27.93,0.47,32.26,5,Gujarat,Sardine
+2.19,29.78,0.24,35.71,7,Kochi,Mackerel
+2.89,29.93,0.43,33.84,8,Chennai,Mackerel
+2.06,31.39,0.51,35.3,1,Kochi,Tuna
+2.54,30.5,0.24,35.34,6,Visakhapatnam,Ribbonfish
+4.0,28.56,0.53,32.93,6,Gujarat,Bombay Duck
+2.3,27.34,0.56,33.39,4,Kochi,Mackerel
+3.18,25.69,0.29,33.53,10,Mumbai,Sardine
+1.9,30.4,0.56,35.34,5,Visakhapatnam,Ribbonfish
+2.98,29.67,0.59,35.18,12,Chennai,Mackerel
+2.74,30.43,0.44,34.1,1,Chennai,Ribbonfish
+2.14,26.84,0.55,32.4,3,Gujarat,Pomfret
+3.35,26.46,0.57,32.14,7,Gujarat,Bombay Duck
+1.92,29.0,0.36,35.52,11,Visakhapatnam,Ribbonfish
+3.23,24.08,0.26,33.46,9,Visakhapatnam,Croakers
+2.03,28.99,0.48,35.97,11,Gujarat,Ribbonfish
+2.0,30.3,0.56,35.41,7,Chennai,Ribbonfish
+2.24,24.84,0.24,34.79,10,Visakhapatnam,Croakers
+3.15,29.85,0.56,34.06,11,Gujarat,Mackerel
+2.32,27.55,0.54,35.33,2,Visakhapatnam,Ribbonfish
+2.38,28.39,0.39,36.98,6,Chennai,Tuna
+2.91,27.44,0.6,34.14,2,Kochi,Mackerel
+3.14,26.61,0.47,33.73,5,Kochi,Sardine
+1.9,26.83,0.58,32.49,6,Gujarat,Pomfret
+1.92,28.3,0.39,35.96,5,Visakhapatnam,Ribbonfish
+3.19,27.84,0.31,34.26,11,Mumbai,Mackerel
+4.47,24.38,0.28,32.14,5,Gujarat,Sardine
+3.63,26.33,0.46,32.5,7,Chennai,Bombay Duck
+3.1,28.73,0.38,32.51,11,Kochi,Bombay Duck
+4.76,24.4,0.21,33.82,3,Kochi,Sardine
+3.76,25.24,0.34,33.08,2,Mumbai,Croakers
+1.96,28.61,0.59,35.98,2,Gujarat,Ribbonfish
+2.22,28.14,0.2,36.38,1,Chennai,Tuna
+1.9,29.44,0.33,35.84,4,Kochi,Tuna
+3.76,26.86,0.31,30.8,9,Gujarat,Bombay Duck
+2.97,30.76,0.5,34.69,2,Chennai,Ribbonfish
+2.04,29.36,0.31,35.25,11,Kochi,Mackerel
+2.46,30.95,0.25,34.3,7,Mumbai,Ribbonfish
+3.69,25.26,0.27,33.26,7,Gujarat,Sardine
+1.86,28.5,0.32,35.99,10,Kochi,Ribbonfish
+2.74,27.42,0.52,31.35,6,Gujarat,Bombay Duck
+2.88,25.9,0.22,33.06,11,Visakhapatnam,Croakers
+3.39,27.91,0.29,34.41,5,Gujarat,Mackerel
+3.29,27.72,0.39,30.46,2,Visakhapatnam,Bombay Duck
+2.35,29.57,0.59,35.17,3,Gujarat,Tuna
+3.62,25.39,0.23,32.49,4,Chennai,Sardine
+4.09,28.27,0.43,30.8,12,Chennai,Bombay Duck
+3.0,24.54,0.32,34.2,6,Kochi,Croakers
+2.55,27.61,0.42,33.04,12,Chennai,Pomfret
+1.93,31.56,0.29,35.82,4,Kochi,Tuna
+4.46,26.27,0.59,31.26,2,Chennai,Sardine
+2.79,27.95,0.6,35.17,8,Visakhapatnam,Ribbonfish
+2.85,25.46,0.25,34.37,8,Kochi,Pomfret
+2.46,25.95,0.38,33.51,10,Mumbai,Croakers
+2.03,26.01,0.35,33.42,6,Gujarat,Mackerel
+3.3,28.61,0.53,34.4,3,Gujarat,Mackerel
+2.63,26.67,0.4,33.18,10,Mumbai,Bombay Duck
+2.67,24.67,0.44,32.57,2,Visakhapatnam,Croakers
+2.49,27.43,0.56,35.1,9,Visakhapatnam,Mackerel
+1.85,25.83,0.24,34.28,9,Chennai,Pomfret
+2.39,24.73,0.23,33.96,4,Gujarat,Croakers
+1.92,26.73,0.29,32.33,10,Kochi,Pomfret
+4.14,26.84,0.4,30.55,8,Gujarat,Bombay Duck
+2.98,25.99,0.35,34.82,2,Kochi,Pomfret
+3.53,27.26,0.34,31.28,2,Gujarat,Sardine
+2.87,26.74,0.45,31.25,1,Kochi,Bombay Duck
+1.99,26.6,0.53,32.31,12,Mumbai,Pomfret
+4.45,27.59,0.36,34.0,12,Visakhapatnam,Sardine
+3.84,27.18,0.21,30.93,11,Visakhapatnam,Bombay Duck
+4.43,27.14,0.23,32.07,2,Mumbai,Sardine
+2.42,27.43,0.3,34.14,8,Chennai,Mackerel
+3.67,26.63,0.26,32.61,3,Kochi,Sardine
+2.0,30.53,0.46,34.76,3,Gujarat,Ribbonfish
+2.46,31.19,0.58,35.19,2,Kochi,Tuna
+2.92,29.38,0.34,34.02,3,Kochi,Mackerel
+3.77,26.5,0.56,32.38,12,Gujarat,Sardine
+2.01,26.32,0.38,34.23,3,Kochi,Mackerel
+2.51,29.64,0.33,35.22,8,Chennai,Ribbonfish
+2.7,28.21,0.55,30.75,1,Kochi,Bombay Duck
+1.83,29.06,0.6,34.73,3,Kochi,Ribbonfish
+2.91,30.35,0.5,35.34,12,Chennai,Ribbonfish
+2.44,27.02,0.24,34.24,11,Chennai,Ribbonfish
+2.45,28.01,0.21,34.12,1,Kochi,Pomfret
+2.37,30.05,0.54,35.58,5,Mumbai,Ribbonfish
+1.62,31.25,0.4,36.04,12,Visakhapatnam,Tuna
+2.27,25.43,0.36,32.23,8,Gujarat,Pomfret
+1.99,26.74,0.33,33.43,11,Kochi,Pomfret
+4.12,27.5,0.33,32.18,12,Mumbai,Bombay Duck
+2.72,28.18,0.59,35.23,3,Gujarat,Ribbonfish
+3.68,26.8,0.34,30.52,12,Chennai,Bombay Duck
+3.08,26.55,0.42,33.54,8,Chennai,Croakers
+2.6,27.84,0.42,32.89,3,Chennai,Bombay Duck
+1.63,29.16,0.21,36.82,11,Chennai,Tuna
+2.81,30.51,0.37,34.52,2,Kochi,Ribbonfish
+1.83,25.05,0.35,34.17,10,Visakhapatnam,Pomfret
+3.33,26.55,0.25,32.13,3,Visakhapatnam,Croakers
+1.63,28.67,0.42,35.02,9,Gujarat,Tuna
+2.81,27.01,0.51,32.15,11,Chennai,Croakers
+2.75,30.59,0.29,35.04,4,Mumbai,Ribbonfish
+2.24,31.39,0.27,35.89,6,Chennai,Tuna
+2.35,25.47,0.23,33.94,9,Visakhapatnam,Pomfret
+3.29,29.05,0.26,33.65,11,Kochi,Mackerel
+4.02,28.54,0.37,32.97,4,Mumbai,Bombay Duck
+3.57,24.04,0.21,33.06,3,Mumbai,Sardine
+2.64,29.54,0.31,34.34,2,Mumbai,Mackerel
+2.25,29.73,0.5,33.05,4,Visakhapatnam,Mackerel
+2.51,29.02,0.58,35.96,1,Chennai,Ribbonfish
+3.06,26.7,0.33,32.19,12,Chennai,Croakers
+3.16,27.02,0.38,34.12,12,Kochi,Croakers
+2.63,25.4,0.59,32.93,3,Gujarat,Croakers
+2.24,27.17,0.29,34.11,3,Visakhapatnam,Croakers
+2.0,30.4,0.37,36.18,7,Kochi,Tuna
+2.58,29.25,0.35,35.22,8,Mumbai,Mackerel
+2.56,27.47,0.5,31.6,10,Kochi,Croakers
+2.72,28.06,0.29,30.62,11,Gujarat,Bombay Duck
+2.02,27.31,0.43,33.88,9,Gujarat,Mackerel
+2.58,25.57,0.42,32.46,8,Mumbai,Croakers
+3.18,27.97,0.27,33.79,9,Kochi,Bombay Duck
+3.11,28.23,0.29,35.32,11,Chennai,Mackerel
+3.37,27.35,0.43,30.12,10,Visakhapatnam,Bombay Duck
+3.12,25.42,0.3,33.87,6,Kochi,Sardine
+3.85,27.63,0.56,32.93,2,Chennai,Sardine
+2.0,25.1,0.26,33.3,8,Chennai,Pomfret
+2.94,26.09,0.57,32.02,11,Kochi,Pomfret
+2.84,26.23,0.58,33.78,8,Chennai,Bombay Duck
+3.0,27.71,0.39,34.12,10,Visakhapatnam,Pomfret
+2.98,28.1,0.45,32.42,9,Mumbai,Pomfret
+2.55,28.98,0.33,36.68,3,Gujarat,Tuna
+2.97,29.34,0.51,35.0,5,Mumbai,Ribbonfish
+3.54,24.41,0.58,32.77,11,Mumbai,Croakers
+3.41,29.16,0.39,34.33,4,Gujarat,Mackerel
+2.92,27.84,0.32,34.36,9,Visakhapatnam,Ribbonfish
+3.55,26.03,0.4,33.71,10,Mumbai,Sardine
+2.06,28.15,0.53,34.92,4,Mumbai,Pomfret
+2.75,29.97,0.52,34.28,9,Visakhapatnam,Mackerel
+3.74,25.88,0.3,31.45,2,Visakhapatnam,Croakers
+2.27,28.45,0.57,36.51,4,Kochi,Tuna
+2.97,27.58,0.49,35.11,4,Gujarat,Mackerel
+2.07,25.94,0.33,32.33,6,Chennai,Pomfret
+2.23,28.02,0.55,33.62,5,Gujarat,Pomfret
+2.92,25.53,0.32,32.73,12,Mumbai,Pomfret
+2.7,28.75,0.24,35.72,9,Chennai,Tuna
+1.99,26.43,0.43,32.62,1,Kochi,Pomfret
+1.77,30.43,0.27,36.11,7,Chennai,Tuna
+2.66,27.25,0.59,30.49,6,Gujarat,Bombay Duck
+3.59,27.64,0.55,34.91,10,Chennai,Croakers
+2.48,30.9,0.59,35.2,9,Visakhapatnam,Ribbonfish
+2.3,25.82,0.29,32.64,7,Kochi,Croakers
+2.88,27.05,0.55,34.7,3,Kochi,Ribbonfish
+2.75,28.57,0.3,34.25,12,Gujarat,Ribbonfish
+1.68,28.48,0.27,35.98,6,Mumbai,Tuna
+3.5,27.9,0.54,32.18,10,Chennai,Sardine
+4.27,27.79,0.31,33.28,6,Visakhapatnam,Sardine
+3.1,26.9,0.54,30.93,8,Chennai,Bombay Duck
+2.71,26.52,0.43,34.43,12,Chennai,Mackerel
+3.49,28.18,0.46,32.05,12,Mumbai,Bombay Duck
+2.15,28.46,0.56,34.3,11,Gujarat,Mackerel
+3.75,27.07,0.3,32.2,2,Kochi,Bombay Duck
+3.66,24.99,0.23,31.33,4,Mumbai,Sardine
+3.18,26.13,0.38,33.31,11,Visakhapatnam,Mackerel
+3.09,28.15,0.45,33.73,12,Kochi,Mackerel
+2.75,27.08,0.43,33.82,8,Gujarat,Mackerel
+3.44,26.3,0.22,35.82,10,Kochi,Mackerel
+2.11,26.71,0.56,33.34,11,Kochi,Pomfret
+3.56,27.83,0.42,31.12,2,Kochi,Bombay Duck
+1.56,30.61,0.49,36.23,8,Gujarat,Tuna
+2.26,31.78,0.44,36.64,6,Gujarat,Tuna
+2.11,28.09,0.4,33.69,5,Gujarat,Mackerel
+2.31,25.5,0.59,33.68,5,Kochi,Pomfret
+2.65,26.69,0.24,35.15,12,Kochi,Mackerel
+2.8,27.76,0.38,34.22,3,Mumbai,Mackerel
+3.0,29.3,0.42,34.73,4,Kochi,Mackerel
+3.48,28.3,0.48,33.25,9,Visakhapatnam,Bombay Duck
+3.56,27.38,0.26,31.19,1,Visakhapatnam,Croakers
+2.0,28.11,0.35,35.55,2,Mumbai,Tuna
+2.2,28.97,0.25,34.23,4,Visakhapatnam,Mackerel
+2.23,30.41,0.24,34.77,1,Visakhapatnam,Ribbonfish
+2.06,27.68,0.24,34.18,9,Gujarat,Mackerel
+4.17,25.79,0.38,32.24,11,Chennai,Sardine
+2.13,28.6,0.48,33.43,3,Kochi,Mackerel
+3.46,25.46,0.59,31.53,7,Kochi,Sardine
+2.78,25.27,0.33,34.36,11,Gujarat,Pomfret
+3.54,24.86,0.46,33.59,6,Chennai,Sardine
+2.63,28.41,0.33,32.1,3,Kochi,Pomfret
+3.92,26.71,0.6,30.56,10,Chennai,Bombay Duck
+3.32,26.69,0.56,33.37,4,Mumbai,Bombay Duck
+4.85,25.37,0.53,32.46,12,Kochi,Sardine
+4.02,28.23,0.56,31.36,10,Gujarat,Bombay Duck
+2.2,27.84,0.35,33.58,1,Gujarat,Pomfret
+3.3,26.17,0.26,34.77,9,Mumbai,Croakers
+2.85,25.08,0.31,34.64,3,Visakhapatnam,Croakers
+3.12,26.07,0.57,30.29,5,Gujarat,Bombay Duck
+2.81,27.82,0.49,35.44,9,Mumbai,Ribbonfish
+3.77,24.96,0.42,31.03,1,Kochi,Croakers
+1.82,26.85,0.57,33.75,5,Gujarat,Pomfret
+2.22,26.14,0.26,34.15,5,Mumbai,Croakers
+1.64,31.45,0.41,36.92,1,Mumbai,Tuna
+4.22,26.87,0.5,33.09,11,Gujarat,Sardine
+1.67,31.28,0.4,36.22,6,Mumbai,Tuna
+2.43,26.75,0.44,34.26,6,Chennai,Croakers
+2.45,26.74,0.32,34.89,10,Kochi,Mackerel
+3.69,27.27,0.37,32.65,12,Chennai,Sardine
+2.69,27.52,0.2,35.39,7,Gujarat,Ribbonfish
+2.62,25.87,0.47,32.6,9,Visakhapatnam,Croakers
+3.33,27.92,0.25,31.15,8,Chennai,Bombay Duck
+3.24,25.01,0.32,33.89,11,Chennai,Croakers
+2.47,25.42,0.44,34.75,10,Chennai,Pomfret
+4.12,24.09,0.52,33.36,10,Visakhapatnam,Sardine
+3.76,28.15,0.57,33.52,11,Gujarat,Bombay Duck
+1.91,29.4,0.24,35.24,7,Visakhapatnam,Tuna
+3.62,27.07,0.48,31.99,12,Mumbai,Bombay Duck
+2.1,26.44,0.36,34.31,8,Chennai,Pomfret
+3.48,25.14,0.41,34.56,11,Visakhapatnam,Croakers
+1.85,27.14,0.39,32.56,10,Visakhapatnam,Pomfret
+3.04,27.94,0.34,33.0,1,Mumbai,Sardine
+2.78,28.75,0.22,32.38,4,Mumbai,Bombay Duck
+3.05,28.94,0.27,33.07,10,Mumbai,Bombay Duck
+3.12,27.57,0.23,32.61,4,Gujarat,Bombay Duck
+2.88,28.63,0.34,34.81,10,Mumbai,Ribbonfish
+2.85,27.9,0.36,31.9,12,Kochi,Bombay Duck
+1.9,26.8,0.4,34.82,11,Gujarat,Pomfret
+2.42,30.96,0.52,36.36,7,Mumbai,Tuna
+2.76,28.87,0.22,33.7,5,Mumbai,Pomfret
+2.4,28.7,0.34,34.52,4,Visakhapatnam,Pomfret
+3.43,25.01,0.57,34.88,10,Chennai,Croakers
+2.49,28.87,0.44,36.63,1,Kochi,Tuna
+2.51,25.04,0.32,31.07,4,Mumbai,Croakers
+2.94,27.34,0.56,32.39,9,Gujarat,Croakers
+3.52,26.69,0.39,32.71,7,Gujarat,Bombay Duck
+1.74,31.73,0.48,35.94,12,Visakhapatnam,Tuna
+1.64,29.27,0.32,36.54,4,Chennai,Tuna
+3.15,24.86,0.3,32.53,11,Visakhapatnam,Sardine
+3.76,26.41,0.45,31.48,3,Chennai,Bombay Duck
+3.28,26.91,0.27,31.99,6,Visakhapatnam,Sardine
+3.72,25.21,0.45,33.11,6,Mumbai,Croakers
+4.83,27.58,0.53,33.21,4,Visakhapatnam,Sardine
+2.8,26.8,0.46,31.23,10,Mumbai,Bombay Duck
+4.3,26.87,0.59,33.61,12,Gujarat,Sardine
+2.15,28.04,0.59,35.71,11,Chennai,Ribbonfish
+3.8,26.23,0.55,32.47,10,Kochi,Croakers
+2.33,29.38,0.44,34.19,8,Visakhapatnam,Ribbonfish
+4.0,26.44,0.3,32.04,8,Chennai,Sardine
+2.69,29.84,0.32,35.92,7,Mumbai,Mackerel
+4.08,27.76,0.27,32.37,1,Mumbai,Bombay Duck
+3.24,28.77,0.39,33.54,11,Chennai,Mackerel
+3.12,27.66,0.58,31.75,9,Mumbai,Bombay Duck
+2.09,27.98,0.34,33.05,12,Chennai,Mackerel
+2.59,28.08,0.31,33.41,11,Chennai,Bombay Duck
+2.55,27.42,0.31,32.16,10,Mumbai,Bombay Duck
+1.56,31.95,0.39,36.72,9,Gujarat,Tuna
+2.06,25.01,0.33,33.25,12,Kochi,Pomfret
+2.85,27.43,0.32,32.16,8,Chennai,Pomfret
+2.12,28.78,0.43,36.43,7,Gujarat,Tuna
+3.35,27.77,0.4,33.59,8,Mumbai,Sardine
+3.68,27.88,0.56,31.63,8,Chennai,Croakers
+4.1,27.74,0.25,33.64,9,Chennai,Bombay Duck
+2.12,27.63,0.3,35.58,10,Gujarat,Mackerel
+2.86,27.33,0.55,35.87,5,Kochi,Ribbonfish
+3.4,27.51,0.23,34.37,9,Gujarat,Croakers
+2.24,29.69,0.48,35.72,3,Gujarat,Ribbonfish
+4.23,27.93,0.25,31.55,6,Kochi,Sardine
+2.25,31.68,0.38,35.53,10,Mumbai,Tuna
+2.83,26.01,0.29,35.49,6,Gujarat,Mackerel
+1.99,29.18,0.4,36.53,12,Kochi,Tuna
+2.97,26.5,0.48,35.82,3,Kochi,Mackerel
+2.47,26.84,0.4,32.46,3,Chennai,Pomfret
+2.5,29.92,0.43,35.06,4,Gujarat,Ribbonfish
+4.99,25.97,0.49,31.14,12,Mumbai,Sardine
+3.23,26.75,0.46,34.41,12,Chennai,Croakers
+4.35,25.9,0.29,32.61,6,Kochi,Sardine
+2.44,25.53,0.42,32.99,6,Chennai,Pomfret
+2.82,27.58,0.54,32.75,4,Mumbai,Bombay Duck
+2.09,27.98,0.25,35.7,5,Chennai,Ribbonfish
+2.68,26.84,0.31,33.27,9,Gujarat,Croakers
+3.97,26.98,0.32,32.64,1,Visakhapatnam,Sardine
+4.68,26.54,0.6,32.63,9,Mumbai,Sardine
+2.92,27.62,0.39,33.91,6,Mumbai,Mackerel
+1.77,29.6,0.39,35.07,8,Visakhapatnam,Tuna
+3.34,26.99,0.55,34.3,6,Visakhapatnam,Croakers
+2.65,31.97,0.21,35.81,12,Visakhapatnam,Tuna
+2.68,30.98,0.32,35.65,12,Chennai,Tuna
+2.73,30.16,0.24,36.31,7,Chennai,Tuna
+4.14,26.94,0.54,33.09,5,Kochi,Sardine
+3.52,26.13,0.34,31.97,3,Chennai,Sardine
+3.31,27.16,0.41,35.86,1,Chennai,Mackerel
+2.57,27.03,0.26,34.08,9,Visakhapatnam,Mackerel
+2.51,31.81,0.42,36.28,7,Kochi,Tuna
+2.88,26.21,0.57,31.58,1,Gujarat,Croakers
+3.66,26.18,0.24,30.75,10,Chennai,Bombay Duck
+2.28,26.22,0.26,33.16,5,Chennai,Mackerel
+1.51,29.93,0.45,36.52,11,Kochi,Tuna
+2.26,28.56,0.23,34.33,3,Gujarat,Ribbonfish
+1.91,28.46,0.39,35.69,2,Mumbai,Ribbonfish
+3.31,27.53,0.48,33.6,4,Kochi,Croakers
+2.31,28.77,0.23,36.4,3,Visakhapatnam,Tuna
+3.54,27.75,0.32,30.61,2,Mumbai,Bombay Duck
+2.41,31.27,0.6,36.62,12,Kochi,Tuna
+2.19,30.53,0.22,35.41,12,Gujarat,Ribbonfish
+2.62,28.81,0.53,32.59,9,Gujarat,Pomfret
+3.01,24.21,0.36,32.0,8,Visakhapatnam,Sardine
+4.87,24.16,0.51,33.85,3,Chennai,Sardine
+2.73,26.36,0.27,33.15,10,Mumbai,Pomfret
+1.73,31.61,0.35,36.52,5,Gujarat,Tuna
+4.98,26.67,0.53,31.11,10,Mumbai,Sardine
+3.37,28.5,0.42,33.59,10,Mumbai,Bombay Duck
+2.44,25.03,0.56,34.07,3,Mumbai,Croakers
+2.93,26.9,0.52,34.33,2,Gujarat,Croakers
+2.36,30.65,0.37,35.88,2,Gujarat,Ribbonfish
+4.19,27.93,0.35,33.38,10,Gujarat,Bombay Duck
+2.22,30.05,0.57,35.67,5,Gujarat,Tuna
+2.72,28.82,0.42,32.36,5,Mumbai,Pomfret
+4.68,26.81,0.31,33.67,5,Kochi,Sardine
+2.34,28.5,0.23,34.6,7,Mumbai,Ribbonfish
+2.3,30.79,0.56,35.88,12,Kochi,Ribbonfish
+2.13,29.58,0.26,35.22,4,Mumbai,Ribbonfish
+2.73,26.51,0.26,33.72,9,Mumbai,Pomfret
+1.87,31.21,0.28,35.29,7,Visakhapatnam,Tuna
+3.09,25.53,0.22,31.51,11,Visakhapatnam,Sardine
+4.29,27.48,0.6,33.65,6,Kochi,Sardine
+1.82,27.01,0.26,32.2,7,Visakhapatnam,Pomfret
+2.8,28.61,0.44,35.85,3,Mumbai,Mackerel
+3.42,27.75,0.36,35.25,6,Chennai,Mackerel
+3.24,24.73,0.39,33.85,3,Visakhapatnam,Sardine
+2.09,29.6,0.29,34.68,7,Gujarat,Mackerel
+2.42,31.2,0.26,35.92,5,Gujarat,Tuna
+3.52,26.15,0.36,34.04,3,Kochi,Croakers
+2.18,31.82,0.3,36.86,3,Chennai,Tuna
+4.79,27.68,0.23,33.16,4,Visakhapatnam,Sardine
+2.72,26.22,0.32,32.81,12,Chennai,Pomfret
+2.88,25.43,0.41,34.26,2,Kochi,Pomfret
+2.82,28.0,0.33,34.54,10,Kochi,Croakers
+2.26,27.01,0.4,32.0,2,Mumbai,Pomfret
+2.54,29.81,0.58,36.53,6,Gujarat,Tuna
+3.56,27.58,0.5,33.98,6,Visakhapatnam,Bombay Duck
+3.49,26.07,0.5,33.36,9,Chennai,Bombay Duck
+1.92,29.44,0.54,35.22,11,Kochi,Ribbonfish
+2.01,27.5,0.34,34.85,12,Kochi,Pomfret
+2.74,28.7,0.42,35.12,3,Visakhapatnam,Tuna
+2.65,31.78,0.47,36.73,5,Mumbai,Tuna
+2.85,27.09,0.56,32.63,6,Visakhapatnam,Pomfret
+3.76,27.26,0.4,31.84,10,Visakhapatnam,Bombay Duck
+2.25,24.54,0.41,34.5,2,Gujarat,Croakers
+2.54,27.68,0.23,31.5,5,Gujarat,Croakers
+2.93,26.18,0.42,32.8,12,Visakhapatnam,Croakers
+2.06,28.72,0.24,33.23,1,Visakhapatnam,Mackerel
+2.56,27.15,0.34,32.06,3,Chennai,Pomfret
+4.77,25.25,0.53,31.91,5,Kochi,Sardine
+2.61,31.34,0.21,35.94,12,Gujarat,Tuna
+4.8,26.68,0.3,31.07,6,Gujarat,Sardine
+2.94,26.87,0.57,32.62,12,Mumbai,Croakers
+2.14,28.59,0.42,33.59,10,Kochi,Mackerel
+3.41,27.05,0.47,33.33,11,Mumbai,Mackerel
+3.31,28.84,0.21,33.14,12,Visakhapatnam,Mackerel
+2.58,28.01,0.42,32.14,5,Visakhapatnam,Bombay Duck
+2.6,26.8,0.47,33.36,1,Gujarat,Croakers
+2.27,30.92,0.48,36.77,10,Chennai,Tuna
+2.18,27.78,0.29,34.27,1,Visakhapatnam,Ribbonfish
+3.47,25.96,0.4,31.05,5,Kochi,Croakers
+4.27,27.89,0.25,32.46,11,Chennai,Sardine
+1.9,27.38,0.39,34.42,9,Mumbai,Ribbonfish
+3.3,29.83,0.22,33.36,11,Mumbai,Mackerel
+2.49,29.27,0.48,36.6,4,Kochi,Tuna
+2.61,29.52,0.42,35.78,4,Gujarat,Tuna
+2.77,24.06,0.38,31.95,12,Chennai,Croakers
+3.18,27.33,0.2,31.65,4,Gujarat,Bombay Duck
+2.58,24.88,0.33,32.56,8,Gujarat,Croakers
+2.95,26.55,0.36,31.41,12,Mumbai,Bombay Duck
+1.81,29.09,0.57,35.0,7,Mumbai,Ribbonfish
+3.34,26.69,0.3,33.95,5,Gujarat,Bombay Duck
+2.78,25.67,0.55,32.59,10,Mumbai,Croakers
+2.73,28.45,0.24,33.03,1,Chennai,Mackerel
+2.92,28.19,0.51,35.64,2,Gujarat,Ribbonfish
+2.87,28.89,0.51,33.27,3,Chennai,Mackerel
+2.38,28.82,0.54,33.38,1,Mumbai,Pomfret
+2.26,28.96,0.22,33.49,2,Gujarat,Pomfret
+2.19,26.46,0.29,34.64,2,Visakhapatnam,Mackerel
+2.69,29.38,0.54,34.39,7,Visakhapatnam,Ribbonfish
+3.93,27.63,0.36,33.91,2,Visakhapatnam,Bombay Duck
+2.49,27.04,0.51,34.81,5,Gujarat,Ribbonfish
+3.11,24.41,0.48,32.11,8,Gujarat,Croakers
+2.83,25.38,0.47,32.1,1,Chennai,Pomfret
+2.32,28.22,0.54,32.65,6,Gujarat,Pomfret
+4.98,27.57,0.42,31.54,2,Visakhapatnam,Sardine
+2.94,27.84,0.24,33.24,11,Kochi,Mackerel
+2.54,26.34,0.43,30.84,12,Gujarat,Bombay Duck
+3.62,27.13,0.34,32.12,8,Kochi,Croakers
+2.18,29.03,0.26,34.15,12,Chennai,Ribbonfish
+3.57,26.87,0.28,32.77,2,Chennai,Croakers
+3.38,25.65,0.23,31.07,12,Mumbai,Sardine
+3.36,26.66,0.49,33.95,1,Kochi,Croakers
+3.23,25.11,0.3,32.1,6,Kochi,Croakers
+1.83,28.59,0.25,34.26,8,Mumbai,Pomfret
+2.78,29.56,0.41,35.42,12,Kochi,Mackerel
+2.06,26.81,0.5,32.68,4,Chennai,Pomfret
+3.8,24.32,0.46,32.87,3,Kochi,Croakers
+3.4,27.2,0.46,35.84,8,Chennai,Mackerel
+2.45,28.14,0.26,35.13,5,Kochi,Tuna
+2.44,25.45,0.44,31.99,12,Kochi,Croakers
+4.04,28.43,0.59,32.16,3,Chennai,Bombay Duck
+2.54,26.78,0.57,31.53,7,Kochi,Croakers
+3.8,27.18,0.49,32.37,7,Visakhapatnam,Sardine
+4.19,28.19,0.33,33.47,10,Visakhapatnam,Bombay Duck
+2.14,27.91,0.38,34.27,10,Mumbai,Ribbonfish
+3.58,26.72,0.35,31.36,10,Visakhapatnam,Croakers
+2.37,26.69,0.31,34.61,9,Mumbai,Pomfret
+2.99,26.7,0.44,33.88,2,Kochi,Croakers
+2.26,25.0,0.23,32.87,11,Kochi,Pomfret
+2.4,26.79,0.44,31.54,8,Chennai,Croakers
+2.27,29.5,0.41,36.91,1,Gujarat,Tuna
+2.82,28.96,0.42,31.69,9,Mumbai,Bombay Duck
+4.27,27.17,0.42,31.25,7,Gujarat,Sardine
+3.07,28.39,0.42,31.31,8,Gujarat,Bombay Duck
+3.93,27.23,0.4,33.68,7,Visakhapatnam,Sardine
+2.24,28.57,0.45,33.26,3,Gujarat,Pomfret
+2.52,25.52,0.52,33.5,1,Gujarat,Pomfret
+2.96,30.17,0.22,34.62,1,Chennai,Ribbonfish
+3.48,26.7,0.26,31.78,9,Kochi,Bombay Duck
+3.9,26.44,0.57,33.84,6,Kochi,Sardine
+4.29,25.58,0.52,32.51,8,Mumbai,Sardine
+2.87,25.18,0.47,34.02,11,Chennai,Pomfret
+2.6,28.2,0.28,32.55,11,Visakhapatnam,Bombay Duck
+2.03,29.56,0.43,35.3,8,Visakhapatnam,Ribbonfish
+4.51,24.01,0.43,31.28,11,Kochi,Sardine
+2.9,25.47,0.28,33.15,12,Gujarat,Pomfret
+2.32,26.97,0.29,33.03,2,Visakhapatnam,Croakers
+3.24,27.35,0.56,33.22,3,Mumbai,Mackerel
+3.42,28.16,0.49,31.31,8,Gujarat,Bombay Duck
+2.37,29.42,0.23,36.42,11,Kochi,Tuna
+2.33,27.33,0.29,35.27,8,Chennai,Ribbonfish
+1.52,29.08,0.42,35.5,3,Gujarat,Tuna
+2.65,26.62,0.32,32.22,8,Mumbai,Bombay Duck
+2.74,25.46,0.46,33.91,6,Visakhapatnam,Pomfret
+2.9,30.94,0.6,34.43,9,Chennai,Ribbonfish
+2.25,30.92,0.3,36.94,10,Chennai,Tuna
+2.29,31.3,0.22,36.83,8,Gujarat,Tuna
+3.06,29.86,0.47,35.14,12,Gujarat,Mackerel
+4.11,27.48,0.21,32.22,7,Kochi,Sardine
+3.32,27.55,0.53,31.46,1,Visakhapatnam,Croakers
+2.89,26.36,0.29,34.3,3,Mumbai,Croakers
+2.25,27.79,0.54,34.2,4,Mumbai,Croakers
+2.98,28.12,0.55,35.28,5,Kochi,Mackerel
+2.42,26.45,0.53,31.93,7,Kochi,Croakers
+2.51,28.81,0.44,34.15,10,Mumbai,Ribbonfish
+2.45,31.7,0.37,36.64,3,Chennai,Tuna
+2.49,27.8,0.47,31.16,6,Visakhapatnam,Croakers
+2.61,30.24,0.58,35.43,7,Mumbai,Ribbonfish
+2.5,30.85,0.23,35.9,7,Kochi,Ribbonfish
+2.69,25.35,0.35,33.48,8,Mumbai,Pomfret
+2.14,29.55,0.43,34.01,12,Kochi,Ribbonfish
+3.4,27.1,0.53,32.24,11,Mumbai,Sardine
+3.11,26.33,0.52,31.96,6,Kochi,Sardine
+2.89,25.96,0.4,34.88,11,Visakhapatnam,Pomfret
+3.55,25.2,0.59,31.49,7,Chennai,Sardine
+2.63,29.93,0.27,34.02,6,Gujarat,Ribbonfish
+3.14,28.79,0.31,31.11,1,Mumbai,Bombay Duck
+2.28,29.15,0.29,33.87,1,Chennai,Mackerel
+2.2,26.97,0.49,34.45,1,Visakhapatnam,Mackerel
+2.32,25.79,0.43,31.94,8,Visakhapatnam,Croakers
+2.75,25.04,0.22,33.01,4,Mumbai,Pomfret
+2.74,26.74,0.21,32.48,5,Gujarat,Bombay Duck
+2.46,30.26,0.38,36.37,8,Kochi,Tuna
+2.05,28.83,0.57,35.73,6,Mumbai,Tuna
+2.65,26.87,0.47,33.63,10,Kochi,Bombay Duck
+3.36,27.57,0.26,33.05,11,Visakhapatnam,Bombay Duck
+3.71,24.32,0.54,31.52,10,Kochi,Sardine
+2.57,28.33,0.29,35.88,11,Chennai,Ribbonfish
+3.04,26.87,0.52,33.86,7,Visakhapatnam,Sardine
+2.36,26.39,0.52,34.69,8,Mumbai,Pomfret
+2.31,30.1,0.24,35.84,6,Mumbai,Ribbonfish
+1.91,31.28,0.57,36.4,4,Chennai,Tuna
+1.9,29.41,0.51,34.49,11,Visakhapatnam,Ribbonfish
+2.13,29.04,0.26,35.24,4,Kochi,Ribbonfish
+3.34,28.27,0.23,30.11,3,Mumbai,Bombay Duck
+2.8,24.41,0.47,31.08,2,Visakhapatnam,Croakers
+1.9,30.15,0.26,35.46,1,Visakhapatnam,Tuna
+2.2,26.96,0.25,32.7,10,Visakhapatnam,Croakers
+2.87,29.65,0.31,35.14,11,Gujarat,Ribbonfish
+2.3,25.91,0.58,34.1,11,Gujarat,Pomfret
+4.4,25.39,0.29,31.04,2,Visakhapatnam,Sardine
+2.98,26.95,0.33,31.94,3,Visakhapatnam,Bombay Duck
+2.72,28.49,0.36,33.61,8,Kochi,Mackerel
+2.66,28.95,0.48,35.27,10,Chennai,Tuna
+2.55,26.26,0.57,34.03,1,Kochi,Mackerel
+3.39,26.22,0.54,31.7,2,Visakhapatnam,Croakers
+3.8,25.89,0.29,34.41,1,Chennai,Croakers
+2.04,26.54,0.56,33.87,9,Chennai,Mackerel
+3.6,24.68,0.57,33.13,10,Visakhapatnam,Croakers
+2.79,26.43,0.38,33.06,7,Mumbai,Croakers
+3.91,27.27,0.59,33.34,2,Gujarat,Bombay Duck
+3.93,24.39,0.55,33.16,2,Visakhapatnam,Sardine
+2.69,24.76,0.38,33.35,1,Gujarat,Croakers
+3.56,27.52,0.2,32.8,6,Chennai,Sardine
+2.73,30.85,0.42,35.55,11,Mumbai,Tuna
+3.07,26.55,0.5,30.37,7,Visakhapatnam,Bombay Duck
+2.42,31.18,0.39,36.34,3,Chennai,Tuna
+3.5,27.44,0.21,31.51,2,Gujarat,Croakers
+2.64,29.22,0.22,36.0,11,Chennai,Mackerel
+2.6,29.14,0.42,34.54,2,Chennai,Mackerel
+2.15,27.79,0.46,34.28,4,Mumbai,Ribbonfish
+3.13,27.79,0.59,32.46,1,Visakhapatnam,Sardine
+3.08,25.05,0.28,34.32,6,Kochi,Croakers
+2.65,29.46,0.31,34.62,11,Mumbai,Mackerel
+2.48,27.33,0.44,34.32,9,Mumbai,Ribbonfish
+2.94,28.71,0.38,31.18,12,Kochi,Bombay Duck
+3.1,26.04,0.3,33.09,4,Visakhapatnam,Sardine
+3.79,25.33,0.39,33.66,12,Gujarat,Sardine
+4.89,26.19,0.58,32.66,10,Chennai,Sardine
+3.48,28.05,0.47,32.46,11,Mumbai,Bombay Duck
+3.3,28.58,0.41,33.27,4,Kochi,Bombay Duck
+2.41,30.83,0.2,35.46,4,Visakhapatnam,Ribbonfish
+3.69,28.0,0.51,31.7,12,Gujarat,Sardine
+1.98,30.09,0.32,35.27,9,Gujarat,Tuna
+1.95,25.68,0.37,32.83,12,Visakhapatnam,Pomfret
+2.8,28.32,0.28,33.36,7,Gujarat,Bombay Duck
+2.47,26.17,0.48,33.5,2,Visakhapatnam,Croakers
+2.51,27.29,0.36,31.59,6,Mumbai,Bombay Duck
+1.56,28.06,0.48,35.94,2,Gujarat,Tuna
+2.58,24.46,0.4,33.06,3,Gujarat,Croakers
+2.83,26.48,0.55,32.66,9,Chennai,Bombay Duck
+3.7,26.92,0.59,31.56,11,Gujarat,Bombay Duck
+2.67,30.91,0.56,34.16,8,Mumbai,Ribbonfish
+4.64,26.86,0.31,31.28,8,Gujarat,Sardine
+2.14,30.21,0.47,35.27,12,Mumbai,Ribbonfish
+2.81,29.04,0.58,35.59,10,Chennai,Ribbonfish
+2.31,25.73,0.32,34.56,7,Visakhapatnam,Croakers
+2.28,26.1,0.42,33.99,9,Chennai,Pomfret
+2.23,24.34,0.37,31.28,6,Kochi,Croakers
+3.8,28.66,0.59,33.65,7,Kochi,Bombay Duck
+1.9,28.07,0.27,36.8,7,Visakhapatnam,Tuna
+2.77,29.23,0.39,35.28,8,Gujarat,Ribbonfish
+3.06,26.86,0.44,32.49,2,Mumbai,Sardine
+2.72,28.01,0.32,33.6,4,Kochi,Mackerel
+2.36,29.6,0.56,33.57,10,Gujarat,Mackerel
+3.19,26.0,0.42,33.75,6,Visakhapatnam,Bombay Duck
+3.56,27.41,0.3,34.47,5,Chennai,Croakers
+3.37,28.11,0.24,34.11,1,Chennai,Mackerel
+1.55,29.17,0.28,36.72,8,Visakhapatnam,Tuna
+1.73,28.91,0.26,36.72,2,Kochi,Tuna
+2.38,27.11,0.53,35.89,10,Gujarat,Mackerel
+2.44,26.95,0.38,34.74,2,Kochi,Mackerel
+4.52,24.68,0.47,31.07,4,Chennai,Sardine
+2.7,28.87,0.52,35.3,4,Kochi,Tuna
+2.09,28.4,0.39,34.98,3,Mumbai,Pomfret
+1.8,30.12,0.33,35.04,11,Mumbai,Tuna
+3.61,27.58,0.22,32.48,1,Kochi,Bombay Duck
+2.3,26.78,0.41,35.3,1,Kochi,Mackerel
+2.25,28.19,0.54,35.61,12,Chennai,Tuna
+2.11,26.15,0.22,32.13,5,Chennai,Pomfret
+2.3,29.97,0.59,34.58,6,Chennai,Ribbonfish
+2.34,29.04,0.51,33.08,5,Chennai,Mackerel
+2.36,30.24,0.55,35.27,5,Gujarat,Tuna
+2.85,26.86,0.28,30.49,4,Visakhapatnam,Bombay Duck
+3.38,24.72,0.52,31.97,3,Kochi,Sardine
+1.93,30.5,0.21,34.97,7,Mumbai,Ribbonfish
+2.25,31.84,0.45,36.19,12,Mumbai,Tuna
+2.9,28.45,0.52,34.01,5,Kochi,Pomfret
+2.66,27.88,0.35,30.87,1,Chennai,Bombay Duck
+3.45,29.17,0.51,34.05,11,Mumbai,Mackerel
+2.13,29.86,0.5,35.99,9,Visakhapatnam,Mackerel
+2.2,31.22,0.47,36.05,10,Chennai,Tuna
+2.76,30.47,0.27,34.37,8,Mumbai,Ribbonfish
+3.75,25.25,0.57,32.03,6,Chennai,Sardine
+4.28,27.01,0.31,33.15,2,Mumbai,Sardine
+3.42,28.72,0.42,31.28,1,Visakhapatnam,Bombay Duck
+2.46,27.31,0.45,34.04,9,Gujarat,Croakers
+1.84,30.19,0.48,35.14,9,Chennai,Ribbonfish
+3.34,24.42,0.47,33.02,2,Visakhapatnam,Sardine
+1.63,29.9,0.33,36.54,8,Visakhapatnam,Tuna
+4.16,27.56,0.58,31.6,5,Gujarat,Bombay Duck
+2.71,29.2,0.22,36.55,2,Gujarat,Tuna
+3.62,25.4,0.53,33.09,2,Chennai,Croakers
+3.52,27.72,0.5,33.43,3,Kochi,Bombay Duck
+2.3,30.59,0.52,35.41,1,Mumbai,Ribbonfish
+2.98,25.86,0.46,34.97,11,Chennai,Pomfret
+4.58,24.84,0.48,33.91,8,Chennai,Sardine
+4.09,27.84,0.24,31.46,7,Chennai,Bombay Duck
+2.88,26.07,0.38,33.99,5,Kochi,Croakers
+2.06,28.48,0.44,35.81,4,Gujarat,Ribbonfish
+1.99,30.67,0.39,35.4,5,Visakhapatnam,Tuna
+3.38,27.81,0.43,33.46,2,Kochi,Mackerel
+3.03,25.84,0.23,31.44,2,Visakhapatnam,Sardine
+2.39,25.57,0.47,31.21,1,Gujarat,Croakers
+2.12,29.73,0.34,34.15,8,Chennai,Ribbonfish
+1.95,30.52,0.38,34.92,12,Visakhapatnam,Ribbonfish
+1.53,29.38,0.35,36.31,2,Gujarat,Tuna
+2.95,27.67,0.32,35.72,5,Visakhapatnam,Ribbonfish
+2.29,26.57,0.55,33.31,6,Mumbai,Mackerel
+1.71,30.87,0.53,35.27,1,Kochi,Tuna
+2.91,29.02,0.34,33.95,12,Visakhapatnam,Mackerel
+2.18,30.85,0.27,35.35,4,Chennai,Ribbonfish
+2.65,26.79,0.56,33.73,1,Chennai,Croakers
+2.94,25.05,0.57,34.28,10,Chennai,Pomfret
+2.71,29.74,0.37,35.34,1,Visakhapatnam,Ribbonfish
+3.12,26.8,0.58,34.25,3,Chennai,Croakers
+4.4,26.27,0.35,32.68,7,Kochi,Sardine
+1.53,31.49,0.33,36.13,10,Visakhapatnam,Tuna
+3.44,24.62,0.5,32.78,11,Kochi,Sardine
+2.78,26.43,0.26,33.27,11,Visakhapatnam,Bombay Duck
+2.07,29.02,0.33,33.13,4,Visakhapatnam,Mackerel
+1.83,28.51,0.49,35.03,10,Visakhapatnam,Ribbonfish
+2.55,27.56,0.27,35.17,1,Mumbai,Mackerel
+3.43,25.69,0.53,32.96,10,Kochi,Croakers
+2.18,28.42,0.24,36.13,7,Gujarat,Tuna
+3.53,26.09,0.49,30.42,3,Chennai,Bombay Duck
+3.62,27.97,0.42,31.29,4,Mumbai,Bombay Duck
+3.62,26.61,0.22,33.92,7,Gujarat,Croakers
+2.76,25.04,0.38,32.28,7,Chennai,Pomfret
+4.99,25.76,0.41,31.28,5,Chennai,Sardine
+3.14,24.85,0.21,32.47,9,Kochi,Sardine
+3.06,27.99,0.22,35.97,10,Mumbai,Mackerel
+2.75,30.32,0.54,35.97,1,Visakhapatnam,Tuna
+2.73,27.45,0.51,33.55,4,Kochi,Pomfret
+3.3,26.05,0.35,30.1,5,Chennai,Bombay Duck
+2.95,27.1,0.39,35.84,6,Gujarat,Ribbonfish
+3.78,26.39,0.37,34.26,11,Gujarat,Croakers
+4.82,25.66,0.45,33.3,5,Kochi,Sardine
+2.29,29.71,0.5,35.53,1,Visakhapatnam,Ribbonfish
+1.69,29.72,0.59,36.75,4,Visakhapatnam,Tuna
+2.13,26.44,0.57,33.92,9,Gujarat,Mackerel
+2.5,28.51,0.49,34.44,12,Chennai,Ribbonfish
+2.17,30.77,0.56,36.54,4,Mumbai,Tuna
+2.17,28.46,0.56,35.32,5,Visakhapatnam,Ribbonfish
+4.26,24.09,0.25,31.64,4,Visakhapatnam,Sardine
+3.14,27.89,0.54,32.51,6,Visakhapatnam,Bombay Duck
+2.68,28.4,0.46,36.2,7,Kochi,Tuna
+2.56,26.18,0.35,32.42,5,Gujarat,Bombay Duck
+1.99,28.16,0.53,34.34,2,Mumbai,Pomfret
+3.58,27.9,0.34,32.81,6,Gujarat,Croakers
+2.52,27.12,0.26,33.53,5,Kochi,Bombay Duck
+2.5,24.35,0.21,33.67,9,Gujarat,Croakers
+2.22,25.82,0.24,33.8,3,Mumbai,Pomfret
+2.45,30.72,0.49,34.32,5,Mumbai,Ribbonfish
+4.62,24.29,0.46,32.44,12,Visakhapatnam,Sardine
+3.3,26.03,0.53,30.95,11,Chennai,Bombay Duck
+2.13,27.69,0.52,34.55,12,Chennai,Pomfret
+2.25,28.31,0.26,34.09,2,Gujarat,Ribbonfish
+2.58,27.86,0.38,32.76,7,Chennai,Croakers
+2.18,29.78,0.53,34.53,11,Kochi,Mackerel
+2.88,27.59,0.5,35.96,6,Visakhapatnam,Ribbonfish
+2.34,24.74,0.36,33.26,10,Gujarat,Croakers
+2.47,28.46,0.56,36.76,1,Chennai,Tuna
+2.55,27.28,0.48,34.31,3,Visakhapatnam,Croakers
+3.75,27.57,0.37,31.84,6,Kochi,Croakers
+2.54,26.68,0.24,33.8,5,Gujarat,Mackerel
+2.87,26.25,0.25,32.76,11,Visakhapatnam,Croakers
+3.87,27.2,0.36,33.97,10,Chennai,Sardine
+2.82,28.89,0.33,35.26,2,Visakhapatnam,Ribbonfish
+3.92,25.28,0.58,32.14,2,Gujarat,Sardine
+3.13,27.7,0.21,31.83,3,Gujarat,Croakers
+2.77,28.05,0.58,33.4,7,Visakhapatnam,Bombay Duck
+1.93,29.63,0.23,36.31,9,Gujarat,Tuna
+4.42,26.26,0.46,31.99,1,Chennai,Sardine
+3.94,26.36,0.29,31.51,2,Chennai,Bombay Duck
+2.21,28.87,0.32,32.16,8,Mumbai,Pomfret
+2.45,25.73,0.4,33.88,9,Mumbai,Pomfret
+2.44,28.78,0.31,35.24,2,Visakhapatnam,Tuna
+4.29,24.08,0.3,31.78,8,Gujarat,Sardine
+2.44,26.35,0.24,34.55,2,Chennai,Mackerel
+4.18,27.8,0.22,32.75,10,Kochi,Sardine
+2.79,28.62,0.44,34.22,11,Gujarat,Mackerel
+3.48,25.45,0.21,32.45,8,Gujarat,Sardine
+3.43,28.97,0.57,33.34,12,Kochi,Mackerel
+1.54,30.93,0.44,36.27,12,Mumbai,Tuna
+3.24,26.88,0.37,32.76,5,Gujarat,Bombay Duck
+2.73,26.73,0.51,32.91,9,Kochi,Bombay Duck
+2.42,27.85,0.3,35.48,11,Kochi,Ribbonfish
+1.85,30.83,0.53,34.14,5,Gujarat,Ribbonfish
+2.76,28.4,0.32,34.89,9,Chennai,Mackerel
+3.49,27.23,0.52,31.16,1,Gujarat,Sardine
+2.8,29.9,0.37,35.95,1,Chennai,Ribbonfish
+2.14,28.92,0.29,36.81,4,Visakhapatnam,Tuna
+2.98,26.55,0.44,32.43,10,Kochi,Pomfret
+2.15,29.84,0.41,34.8,1,Gujarat,Ribbonfish
+3.78,25.83,0.51,33.73,2,Kochi,Sardine
+2.61,27.85,0.39,32.89,4,Visakhapatnam,Bombay Duck
+1.94,26.32,0.29,34.15,10,Gujarat,Pomfret
+3.02,24.12,0.26,32.86,7,Chennai,Croakers
+2.77,27.94,0.41,32.66,12,Visakhapatnam,Croakers
+3.39,26.96,0.52,33.15,12,Gujarat,Mackerel
+1.81,27.24,0.51,32.94,5,Mumbai,Pomfret
+3.18,25.33,0.3,32.03,10,Gujarat,Sardine
+3.13,27.88,0.26,33.82,1,Visakhapatnam,Mackerel
+3.61,27.01,0.51,32.49,6,Mumbai,Sardine
+3.43,27.19,0.36,35.83,9,Mumbai,Mackerel
+4.2,24.18,0.38,32.67,5,Mumbai,Sardine
+2.62,27.1,0.39,34.13,11,Gujarat,Ribbonfish
+2.06,30.5,0.55,36.52,1,Mumbai,Tuna
+3.51,24.71,0.43,32.47,1,Chennai,Croakers
+2.37,29.69,0.41,36.77,4,Mumbai,Tuna
+2.31,27.94,0.33,33.21,12,Visakhapatnam,Croakers
+2.33,28.41,0.42,35.31,4,Gujarat,Tuna
+2.37,25.49,0.28,33.8,11,Mumbai,Croakers
+2.82,26.93,0.58,32.88,8,Gujarat,Pomfret
+2.16,27.28,0.55,32.72,7,Gujarat,Pomfret
+2.75,30.41,0.4,35.93,5,Visakhapatnam,Ribbonfish
+3.03,24.36,0.36,31.88,11,Mumbai,Sardine
+3.7,26.43,0.24,33.86,8,Kochi,Sardine
+2.37,29.72,0.52,36.52,12,Gujarat,Tuna
+2.35,25.01,0.44,32.51,8,Visakhapatnam,Pomfret
+2.72,25.91,0.31,34.39,6,Chennai,Pomfret
+2.05,26.55,0.43,33.52,8,Gujarat,Pomfret
+4.19,26.47,0.4,33.78,6,Mumbai,Sardine
+2.52,27.72,0.56,33.42,8,Gujarat,Mackerel
+4.0,27.79,0.54,32.0,5,Kochi,Bombay Duck
+2.27,28.14,0.36,33.04,8,Mumbai,Pomfret
+4.75,26.2,0.26,33.49,4,Mumbai,Sardine
+2.45,29.64,0.35,33.45,4,Visakhapatnam,Mackerel
+2.44,25.32,0.59,34.38,8,Visakhapatnam,Pomfret
+2.78,29.21,0.21,36.29,6,Chennai,Tuna
+2.28,30.89,0.59,36.98,1,Visakhapatnam,Tuna
+3.73,24.19,0.34,32.6,10,Chennai,Croakers
+3.0,29.6,0.48,34.8,4,Visakhapatnam,Mackerel
+2.45,31.05,0.35,36.08,6,Mumbai,Tuna
+2.46,29.87,0.33,35.2,1,Visakhapatnam,Ribbonfish
+2.53,29.79,0.57,35.29,10,Chennai,Mackerel
+2.81,28.05,0.55,33.89,5,Kochi,Pomfret
+3.39,26.02,0.24,33.58,5,Kochi,Sardine
+3.56,27.32,0.51,33.76,9,Chennai,Sardine
+3.28,25.01,0.58,33.14,9,Mumbai,Croakers
+3.53,26.45,0.51,33.87,9,Visakhapatnam,Sardine
+3.3,26.56,0.37,31.33,8,Mumbai,Sardine
+3.54,26.0,0.35,33.98,12,Gujarat,Bombay Duck
+3.53,26.18,0.35,31.28,8,Kochi,Croakers
+3.47,27.49,0.26,34.58,4,Chennai,Mackerel
+3.08,27.97,0.24,34.47,3,Gujarat,Croakers
+2.55,28.01,0.37,35.78,3,Visakhapatnam,Ribbonfish
+2.22,31.06,0.53,36.68,7,Mumbai,Tuna
+3.76,28.41,0.59,30.82,7,Gujarat,Bombay Duck
+3.08,27.48,0.48,34.49,11,Kochi,Mackerel
+3.55,26.83,0.2,32.05,1,Visakhapatnam,Bombay Duck
+2.47,30.27,0.49,34.48,1,Kochi,Ribbonfish
+2.06,29.09,0.32,33.44,7,Kochi,Mackerel
+2.56,28.99,0.37,34.64,11,Chennai,Ribbonfish
+2.13,28.76,0.49,34.82,8,Gujarat,Ribbonfish
+1.61,29.37,0.36,35.92,4,Chennai,Tuna
+2.99,26.05,0.5,32.66,8,Gujarat,Pomfret
+3.16,27.91,0.44,31.25,4,Kochi,Sardine
+3.02,25.86,0.44,32.33,1,Gujarat,Sardine
+2.99,26.54,0.58,34.8,7,Visakhapatnam,Pomfret
+3.47,26.57,0.53,34.67,4,Visakhapatnam,Mackerel
+3.46,27.51,0.51,30.92,1,Chennai,Bombay Duck
+2.9,28.61,0.47,32.73,12,Gujarat,Bombay Duck
+2.44,31.94,0.51,35.24,4,Visakhapatnam,Tuna
+4.93,27.8,0.48,33.56,12,Gujarat,Sardine
+2.94,28.09,0.54,34.69,10,Kochi,Mackerel
+1.99,30.82,0.52,35.44,4,Visakhapatnam,Tuna
+3.46,28.12,0.51,35.61,11,Visakhapatnam,Mackerel
+3.38,28.27,0.51,32.87,8,Gujarat,Bombay Duck
+3.26,25.19,0.57,31.86,5,Gujarat,Sardine
+3.2,27.82,0.52,33.08,10,Visakhapatnam,Bombay Duck
+2.3,25.4,0.56,33.29,10,Chennai,Pomfret
+2.59,31.91,0.57,36.43,7,Gujarat,Tuna
+2.71,27.56,0.48,35.4,11,Visakhapatnam,Mackerel
+2.57,28.23,0.5,36.09,5,Mumbai,Tuna
+4.25,25.8,0.31,32.22,4,Gujarat,Sardine
+1.88,28.48,0.5,36.22,8,Kochi,Tuna
+2.94,28.56,0.43,33.38,7,Gujarat,Pomfret
+2.62,27.98,0.28,34.94,6,Gujarat,Pomfret
+2.35,28.57,0.26,34.53,4,Kochi,Ribbonfish
+3.91,27.43,0.49,30.03,9,Chennai,Bombay Duck
+1.91,27.47,0.24,34.78,6,Mumbai,Pomfret
+2.42,27.14,0.39,31.28,6,Mumbai,Croakers
+2.52,28.05,0.59,35.87,9,Kochi,Tuna
+3.41,27.18,0.38,34.97,7,Chennai,Mackerel
+3.09,28.87,0.35,33.06,9,Visakhapatnam,Mackerel
+3.21,28.18,0.58,31.29,1,Kochi,Bombay Duck
+2.29,27.3,0.46,34.07,6,Gujarat,Pomfret
+2.62,29.29,0.58,36.79,10,Kochi,Tuna
+2.95,27.97,0.33,33.3,2,Visakhapatnam,Mackerel
+2.55,27.19,0.55,32.05,7,Mumbai,Croakers
+2.35,30.78,0.35,34.43,6,Kochi,Ribbonfish
+2.92,27.74,0.58,34.06,10,Mumbai,Ribbonfish
+3.34,26.38,0.49,32.87,10,Mumbai,Sardine
+1.88,28.6,0.34,32.28,6,Visakhapatnam,Pomfret
+3.71,24.53,0.35,31.64,9,Kochi,Sardine
+1.89,26.22,0.52,34.31,5,Visakhapatnam,Pomfret
+2.58,28.55,0.3,34.94,1,Mumbai,Pomfret
+2.72,28.31,0.35,34.0,6,Mumbai,Pomfret
+2.5,27.11,0.32,33.47,7,Mumbai,Bombay Duck
+2.98,26.77,0.41,32.26,4,Kochi,Pomfret
+2.9,27.95,0.41,30.06,9,Kochi,Bombay Duck
+4.19,27.54,0.52,31.69,11,Kochi,Sardine
+2.08,29.95,0.5,36.16,9,Mumbai,Tuna
+2.88,27.51,0.28,32.74,2,Gujarat,Bombay Duck
+4.15,27.56,0.47,31.69,10,Kochi,Sardine
+1.94,28.35,0.34,35.0,11,Chennai,Ribbonfish
+3.95,28.66,0.48,32.86,2,Kochi,Bombay Duck
+3.05,26.64,0.45,31.66,11,Visakhapatnam,Sardine
+2.81,28.75,0.24,35.45,7,Visakhapatnam,Ribbonfish
+2.23,29.2,0.44,35.12,4,Visakhapatnam,Tuna
+2.83,26.55,0.34,31.34,9,Mumbai,Croakers
+3.24,28.57,0.54,31.4,11,Kochi,Bombay Duck
+2.61,27.04,0.35,31.57,7,Kochi,Croakers
+3.48,27.48,0.47,31.91,12,Chennai,Bombay Duck
+2.97,24.35,0.31,31.56,1,Kochi,Croakers
+2.68,28.37,0.35,35.72,6,Chennai,Tuna
+2.76,28.05,0.42,32.38,10,Gujarat,Bombay Duck
+2.35,28.24,0.22,33.7,3,Kochi,Pomfret
+2.69,26.49,0.56,32.44,4,Kochi,Bombay Duck
+3.26,27.0,0.23,33.44,9,Chennai,Sardine
+3.45,28.98,0.59,35.68,6,Visakhapatnam,Mackerel
+1.93,29.44,0.21,35.22,5,Chennai,Tuna
+3.11,27.79,0.39,35.87,3,Chennai,Mackerel
+1.63,28.42,0.54,36.4,8,Visakhapatnam,Tuna
+2.57,26.83,0.59,33.53,5,Kochi,Mackerel
+2.53,28.5,0.28,33.0,3,Mumbai,Pomfret
+1.9,25.4,0.47,34.48,1,Visakhapatnam,Pomfret
+3.17,24.16,0.28,33.24,5,Kochi,Croakers
+3.47,28.27,0.24,33.37,7,Gujarat,Mackerel
+2.14,28.81,0.5,34.71,10,Kochi,Ribbonfish
+2.84,29.61,0.58,33.56,5,Gujarat,Mackerel
+2.25,30.92,0.38,35.64,3,Kochi,Tuna
+3.85,26.6,0.26,33.7,9,Visakhapatnam,Sardine
+2.61,29.94,0.34,34.61,8,Chennai,Ribbonfish
+2.51,28.03,0.36,36.94,9,Gujarat,Tuna
+2.96,24.55,0.36,33.03,11,Visakhapatnam,Croakers
+4.82,24.66,0.57,33.08,10,Kochi,Sardine
+3.6,27.92,0.57,33.33,2,Gujarat,Bombay Duck
+2.41,29.0,0.51,33.5,2,Kochi,Pomfret
+2.29,24.53,0.57,32.41,8,Gujarat,Croakers
+2.68,28.95,0.22,32.35,10,Kochi,Pomfret
+2.63,24.58,0.52,31.7,10,Gujarat,Croakers
+3.04,28.47,0.21,32.69,9,Gujarat,Bombay Duck
+2.97,28.83,0.54,35.08,1,Gujarat,Mackerel
+1.95,31.32,0.47,35.26,4,Visakhapatnam,Tuna
+2.62,28.6,0.51,34.64,12,Visakhapatnam,Ribbonfish
+4.62,26.51,0.5,31.59,4,Gujarat,Sardine
+1.99,30.11,0.48,34.98,7,Kochi,Ribbonfish
+2.79,26.01,0.35,35.3,10,Mumbai,Mackerel
+2.21,29.75,0.4,34.27,7,Visakhapatnam,Ribbonfish
+3.81,26.71,0.52,33.02,8,Kochi,Sardine
+2.78,26.95,0.4,33.03,3,Kochi,Bombay Duck
+3.51,27.09,0.33,31.12,1,Visakhapatnam,Croakers
+3.01,27.2,0.51,32.78,9,Chennai,Sardine
+2.06,28.78,0.4,35.54,11,Mumbai,Mackerel
+3.67,25.61,0.49,31.25,3,Kochi,Croakers
+3.98,28.6,0.2,33.63,4,Chennai,Bombay Duck
+2.35,28.96,0.47,36.19,6,Mumbai,Tuna
+4.34,27.3,0.35,32.71,6,Mumbai,Sardine
+2.51,30.81,0.49,35.45,8,Gujarat,Ribbonfish
+2.14,28.39,0.39,34.32,10,Visakhapatnam,Pomfret
+2.23,25.22,0.54,34.29,10,Chennai,Pomfret
+4.47,25.61,0.34,32.81,4,Mumbai,Sardine
+3.02,25.73,0.44,31.97,9,Mumbai,Sardine
+2.34,25.05,0.46,32.76,9,Chennai,Croakers
+3.06,26.92,0.53,33.11,7,Mumbai,Sardine
+2.63,27.4,0.5,35.68,11,Kochi,Ribbonfish
+2.98,29.05,0.27,34.2,7,Kochi,Ribbonfish
+2.45,27.95,0.35,34.7,1,Mumbai,Ribbonfish
+2.99,29.9,0.48,34.01,4,Visakhapatnam,Mackerel
+2.58,28.75,0.33,30.41,1,Chennai,Bombay Duck
+4.16,27.17,0.24,31.8,3,Visakhapatnam,Sardine
+2.33,27.45,0.5,35.68,9,Mumbai,Ribbonfish
+2.81,28.61,0.56,34.34,4,Kochi,Pomfret
+3.14,29.24,0.25,35.47,6,Visakhapatnam,Mackerel
+2.03,30.51,0.23,35.37,4,Chennai,Ribbonfish
+2.33,30.76,0.35,35.18,6,Gujarat,Tuna
+1.71,30.51,0.56,35.46,8,Kochi,Tuna
+3.65,27.97,0.46,32.53,2,Kochi,Croakers
+2.78,27.93,0.23,33.87,11,Kochi,Pomfret
+2.98,27.98,0.56,32.23,5,Visakhapatnam,Croakers
+3.27,27.29,0.59,31.06,11,Mumbai,Bombay Duck
+2.95,28.87,0.39,34.94,11,Visakhapatnam,Pomfret
+3.36,27.54,0.45,33.33,5,Chennai,Croakers
+3.47,28.97,0.25,31.71,1,Kochi,Bombay Duck
+1.92,25.93,0.4,32.29,12,Kochi,Pomfret
+3.5,26.0,0.27,33.09,2,Kochi,Bombay Duck
+4.2,25.62,0.59,32.9,7,Kochi,Sardine
+1.81,25.09,0.5,33.17,3,Kochi,Pomfret
+4.91,25.84,0.52,33.12,9,Kochi,Sardine
+2.94,26.06,0.28,33.67,12,Kochi,Pomfret
+3.27,26.5,0.29,31.48,1,Chennai,Croakers
+4.91,27.14,0.53,31.92,10,Gujarat,Sardine
+2.46,27.46,0.58,34.7,1,Visakhapatnam,Pomfret
+2.27,28.92,0.2,35.2,12,Mumbai,Ribbonfish
+2.18,26.94,0.33,34.27,2,Kochi,Pomfret
+2.52,28.71,0.5,34.08,9,Kochi,Ribbonfish
+3.55,25.77,0.26,33.7,5,Mumbai,Croakers
+2.53,27.15,0.6,35.59,2,Chennai,Mackerel
+2.34,29.71,0.4,35.26,8,Gujarat,Tuna
+3.54,25.83,0.5,34.86,2,Gujarat,Croakers
+2.35,28.74,0.56,34.02,4,Chennai,Pomfret
+3.4,24.79,0.58,32.69,1,Mumbai,Croakers
+2.6,29.26,0.45,34.43,10,Gujarat,Mackerel
+1.71,29.81,0.32,35.08,6,Gujarat,Tuna
+1.89,27.28,0.38,34.81,8,Kochi,Pomfret
+4.18,27.56,0.33,31.02,5,Visakhapatnam,Sardine
+2.46,30.22,0.59,34.52,1,Gujarat,Ribbonfish
+3.76,26.37,0.58,32.8,2,Visakhapatnam,Croakers
+2.54,26.29,0.26,31.31,6,Chennai,Croakers
+3.56,27.1,0.41,34.82,9,Mumbai,Croakers
+3.22,28.54,0.26,32.41,1,Visakhapatnam,Bombay Duck
+3.64,27.35,0.32,33.92,2,Mumbai,Sardine
+2.34,29.69,0.22,34.15,8,Mumbai,Mackerel
+2.63,28.94,0.55,35.12,4,Kochi,Ribbonfish
+3.56,26.96,0.27,31.26,7,Mumbai,Bombay Duck
+2.62,29.15,0.58,35.21,1,Gujarat,Ribbonfish
+4.09,28.81,0.52,32.12,6,Kochi,Bombay Duck
+3.01,28.9,0.6,33.21,1,Gujarat,Mackerel
+2.52,27.48,0.27,32.82,3,Kochi,Croakers
+2.43,27.64,0.39,35.94,8,Chennai,Ribbonfish
+3.41,26.55,0.29,31.54,7,Chennai,Croakers
+2.61,30.91,0.37,35.9,7,Visakhapatnam,Ribbonfish
+1.95,28.58,0.35,33.3,4,Chennai,Pomfret
+2.39,26.79,0.57,34.65,1,Kochi,Croakers
+3.88,28.3,0.53,31.15,8,Chennai,Bombay Duck
+2.03,28.45,0.4,33.6,5,Chennai,Pomfret
+2.84,28.6,0.24,33.63,6,Mumbai,Bombay Duck
+2.64,30.94,0.54,34.72,1,Mumbai,Ribbonfish
+2.15,29.87,0.42,34.78,10,Gujarat,Ribbonfish
+2.16,29.43,0.45,35.85,6,Chennai,Tuna
+2.42,28.69,0.46,32.57,8,Chennai,Pomfret
+2.7,29.52,0.53,34.48,4,Visakhapatnam,Mackerel
+2.52,27.76,0.41,34.93,10,Kochi,Ribbonfish
+3.11,28.41,0.54,34.61,12,Gujarat,Mackerel
+3.61,27.56,0.38,34.68,2,Kochi,Croakers
+2.11,28.57,0.34,35.63,8,Visakhapatnam,Tuna
+3.69,28.32,0.47,33.99,5,Mumbai,Bombay Duck
+2.52,24.76,0.34,31.39,2,Chennai,Croakers
+3.04,24.69,0.31,33.92,9,Chennai,Sardine
+3.47,28.01,0.41,33.31,5,Visakhapatnam,Mackerel
+3.24,26.17,0.4,33.69,2,Kochi,Mackerel
+3.02,27.41,0.41,33.52,2,Visakhapatnam,Mackerel
+2.12,29.98,0.32,33.06,12,Mumbai,Mackerel
+3.94,28.65,0.34,31.83,1,Kochi,Bombay Duck
+2.34,29.14,0.31,35.63,9,Visakhapatnam,Tuna
+3.06,26.46,0.28,31.8,10,Visakhapatnam,Bombay Duck
+2.8,26.03,0.48,31.34,12,Mumbai,Croakers
+2.04,28.25,0.35,33.11,8,Kochi,Pomfret
+3.95,28.04,0.2,30.26,3,Chennai,Bombay Duck
+2.24,29.65,0.6,35.56,1,Mumbai,Mackerel
+2.09,30.34,0.47,36.07,5,Visakhapatnam,Tuna
+2.55,27.84,0.48,33.21,3,Mumbai,Mackerel
+4.64,25.2,0.31,32.96,12,Visakhapatnam,Sardine
+3.75,25.68,0.39,34.32,9,Mumbai,Croakers
+3.07,27.02,0.46,30.23,6,Chennai,Bombay Duck
+1.81,28.64,0.38,34.49,12,Mumbai,Ribbonfish
+1.57,29.97,0.36,35.04,2,Chennai,Tuna
+3.97,26.64,0.34,30.22,3,Mumbai,Bombay Duck
+2.74,28.14,0.53,33.71,4,Kochi,Mackerel
+2.53,26.12,0.4,30.92,8,Mumbai,Bombay Duck
+2.17,31.49,0.23,36.46,8,Chennai,Tuna
+2.32,26.64,0.5,34.38,1,Mumbai,Croakers
+2.49,28.5,0.23,34.1,2,Kochi,Ribbonfish
+3.48,26.19,0.3,31.97,11,Visakhapatnam,Sardine
+2.66,25.95,0.25,34.31,12,Chennai,Croakers
+4.27,27.96,0.33,31.51,2,Visakhapatnam,Sardine
+3.17,26.69,0.46,35.84,9,Kochi,Mackerel
+3.04,26.99,0.41,31.34,12,Chennai,Croakers
+2.35,26.5,0.36,33.92,2,Chennai,Mackerel
+2.62,30.92,0.22,35.47,4,Mumbai,Tuna
+1.75,28.29,0.52,35.18,10,Kochi,Tuna
+3.19,29.18,0.59,35.2,2,Gujarat,Mackerel
+2.7,26.17,0.59,34.12,8,Mumbai,Croakers
+2.06,27.24,0.45,34.75,5,Visakhapatnam,Mackerel
+3.21,28.25,0.59,30.36,5,Chennai,Bombay Duck
+2.99,25.1,0.3,34.07,3,Chennai,Pomfret
+4.72,25.93,0.41,32.16,4,Visakhapatnam,Sardine
+3.16,28.47,0.23,32.31,10,Gujarat,Bombay Duck
+2.36,31.89,0.53,36.5,11,Kochi,Tuna
+3.18,24.29,0.37,33.35,4,Mumbai,Sardine
+3.38,29.32,0.43,33.28,10,Visakhapatnam,Mackerel
+3.41,27.36,0.34,32.03,5,Visakhapatnam,Sardine
+3.34,26.33,0.34,34.82,7,Kochi,Mackerel
+2.57,26.28,0.27,34.27,12,Chennai,Croakers
+3.67,28.81,0.57,33.23,3,Kochi,Bombay Duck
+3.65,27.16,0.22,33.6,12,Gujarat,Sardine
+4.88,27.07,0.41,33.07,7,Gujarat,Sardine
+3.43,28.13,0.52,30.56,6,Kochi,Bombay Duck
+3.28,28.49,0.47,34.71,10,Mumbai,Mackerel
+3.16,24.4,0.38,32.57,7,Mumbai,Croakers
+2.48,28.34,0.25,35.09,8,Gujarat,Mackerel
+2.54,26.69,0.21,33.07,10,Mumbai,Mackerel
+2.73,28.82,0.35,30.56,5,Visakhapatnam,Bombay Duck
+2.4,30.41,0.33,34.97,11,Kochi,Ribbonfish
+2.42,26.03,0.3,35.9,3,Visakhapatnam,Mackerel
+2.36,30.62,0.27,35.13,1,Kochi,Tuna
+2.59,28.24,0.21,30.45,2,Visakhapatnam,Bombay Duck
+3.01,25.62,0.21,34.93,2,Gujarat,Croakers
+3.74,25.91,0.39,33.6,7,Gujarat,Croakers
+3.07,26.67,0.32,35.53,1,Gujarat,Mackerel
+3.77,26.16,0.52,31.36,6,Gujarat,Bombay Duck
+2.79,26.06,0.6,33.58,5,Visakhapatnam,Bombay Duck
+2.51,30.45,0.54,34.01,11,Mumbai,Ribbonfish
+3.09,27.13,0.59,31.8,2,Chennai,Croakers
+2.41,29.41,0.36,35.5,6,Kochi,Tuna
+2.82,27.7,0.46,34.6,8,Mumbai,Pomfret
+3.78,26.26,0.38,31.48,7,Visakhapatnam,Croakers
+2.65,26.24,0.38,32.44,12,Visakhapatnam,Croakers
+2.3,26.38,0.47,34.07,2,Visakhapatnam,Croakers
+2.77,28.33,0.6,34.91,4,Mumbai,Ribbonfish
+1.67,28.27,0.26,36.91,4,Kochi,Tuna
+4.66,27.64,0.51,33.18,5,Gujarat,Sardine
+3.42,29.9,0.57,35.4,1,Mumbai,Mackerel
+3.15,28.33,0.49,31.61,2,Kochi,Bombay Duck
+3.69,28.99,0.41,31.25,11,Gujarat,Bombay Duck
+3.33,24.76,0.2,31.47,1,Chennai,Croakers
+2.68,29.08,0.45,35.24,3,Kochi,Tuna
+3.86,26.08,0.47,33.7,4,Mumbai,Bombay Duck
+3.27,27.63,0.34,31.87,8,Mumbai,Sardine
+1.82,30.84,0.49,34.02,4,Chennai,Ribbonfish
+3.07,26.36,0.54,33.65,4,Visakhapatnam,Mackerel
+2.64,27.85,0.35,35.13,8,Chennai,Ribbonfish
+2.7,24.36,0.39,31.09,1,Chennai,Croakers
+2.74,25.83,0.24,32.08,5,Kochi,Croakers
+3.1,28.88,0.55,35.17,10,Visakhapatnam,Mackerel
+3.11,24.81,0.48,33.81,2,Visakhapatnam,Sardine
+3.73,28.35,0.49,33.76,2,Visakhapatnam,Bombay Duck
+1.89,25.92,0.27,32.16,9,Visakhapatnam,Pomfret
+1.91,31.38,0.53,36.76,11,Visakhapatnam,Tuna
+3.92,25.39,0.34,32.29,3,Kochi,Sardine
+2.73,29.82,0.34,35.71,1,Gujarat,Tuna
+3.49,26.65,0.25,31.98,9,Visakhapatnam,Croakers
+3.03,26.21,0.5,30.81,7,Gujarat,Bombay Duck
+4.88,27.03,0.59,31.38,6,Chennai,Sardine
+2.25,29.03,0.39,35.38,7,Mumbai,Ribbonfish
+3.37,27.69,0.35,31.1,8,Gujarat,Croakers
+2.4,27.43,0.21,34.59,6,Visakhapatnam,Ribbonfish
+3.88,26.4,0.35,30.32,3,Chennai,Bombay Duck
+2.56,26.17,0.35,34.54,12,Chennai,Pomfret
+2.94,28.83,0.52,34.5,5,Mumbai,Ribbonfish
+3.04,26.69,0.3,33.2,6,Chennai,Croakers
+2.61,26.54,0.59,32.45,5,Visakhapatnam,Pomfret
+2.69,25.49,0.53,34.96,7,Chennai,Pomfret
+4.82,27.76,0.59,32.37,11,Gujarat,Sardine
+2.63,25.01,0.49,32.32,12,Chennai,Pomfret
+2.98,28.4,0.37,35.81,12,Kochi,Ribbonfish
+2.47,27.78,0.52,34.62,4,Mumbai,Pomfret
+1.99,28.1,0.53,35.5,12,Visakhapatnam,Tuna
+2.95,27.19,0.58,31.49,2,Visakhapatnam,Bombay Duck
+2.17,28.63,0.46,35.9,2,Visakhapatnam,Tuna
+2.69,30.8,0.48,35.29,10,Gujarat,Ribbonfish
+3.0,28.59,0.51,34.87,12,Kochi,Ribbonfish
+2.45,25.1,0.21,33.06,9,Kochi,Pomfret
+3.33,27.69,0.39,33.39,9,Kochi,Sardine
+2.91,28.43,0.45,35.48,12,Gujarat,Ribbonfish
+3.48,27.76,0.48,33.89,8,Kochi,Bombay Duck
+2.5,28.14,0.32,36.78,8,Mumbai,Tuna
+3.53,27.14,0.24,34.51,1,Kochi,Croakers
+2.73,29.5,0.52,35.28,2,Mumbai,Tuna
+4.61,24.32,0.41,32.96,5,Chennai,Sardine
+1.96,28.33,0.5,36.76,9,Visakhapatnam,Tuna
+1.83,31.8,0.47,35.87,1,Kochi,Tuna
+2.66,27.36,0.39,34.09,7,Mumbai,Ribbonfish
+2.84,27.97,0.25,35.96,9,Chennai,Ribbonfish
+2.71,29.08,0.36,36.95,8,Gujarat,Tuna
+2.55,28.27,0.38,33.3,11,Visakhapatnam,Bombay Duck
+2.86,28.93,0.4,33.46,4,Mumbai,Bombay Duck
+1.67,30.63,0.25,36.05,7,Kochi,Tuna
+3.32,28.7,0.55,33.48,10,Kochi,Mackerel
+3.59,26.86,0.57,33.69,7,Mumbai,Croakers
+2.48,26.79,0.55,32.07,9,Gujarat,Croakers
+3.23,28.5,0.36,35.42,6,Mumbai,Mackerel
+4.14,26.65,0.48,31.35,5,Gujarat,Sardine
+4.58,26.93,0.36,33.33,1,Gujarat,Sardine
+4.81,25.93,0.37,31.73,3,Chennai,Sardine
+3.4,27.7,0.6,33.09,7,Chennai,Sardine
+2.82,28.87,0.28,31.75,2,Visakhapatnam,Bombay Duck
+2.23,26.76,0.24,33.11,8,Chennai,Pomfret
+3.0,27.8,0.49,33.05,12,Visakhapatnam,Pomfret
+3.12,27.7,0.57,32.25,9,Gujarat,Bombay Duck
+4.49,27.3,0.51,32.26,4,Visakhapatnam,Sardine
+2.8,24.44,0.34,33.64,3,Visakhapatnam,Croakers
+2.26,29.28,0.6,34.9,2,Gujarat,Ribbonfish
+2.48,30.78,0.4,35.36,10,Kochi,Tuna
+2.35,27.29,0.33,33.68,3,Visakhapatnam,Mackerel
+2.28,28.41,0.59,35.84,8,Visakhapatnam,Ribbonfish
+2.27,27.86,0.31,32.11,6,Gujarat,Pomfret
+2.62,29.81,0.22,34.13,2,Visakhapatnam,Ribbonfish
+3.82,28.88,0.55,32.22,12,Gujarat,Bombay Duck
+1.94,28.21,0.27,32.45,2,Chennai,Pomfret
+2.98,26.77,0.53,33.67,8,Mumbai,Mackerel
+2.06,28.96,0.36,33.54,6,Chennai,Pomfret
+1.94,28.06,0.32,35.92,1,Chennai,Ribbonfish
+1.64,31.71,0.58,35.38,12,Gujarat,Tuna
+1.95,30.75,0.52,36.02,6,Chennai,Tuna
+3.0,26.72,0.53,35.1,9,Mumbai,Mackerel
+2.89,26.52,0.29,32.02,3,Kochi,Croakers
+2.87,28.19,0.51,34.76,10,Chennai,Ribbonfish
+4.58,24.07,0.56,31.72,10,Kochi,Sardine
+2.6,29.91,0.43,35.87,8,Gujarat,Ribbonfish
+4.55,25.19,0.37,32.86,5,Gujarat,Sardine
+2.34,29.46,0.21,35.77,11,Visakhapatnam,Tuna
+2.36,26.79,0.49,34.93,8,Visakhapatnam,Mackerel
+4.51,25.67,0.47,31.37,1,Kochi,Sardine
+2.38,29.44,0.39,35.19,12,Mumbai,Tuna
+2.16,26.68,0.35,34.47,10,Mumbai,Pomfret
+2.07,28.2,0.55,35.29,6,Mumbai,Tuna
+2.44,26.93,0.43,32.88,5,Chennai,Croakers
+4.14,26.91,0.24,33.33,9,Mumbai,Bombay Duck
+2.48,28.62,0.3,35.68,7,Gujarat,Mackerel
+4.63,27.24,0.21,32.72,7,Mumbai,Sardine
+2.73,26.79,0.22,32.36,5,Chennai,Croakers
+4.99,26.02,0.31,33.07,11,Kochi,Sardine
+1.96,26.35,0.31,34.72,12,Kochi,Pomfret
+2.41,26.94,0.3,33.51,1,Gujarat,Croakers
+2.19,28.23,0.42,34.51,7,Visakhapatnam,Ribbonfish
+2.14,30.39,0.45,35.94,3,Visakhapatnam,Tuna
+3.24,26.49,0.2,31.35,6,Kochi,Croakers
+2.67,27.82,0.58,34.38,3,Mumbai,Ribbonfish
+3.03,24.06,0.42,33.38,2,Mumbai,Sardine
+3.47,27.59,0.53,33.25,7,Mumbai,Mackerel
+2.26,25.3,0.48,32.76,9,Visakhapatnam,Pomfret
+2.74,27.22,0.27,35.04,12,Kochi,Mackerel
+2.53,24.56,0.48,33.06,7,Mumbai,Croakers
+2.82,25.63,0.54,33.51,11,Mumbai,Pomfret
+3.8,25.97,0.53,32.81,8,Chennai,Sardine
+3.17,24.67,0.52,31.41,11,Kochi,Croakers
+4.89,24.52,0.58,33.79,10,Kochi,Sardine
+3.39,27.84,0.41,34.54,3,Chennai,Croakers
+2.11,29.69,0.46,35.52,2,Visakhapatnam,Tuna
+4.47,24.49,0.25,33.21,7,Gujarat,Sardine
+1.96,28.61,0.56,33.83,7,Visakhapatnam,Pomfret
+2.18,26.46,0.26,35.65,8,Kochi,Mackerel
+2.53,26.98,0.58,31.94,11,Visakhapatnam,Bombay Duck
+2.55,25.63,0.33,33.97,4,Kochi,Croakers
+2.7,25.26,0.28,33.77,7,Gujarat,Pomfret
+2.31,28.34,0.51,35.49,11,Visakhapatnam,Mackerel
+2.03,29.84,0.57,36.81,3,Kochi,Tuna
+2.2,27.39,0.21,33.39,8,Kochi,Pomfret
+4.1,27.15,0.41,33.33,4,Mumbai,Bombay Duck
+1.74,29.16,0.37,35.92,4,Mumbai,Tuna
+3.79,26.7,0.32,31.7,1,Mumbai,Sardine
+2.46,29.04,0.33,35.76,12,Mumbai,Tuna
+2.05,29.02,0.51,36.98,2,Mumbai,Tuna
+3.58,25.97,0.47,31.23,11,Visakhapatnam,Sardine
+4.27,25.13,0.37,31.18,7,Chennai,Sardine
+3.47,26.97,0.56,33.24,12,Chennai,Mackerel
+2.44,28.4,0.45,32.96,12,Kochi,Pomfret
+3.17,24.57,0.5,32.24,11,Visakhapatnam,Sardine
+2.37,26.45,0.2,35.62,3,Kochi,Mackerel
+4.29,27.87,0.23,31.98,3,Kochi,Sardine
+4.74,24.16,0.23,31.83,6,Visakhapatnam,Sardine
+3.39,26.64,0.26,30.7,11,Chennai,Bombay Duck
+3.27,26.46,0.35,31.62,1,Gujarat,Bombay Duck
+3.7,28.26,0.48,30.85,2,Gujarat,Bombay Duck
+2.27,29.4,0.29,35.65,3,Mumbai,Ribbonfish
+3.3,25.47,0.53,31.81,1,Mumbai,Croakers
+2.41,28.32,0.29,34.36,7,Kochi,Ribbonfish
+2.48,27.63,0.53,32.61,6,Mumbai,Croakers
+2.86,27.56,0.27,33.38,6,Gujarat,Mackerel
+2.55,26.78,0.38,34.06,3,Gujarat,Mackerel
+2.45,27.84,0.4,31.47,4,Gujarat,Croakers
+2.51,28.51,0.46,36.37,6,Visakhapatnam,Tuna
+3.28,29.15,0.46,34.68,1,Mumbai,Mackerel
+1.85,26.85,0.28,34.17,6,Kochi,Pomfret
+2.91,27.64,0.22,35.91,8,Mumbai,Ribbonfish
+3.43,28.22,0.34,34.88,10,Mumbai,Mackerel
+2.78,24.53,0.38,31.4,2,Gujarat,Croakers
+4.39,24.59,0.29,33.65,10,Chennai,Sardine
+3.45,24.14,0.41,32.02,6,Mumbai,Croakers
+3.12,27.4,0.41,34.84,1,Mumbai,Mackerel
+2.37,27.76,0.27,33.85,7,Chennai,Pomfret
+2.33,28.23,0.49,34.51,6,Chennai,Ribbonfish
+4.66,25.7,0.43,32.03,4,Visakhapatnam,Sardine
+4.99,26.62,0.29,33.49,6,Visakhapatnam,Sardine
+2.69,30.25,0.21,36.33,3,Kochi,Tuna
+2.66,28.64,0.47,32.42,2,Mumbai,Bombay Duck
+2.8,27.28,0.47,33.96,3,Visakhapatnam,Pomfret
+2.69,26.4,0.48,34.49,11,Gujarat,Mackerel
+3.3,27.23,0.33,35.93,5,Chennai,Mackerel
+1.88,30.49,0.32,34.15,7,Gujarat,Ribbonfish
+4.49,26.27,0.58,33.91,7,Mumbai,Sardine
+3.09,26.35,0.51,35.35,8,Gujarat,Mackerel
+1.88,27.19,0.35,34.59,9,Visakhapatnam,Ribbonfish
+2.9,28.42,0.59,32.03,7,Visakhapatnam,Bombay Duck
+4.91,27.61,0.24,33.3,8,Visakhapatnam,Sardine
+3.87,27.67,0.53,30.15,11,Visakhapatnam,Bombay Duck
+3.9,24.42,0.35,32.38,4,Mumbai,Sardine
+1.86,27.47,0.34,34.53,2,Visakhapatnam,Ribbonfish
+3.5,26.11,0.44,31.69,10,Kochi,Sardine
+2.45,28.78,0.25,32.68,7,Kochi,Pomfret
+2.53,27.89,0.22,34.23,3,Kochi,Pomfret
+2.57,28.53,0.6,31.78,2,Visakhapatnam,Bombay Duck
+3.61,26.4,0.46,31.0,8,Chennai,Bombay Duck
+2.96,26.66,0.39,34.39,8,Gujarat,Croakers
+2.81,29.34,0.3,35.45,8,Gujarat,Ribbonfish
+2.29,30.43,0.5,35.36,5,Kochi,Tuna
+2.55,26.64,0.46,32.69,1,Mumbai,Croakers
+2.5,27.07,0.41,33.82,10,Gujarat,Mackerel
+1.52,28.4,0.37,36.29,10,Mumbai,Tuna
+2.49,29.3,0.31,35.33,3,Visakhapatnam,Ribbonfish
+3.01,27.76,0.58,32.71,9,Visakhapatnam,Bombay Duck
+3.64,26.48,0.29,33.47,8,Gujarat,Croakers
+3.08,27.91,0.52,33.86,7,Chennai,Mackerel
+2.77,25.71,0.3,34.34,2,Kochi,Pomfret
+1.8,30.74,0.41,36.53,4,Chennai,Tuna
+2.31,29.3,0.28,33.39,2,Gujarat,Mackerel
+1.81,30.37,0.24,35.28,3,Gujarat,Ribbonfish
+3.1,24.54,0.49,31.15,11,Gujarat,Sardine
+2.33,26.94,0.47,34.24,11,Kochi,Pomfret
+2.57,30.07,0.21,36.83,2,Kochi,Tuna
+2.66,27.59,0.31,34.99,10,Chennai,Pomfret
+2.06,31.98,0.21,36.04,5,Mumbai,Tuna
+2.99,27.67,0.44,31.68,5,Visakhapatnam,Croakers
+3.37,24.76,0.58,32.82,10,Chennai,Croakers
+2.8,28.03,0.22,35.92,1,Visakhapatnam,Mackerel
+2.77,27.24,0.49,31.99,2,Visakhapatnam,Bombay Duck
+3.08,24.73,0.45,33.61,7,Gujarat,Croakers
+4.53,27.61,0.27,32.27,8,Gujarat,Sardine
+2.73,30.82,0.59,35.91,9,Kochi,Tuna
+3.57,27.45,0.52,32.06,1,Mumbai,Bombay Duck
+3.92,24.96,0.52,31.18,4,Visakhapatnam,Sardine
+3.38,26.72,0.25,30.82,2,Gujarat,Bombay Duck
+2.57,27.12,0.38,34.64,7,Gujarat,Ribbonfish
+2.79,28.94,0.38,36.15,8,Kochi,Tuna
+4.75,24.27,0.28,32.69,6,Visakhapatnam,Sardine
+3.2,26.23,0.34,30.99,5,Chennai,Bombay Duck
+2.23,30.98,0.59,35.56,7,Mumbai,Tuna
+3.39,24.17,0.25,34.79,12,Visakhapatnam,Croakers
+3.96,27.3,0.34,33.95,7,Chennai,Bombay Duck
+2.8,28.4,0.36,35.65,4,Kochi,Mackerel
+2.75,29.75,0.28,35.52,5,Gujarat,Tuna
+2.74,30.76,0.23,35.51,3,Kochi,Tuna
+2.77,28.39,0.35,36.36,5,Gujarat,Tuna
+2.81,28.07,0.55,33.3,9,Visakhapatnam,Bombay Duck
+2.87,26.37,0.21,31.39,9,Kochi,Bombay Duck
+3.03,26.34,0.38,32.34,3,Chennai,Croakers
+3.35,26.94,0.55,34.0,1,Gujarat,Sardine
+2.62,26.81,0.22,30.07,6,Mumbai,Bombay Duck
+2.51,26.59,0.27,33.39,11,Gujarat,Pomfret
+2.52,27.98,0.46,35.16,1,Gujarat,Ribbonfish
+2.76,29.87,0.28,35.21,8,Visakhapatnam,Mackerel
+4.52,27.16,0.23,32.1,9,Kochi,Sardine
+3.18,24.89,0.55,32.88,3,Mumbai,Croakers
+1.87,30.36,0.39,36.95,11,Gujarat,Tuna
+2.88,28.13,0.6,34.21,7,Kochi,Mackerel
+4.4,25.47,0.23,31.29,3,Kochi,Sardine
+2.87,29.71,0.35,34.23,1,Chennai,Ribbonfish
+2.57,27.24,0.24,34.47,3,Chennai,Pomfret
+2.62,30.09,0.48,34.97,6,Mumbai,Ribbonfish
+2.91,26.4,0.49,30.82,4,Kochi,Bombay Duck
+3.43,27.81,0.38,33.29,6,Chennai,Bombay Duck
+1.8,28.46,0.4,35.32,6,Visakhapatnam,Tuna
+1.73,29.02,0.22,36.94,1,Chennai,Tuna
+2.66,28.25,0.4,32.61,8,Chennai,Pomfret
+2.01,26.81,0.35,34.31,9,Kochi,Mackerel
+3.46,26.6,0.57,31.28,3,Chennai,Sardine
+2.61,30.31,0.46,35.1,5,Gujarat,Tuna
+2.74,27.6,0.52,35.49,7,Gujarat,Mackerel
+3.32,26.19,0.57,33.61,4,Visakhapatnam,Mackerel
+3.32,27.34,0.4,35.3,12,Kochi,Mackerel
+3.03,28.58,0.39,33.16,9,Visakhapatnam,Bombay Duck
+1.95,27.36,0.31,35.73,8,Mumbai,Ribbonfish
+3.28,26.1,0.33,33.41,10,Kochi,Sardine
+2.81,28.56,0.32,32.37,8,Chennai,Bombay Duck
+3.13,24.24,0.44,32.61,3,Gujarat,Croakers
+4.41,24.04,0.25,33.8,8,Mumbai,Sardine
+1.64,30.06,0.27,35.52,12,Chennai,Tuna
+4.02,26.18,0.36,33.4,4,Visakhapatnam,Sardine
+4.71,25.41,0.59,31.68,4,Chennai,Sardine
+4.78,27.83,0.49,31.92,9,Mumbai,Sardine
+2.51,28.23,0.5,35.67,9,Gujarat,Tuna
+2.66,24.96,0.43,33.68,8,Kochi,Croakers
+2.94,28.37,0.23,30.2,4,Visakhapatnam,Bombay Duck
+2.14,28.39,0.25,35.28,1,Kochi,Ribbonfish
+3.85,27.93,0.58,30.8,11,Mumbai,Bombay Duck
+2.31,26.66,0.2,31.46,9,Mumbai,Croakers
+2.76,30.4,0.24,35.58,3,Gujarat,Tuna
+3.68,27.64,0.6,33.11,5,Kochi,Croakers
+2.61,29.74,0.3,34.46,9,Mumbai,Ribbonfish
+2.27,28.47,0.54,33.18,5,Visakhapatnam,Mackerel
+2.55,27.43,0.53,34.52,6,Chennai,Mackerel
+3.38,25.27,0.22,31.89,1,Chennai,Sardine
+2.86,26.69,0.4,34.18,5,Kochi,Mackerel
+2.09,30.86,0.43,34.26,6,Chennai,Ribbonfish
+2.49,26.62,0.25,35.41,3,Gujarat,Mackerel
+2.67,30.13,0.22,34.39,2,Kochi,Ribbonfish
+2.81,28.68,0.23,34.09,3,Visakhapatnam,Pomfret
+2.48,25.09,0.35,32.4,5,Gujarat,Croakers
+3.29,26.24,0.27,31.08,2,Kochi,Sardine
+2.37,29.93,0.59,34.71,1,Mumbai,Mackerel
+2.24,25.26,0.37,32.36,5,Mumbai,Pomfret
+3.65,27.05,0.3,33.74,1,Visakhapatnam,Sardine
+4.03,25.6,0.44,33.43,8,Kochi,Sardine
+1.97,28.1,0.3,32.66,11,Chennai,Pomfret
+2.15,28.02,0.5,36.23,10,Visakhapatnam,Tuna
+2.3,28.61,0.41,34.39,2,Gujarat,Pomfret
+2.06,29.72,0.33,34.55,12,Mumbai,Ribbonfish
+2.78,26.9,0.32,33.26,10,Kochi,Croakers
+3.25,27.44,0.43,33.23,4,Kochi,Sardine
+2.72,27.47,0.57,35.31,11,Kochi,Mackerel
+2.85,25.34,0.54,32.85,6,Mumbai,Pomfret
+3.95,27.62,0.27,33.87,2,Chennai,Sardine
+2.97,29.72,0.38,35.54,6,Visakhapatnam,Ribbonfish
+4.06,25.58,0.57,33.63,6,Visakhapatnam,Sardine
+2.29,30.9,0.32,34.28,12,Gujarat,Ribbonfish
+2.53,27.51,0.5,35.2,4,Chennai,Ribbonfish
+2.25,26.11,0.2,33.62,10,Chennai,Pomfret
+1.54,31.36,0.59,35.08,7,Kochi,Tuna
+3.34,28.6,0.58,32.62,11,Chennai,Bombay Duck
+1.86,27.13,0.27,34.59,1,Mumbai,Ribbonfish
+2.48,29.87,0.43,35.07,3,Kochi,Ribbonfish
+2.3,26.73,0.34,34.84,10,Visakhapatnam,Pomfret
+2.28,27.17,0.47,35.47,9,Mumbai,Ribbonfish
+2.71,25.71,0.31,32.35,7,Mumbai,Pomfret
+3.15,26.77,0.33,35.71,3,Visakhapatnam,Mackerel
+1.97,28.7,0.43,35.74,10,Visakhapatnam,Ribbonfish
+1.83,27.86,0.39,34.42,2,Kochi,Ribbonfish
+2.56,31.47,0.49,36.77,9,Visakhapatnam,Tuna
+4.21,25.99,0.41,31.65,1,Chennai,Sardine
+2.33,28.46,0.52,33.77,12,Gujarat,Mackerel
+2.81,27.32,0.5,32.7,2,Chennai,Bombay Duck
+3.23,27.83,0.59,33.36,2,Chennai,Croakers
+2.75,31.05,0.51,36.94,10,Mumbai,Tuna
+3.54,26.81,0.33,34.38,9,Chennai,Croakers
+2.46,29.49,0.55,35.66,5,Kochi,Ribbonfish
+2.41,29.54,0.53,35.88,10,Mumbai,Tuna
+2.9,27.39,0.44,33.95,2,Kochi,Bombay Duck
+2.65,28.53,0.55,33.65,6,Gujarat,Bombay Duck
+2.27,31.31,0.4,36.34,4,Chennai,Tuna
+3.56,26.96,0.22,34.35,7,Kochi,Croakers
+1.99,28.66,0.42,34.12,6,Mumbai,Ribbonfish
+2.56,25.83,0.55,34.94,4,Mumbai,Croakers
+2.65,26.66,0.37,34.0,10,Kochi,Mackerel
+3.2,28.42,0.24,35.51,7,Gujarat,Mackerel
+3.3,25.1,0.42,31.89,2,Chennai,Sardine
+2.63,24.17,0.31,32.97,10,Kochi,Croakers
+2.42,29.83,0.46,35.25,12,Chennai,Tuna
+2.01,30.52,0.2,35.3,8,Chennai,Tuna
+3.12,26.44,0.54,32.15,9,Kochi,Sardine
+1.84,28.36,0.55,34.03,6,Visakhapatnam,Ribbonfish
+1.97,30.47,0.52,35.5,11,Chennai,Ribbonfish
+3.2,25.94,0.24,33.75,7,Visakhapatnam,Croakers
+4.06,24.74,0.33,31.2,6,Chennai,Sardine
+2.35,27.97,0.5,33.53,4,Chennai,Mackerel
+2.74,25.61,0.36,32.97,12,Visakhapatnam,Croakers
+1.88,28.6,0.49,37.0,7,Kochi,Tuna
+4.11,27.5,0.46,33.56,12,Visakhapatnam,Bombay Duck
+3.0,26.99,0.31,32.53,6,Chennai,Pomfret
+2.92,29.2,0.47,34.97,3,Kochi,Ribbonfish
+3.04,26.18,0.27,33.23,4,Visakhapatnam,Croakers
+2.67,25.69,0.52,34.09,11,Visakhapatnam,Croakers
+2.61,27.0,0.21,33.68,10,Visakhapatnam,Mackerel
+2.07,26.18,0.36,34.78,8,Mumbai,Mackerel
+3.01,26.63,0.21,32.75,7,Visakhapatnam,Croakers
+2.53,26.71,0.37,31.52,6,Gujarat,Bombay Duck
+3.19,29.65,0.47,33.81,7,Kochi,Mackerel
+2.7,29.04,0.29,34.75,7,Gujarat,Ribbonfish
+1.81,25.99,0.57,34.43,11,Gujarat,Pomfret
+2.67,30.65,0.53,35.88,10,Chennai,Tuna
+2.0,29.47,0.32,33.83,9,Kochi,Mackerel
+3.13,24.72,0.36,33.16,10,Mumbai,Sardine
+2.02,28.4,0.29,36.18,6,Mumbai,Tuna
+1.92,25.11,0.27,33.28,1,Mumbai,Pomfret
+2.82,26.45,0.5,34.73,7,Mumbai,Mackerel
+2.05,25.68,0.55,33.62,2,Mumbai,Pomfret
+4.61,27.1,0.47,33.42,3,Visakhapatnam,Sardine
+2.42,26.73,0.31,31.2,3,Gujarat,Croakers
+2.63,30.52,0.3,35.7,2,Gujarat,Tuna
+2.94,27.17,0.51,35.25,10,Kochi,Ribbonfish
+4.98,25.67,0.29,31.47,3,Mumbai,Sardine
+3.04,24.93,0.21,32.22,7,Mumbai,Sardine
+4.04,26.3,0.34,32.47,6,Gujarat,Sardine
+3.29,27.56,0.26,30.19,1,Kochi,Bombay Duck
+3.85,24.02,0.2,33.79,8,Gujarat,Sardine
+1.68,30.78,0.36,36.74,9,Kochi,Tuna
+1.8,30.8,0.41,36.5,2,Kochi,Tuna
+2.28,27.78,0.22,33.52,6,Mumbai,Mackerel
+2.74,26.9,0.36,34.96,5,Kochi,Pomfret
+3.27,25.91,0.24,33.04,8,Chennai,Sardine
+2.34,30.12,0.26,35.41,5,Kochi,Ribbonfish
+2.45,27.57,0.39,32.57,4,Mumbai,Pomfret
+3.68,27.8,0.37,32.44,6,Visakhapatnam,Sardine
+2.64,27.6,0.4,35.09,2,Mumbai,Mackerel
+2.81,27.33,0.41,32.08,8,Visakhapatnam,Bombay Duck
+2.58,29.99,0.45,35.59,1,Visakhapatnam,Mackerel
+1.87,29.54,0.37,34.15,11,Kochi,Ribbonfish
+3.01,27.65,0.33,31.05,12,Gujarat,Sardine
+2.57,28.51,0.54,31.21,12,Mumbai,Bombay Duck
+2.08,29.93,0.52,33.17,1,Kochi,Mackerel
+3.11,25.46,0.3,31.33,11,Mumbai,Croakers
+2.8,25.7,0.48,32.65,12,Kochi,Pomfret
+2.56,28.99,0.57,32.03,6,Gujarat,Pomfret
+2.31,28.61,0.57,35.83,11,Chennai,Ribbonfish
+2.78,28.55,0.59,34.31,5,Visakhapatnam,Pomfret
+3.83,27.92,0.4,33.6,6,Kochi,Sardine
+3.41,25.48,0.37,32.53,1,Chennai,Sardine
+3.06,27.0,0.45,33.46,1,Kochi,Bombay Duck
+2.14,30.9,0.35,36.41,6,Mumbai,Tuna
+2.07,29.58,0.4,35.92,1,Chennai,Ribbonfish
+1.93,28.88,0.49,35.57,12,Kochi,Tuna
+2.29,26.59,0.27,34.42,4,Mumbai,Pomfret
+2.05,25.98,0.32,34.01,2,Gujarat,Pomfret
+2.06,27.94,0.52,34.18,4,Kochi,Mackerel
+4.29,27.22,0.43,31.83,2,Gujarat,Sardine
+2.8,27.58,0.49,30.86,4,Visakhapatnam,Bombay Duck
+4.66,27.51,0.35,33.96,10,Chennai,Sardine
+3.7,27.2,0.46,32.75,9,Visakhapatnam,Sardine
+2.75,28.43,0.38,33.21,2,Chennai,Pomfret
+3.04,26.06,0.4,33.8,5,Kochi,Sardine
+2.22,29.04,0.24,35.83,5,Chennai,Ribbonfish
+2.69,26.5,0.4,34.66,3,Visakhapatnam,Mackerel
+4.0,26.97,0.56,33.72,5,Kochi,Sardine
+2.6,27.28,0.45,35.5,2,Kochi,Ribbonfish
+2.48,31.28,0.31,35.98,11,Chennai,Tuna
+1.85,30.55,0.58,34.04,10,Chennai,Ribbonfish
+1.64,29.67,0.25,35.58,10,Kochi,Tuna
+2.85,25.67,0.23,33.27,3,Gujarat,Croakers
+2.94,25.75,0.53,33.78,2,Visakhapatnam,Pomfret
+3.22,26.16,0.23,34.22,6,Gujarat,Mackerel
+2.18,26.3,0.35,34.7,8,Chennai,Pomfret
+2.78,24.21,0.26,31.86,2,Kochi,Croakers
+1.88,30.7,0.24,34.91,4,Mumbai,Ribbonfish
+3.85,27.66,0.21,33.66,9,Chennai,Bombay Duck
+3.06,27.27,0.42,30.91,8,Visakhapatnam,Bombay Duck
+2.97,29.78,0.29,35.31,9,Gujarat,Ribbonfish
+3.2,24.26,0.24,34.68,12,Mumbai,Croakers
+3.92,28.84,0.21,32.52,4,Kochi,Bombay Duck
+1.96,30.11,0.37,35.42,10,Gujarat,Ribbonfish
+2.57,28.51,0.23,33.46,10,Mumbai,Bombay Duck
+4.53,27.59,0.48,31.15,7,Gujarat,Sardine
+2.08,29.33,0.45,34.87,9,Chennai,Mackerel
+2.2,26.27,0.37,34.01,11,Chennai,Pomfret
+2.13,27.58,0.59,32.94,9,Visakhapatnam,Pomfret
+2.77,28.14,0.39,35.93,6,Mumbai,Tuna
+4.07,25.96,0.41,33.03,9,Gujarat,Sardine
+3.75,25.72,0.54,31.29,8,Kochi,Sardine
+2.29,25.87,0.57,34.29,2,Gujarat,Croakers
+2.99,28.15,0.36,33.8,11,Chennai,Mackerel
+3.52,24.23,0.49,31.39,5,Chennai,Sardine
+2.46,26.92,0.41,33.5,5,Gujarat,Pomfret
+3.17,26.83,0.41,34.11,4,Kochi,Croakers
+1.94,27.58,0.58,34.18,11,Visakhapatnam,Ribbonfish
+2.01,29.66,0.35,34.93,1,Gujarat,Ribbonfish
+2.22,29.88,0.28,34.13,10,Mumbai,Mackerel
+3.11,24.84,0.53,33.85,4,Gujarat,Sardine
+3.52,24.73,0.24,33.35,8,Chennai,Croakers
+4.42,27.66,0.23,32.14,7,Gujarat,Sardine
+1.86,31.57,0.55,36.92,4,Visakhapatnam,Tuna
+2.26,30.73,0.32,35.27,11,Mumbai,Ribbonfish
+2.67,27.64,0.58,34.82,5,Visakhapatnam,Ribbonfish
+2.73,25.51,0.25,31.07,11,Visakhapatnam,Croakers
+3.31,26.96,0.47,33.75,10,Kochi,Sardine
+4.07,25.41,0.29,32.06,4,Gujarat,Sardine
+2.22,24.64,0.35,32.01,3,Kochi,Croakers
+1.86,30.86,0.38,35.27,3,Chennai,Tuna
+2.21,26.98,0.5,33.35,6,Visakhapatnam,Croakers
+3.56,25.85,0.55,32.6,4,Kochi,Croakers
+2.6,28.13,0.53,34.53,2,Chennai,Ribbonfish
+2.26,29.52,0.51,34.62,9,Chennai,Ribbonfish
+2.37,31.59,0.51,36.01,3,Gujarat,Tuna
+2.06,27.55,0.35,34.49,10,Kochi,Pomfret
+3.99,27.44,0.46,30.43,10,Chennai,Bombay Duck
+4.08,25.16,0.46,32.71,3,Gujarat,Sardine
+3.37,26.46,0.34,34.81,7,Gujarat,Mackerel
+3.5,27.98,0.57,32.87,11,Mumbai,Croakers
+2.37,27.98,0.52,34.3,9,Kochi,Croakers
+2.33,27.53,0.52,32.07,4,Mumbai,Pomfret
+2.18,27.1,0.48,34.45,9,Gujarat,Ribbonfish
+3.1,26.92,0.21,34.17,2,Gujarat,Croakers
+2.24,27.87,0.32,34.98,7,Chennai,Mackerel
+1.87,29.66,0.48,35.57,8,Gujarat,Tuna
+2.29,26.1,0.49,34.93,2,Gujarat,Mackerel
+3.81,27.97,0.52,31.06,8,Kochi,Bombay Duck
+2.45,27.39,0.53,32.34,3,Chennai,Pomfret
+2.03,25.44,0.25,34.76,11,Mumbai,Pomfret
+3.84,28.74,0.31,30.45,10,Kochi,Bombay Duck
+2.18,30.13,0.44,34.97,10,Kochi,Ribbonfish
+2.24,27.42,0.43,35.76,12,Chennai,Ribbonfish
+2.05,29.42,0.51,35.13,12,Chennai,Mackerel
+4.16,27.46,0.37,30.05,4,Gujarat,Bombay Duck
+3.6,27.85,0.5,33.08,10,Visakhapatnam,Sardine
+2.01,26.25,0.38,35.49,12,Mumbai,Mackerel
+3.87,28.02,0.59,32.7,8,Mumbai,Bombay Duck
+2.45,27.9,0.51,33.25,7,Chennai,Croakers
+2.71,25.83,0.36,34.86,9,Mumbai,Croakers
+3.34,26.53,0.56,33.11,9,Kochi,Mackerel
+3.34,27.23,0.58,34.02,9,Visakhapatnam,Mackerel
+2.41,28.29,0.55,32.94,10,Gujarat,Pomfret
+2.71,26.56,0.48,33.8,10,Gujarat,Bombay Duck
+2.47,31.76,0.55,36.09,7,Kochi,Tuna
+2.28,26.61,0.45,32.7,4,Gujarat,Pomfret
+2.65,27.33,0.59,34.24,3,Kochi,Pomfret
+2.52,29.33,0.38,34.6,8,Visakhapatnam,Ribbonfish
+2.84,25.21,0.33,33.03,1,Mumbai,Pomfret
+2.66,24.32,0.34,33.93,8,Gujarat,Croakers
+2.71,29.23,0.43,35.91,3,Visakhapatnam,Ribbonfish
+2.2,28.37,0.52,34.41,7,Gujarat,Ribbonfish
+1.86,26.11,0.36,33.37,8,Kochi,Pomfret
+3.34,24.24,0.39,32.42,12,Kochi,Sardine
+4.11,27.69,0.59,31.25,5,Mumbai,Sardine
+2.44,28.7,0.52,35.47,10,Gujarat,Ribbonfish
+2.75,27.31,0.42,33.33,7,Mumbai,Mackerel
+3.23,28.46,0.32,31.71,8,Mumbai,Bombay Duck
+3.03,24.44,0.59,32.38,11,Kochi,Croakers
+2.87,26.88,0.31,35.61,7,Chennai,Mackerel
+1.54,31.08,0.46,36.6,8,Mumbai,Tuna
+2.12,29.02,0.3,35.24,12,Mumbai,Tuna
+3.32,26.91,0.41,33.0,12,Kochi,Sardine
+2.49,28.34,0.25,34.43,5,Kochi,Mackerel
+2.64,27.68,0.46,33.63,1,Mumbai,Croakers
+3.71,26.79,0.59,31.24,8,Kochi,Bombay Duck
+3.1,27.44,0.22,33.9,9,Mumbai,Bombay Duck
+4.54,25.55,0.2,32.3,2,Kochi,Sardine
+2.69,29.27,0.53,34.16,6,Chennai,Ribbonfish
+2.09,29.53,0.36,34.6,3,Mumbai,Ribbonfish
+2.61,26.03,0.54,32.02,11,Kochi,Croakers
+3.51,25.97,0.25,32.22,1,Mumbai,Sardine
+3.8,24.45,0.21,31.58,4,Mumbai,Sardine
+3.5,24.54,0.5,32.25,11,Kochi,Sardine
+4.87,24.01,0.43,33.67,7,Mumbai,Sardine
+2.14,30.18,0.23,36.87,10,Visakhapatnam,Tuna
+1.88,26.37,0.49,33.84,10,Kochi,Pomfret
+2.68,26.82,0.32,32.73,5,Chennai,Pomfret
+3.02,27.1,0.3,32.71,9,Mumbai,Sardine
+2.32,26.89,0.45,32.96,4,Mumbai,Croakers
+2.81,24.44,0.55,33.62,10,Chennai,Croakers
+1.98,26.49,0.28,32.27,6,Kochi,Pomfret
+1.79,30.38,0.31,35.32,4,Chennai,Tuna
+2.48,26.22,0.46,33.19,11,Mumbai,Pomfret
+2.28,28.52,0.52,33.68,9,Chennai,Pomfret
+2.09,27.09,0.59,33.41,9,Chennai,Pomfret
+2.42,30.3,0.58,35.75,8,Visakhapatnam,Ribbonfish
+2.85,26.05,0.36,33.27,1,Visakhapatnam,Pomfret
+2.66,30.21,0.41,34.26,2,Kochi,Ribbonfish
+2.65,31.09,0.54,36.04,1,Chennai,Tuna
+2.12,30.03,0.33,34.97,2,Mumbai,Ribbonfish
+3.05,24.78,0.34,31.77,2,Visakhapatnam,Croakers
+2.82,26.99,0.54,32.27,7,Gujarat,Bombay Duck
+1.54,30.31,0.23,35.48,1,Mumbai,Tuna
+2.41,28.86,0.47,36.56,10,Chennai,Tuna
+3.45,27.89,0.32,31.07,7,Mumbai,Bombay Duck
+4.6,27.94,0.2,31.66,7,Visakhapatnam,Sardine
+2.7,27.87,0.26,31.96,6,Visakhapatnam,Croakers
+1.84,31.21,0.27,36.62,1,Mumbai,Tuna
+2.31,28.95,0.28,32.7,4,Kochi,Pomfret
+2.58,28.54,0.56,30.47,4,Chennai,Bombay Duck
+3.55,26.94,0.58,31.86,12,Visakhapatnam,Croakers
+1.86,30.78,0.29,35.91,2,Chennai,Tuna
+2.05,30.77,0.33,35.09,8,Gujarat,Tuna
+2.85,28.61,0.5,34.16,8,Chennai,Ribbonfish
+3.5,26.12,0.34,32.86,11,Kochi,Sardine
+2.74,28.84,0.36,34.52,10,Chennai,Pomfret
+2.74,28.29,0.36,33.48,8,Gujarat,Mackerel
+1.75,30.16,0.44,35.18,4,Chennai,Tuna
+2.02,30.05,0.53,34.1,1,Chennai,Ribbonfish
+3.35,27.66,0.21,34.12,7,Visakhapatnam,Mackerel
+2.67,28.0,0.47,34.27,8,Visakhapatnam,Pomfret
+2.58,27.49,0.25,30.53,2,Mumbai,Bombay Duck
+2.3,31.29,0.4,36.45,2,Gujarat,Tuna
+3.33,24.6,0.31,33.62,12,Visakhapatnam,Croakers
+2.37,25.8,0.24,33.86,5,Visakhapatnam,Croakers
+2.29,25.19,0.32,34.57,3,Visakhapatnam,Croakers
+2.95,27.11,0.56,33.2,9,Chennai,Bombay Duck
+2.36,28.46,0.4,33.71,5,Mumbai,Mackerel
+3.37,27.9,0.23,32.58,3,Chennai,Croakers
+4.4,24.45,0.5,31.47,3,Visakhapatnam,Sardine
+2.05,27.01,0.34,34.45,4,Visakhapatnam,Ribbonfish
+2.23,28.19,0.54,35.75,11,Kochi,Ribbonfish
+2.53,25.21,0.53,34.18,10,Visakhapatnam,Croakers
+2.52,27.2,0.41,34.65,6,Chennai,Ribbonfish
+4.6,25.08,0.23,32.0,6,Kochi,Sardine
+1.65,30.13,0.55,36.55,2,Visakhapatnam,Tuna
+2.5,24.16,0.44,34.24,9,Mumbai,Croakers
+3.36,26.26,0.44,34.42,9,Mumbai,Mackerel
+4.2,24.13,0.23,31.27,6,Gujarat,Sardine
+2.05,25.91,0.32,34.79,5,Visakhapatnam,Pomfret
+2.74,28.86,0.23,34.75,11,Gujarat,Ribbonfish
+2.03,28.1,0.34,35.7,10,Visakhapatnam,Ribbonfish
+2.91,29.67,0.39,34.61,9,Gujarat,Mackerel
+1.99,27.96,0.3,34.42,11,Gujarat,Pomfret
+3.42,27.59,0.24,35.09,4,Gujarat,Mackerel
+4.11,28.52,0.52,33.48,8,Chennai,Bombay Duck
+2.8,30.51,0.37,35.73,6,Visakhapatnam,Ribbonfish
+2.65,29.9,0.38,36.08,6,Visakhapatnam,Tuna
+1.54,30.11,0.44,35.71,9,Mumbai,Tuna
+1.72,30.09,0.24,36.7,12,Mumbai,Tuna
+2.32,24.85,0.5,31.41,5,Kochi,Croakers
+2.96,24.14,0.59,33.91,9,Visakhapatnam,Croakers
+1.96,29.38,0.39,34.23,11,Chennai,Ribbonfish
+2.7,26.04,0.52,35.3,9,Kochi,Mackerel
+3.36,24.12,0.49,34.7,8,Kochi,Croakers
+2.71,28.98,0.24,35.12,9,Gujarat,Tuna
+2.57,26.48,0.52,33.14,1,Mumbai,Pomfret
+1.9,30.54,0.23,35.77,4,Kochi,Tuna
+2.0,29.64,0.2,35.42,8,Chennai,Tuna
+3.9,28.86,0.36,30.9,12,Chennai,Bombay Duck
+2.86,28.15,0.32,33.6,11,Gujarat,Mackerel
+2.46,28.55,0.58,35.56,8,Mumbai,Ribbonfish
+3.68,25.04,0.29,32.79,7,Gujarat,Sardine
+3.4,27.44,0.35,33.05,11,Mumbai,Bombay Duck
+3.87,26.01,0.55,33.1,8,Chennai,Bombay Duck
+3.08,25.01,0.41,33.85,12,Gujarat,Croakers
+2.12,29.59,0.5,34.73,3,Gujarat,Ribbonfish
+2.11,27.08,0.34,34.11,8,Gujarat,Pomfret
+2.62,26.36,0.54,31.81,3,Chennai,Bombay Duck
+2.02,29.57,0.55,35.52,3,Gujarat,Ribbonfish
+2.76,27.39,0.4,32.78,3,Mumbai,Bombay Duck
+2.53,26.61,0.22,33.58,5,Kochi,Pomfret
+2.62,27.93,0.31,33.28,2,Gujarat,Bombay Duck
+3.17,28.93,0.24,34.09,1,Visakhapatnam,Mackerel
+3.7,27.69,0.57,33.6,11,Gujarat,Bombay Duck
+3.93,26.36,0.26,31.06,11,Chennai,Bombay Duck
+1.61,28.69,0.47,36.95,4,Kochi,Tuna
+3.27,24.14,0.34,32.56,12,Chennai,Sardine
+3.72,26.86,0.52,31.4,5,Kochi,Sardine
+2.88,25.93,0.58,32.94,9,Kochi,Pomfret
+2.51,28.6,0.47,33.95,4,Chennai,Bombay Duck
+2.28,29.62,0.3,33.57,11,Mumbai,Mackerel
+3.39,28.44,0.6,31.48,9,Kochi,Bombay Duck
+1.87,27.6,0.38,34.93,12,Visakhapatnam,Ribbonfish
+1.83,28.58,0.51,35.14,8,Chennai,Ribbonfish
+4.04,27.02,0.28,32.49,3,Gujarat,Bombay Duck
+2.5,29.86,0.52,34.75,4,Visakhapatnam,Ribbonfish
+2.62,25.96,0.33,34.87,3,Gujarat,Croakers
+3.97,26.18,0.22,32.72,6,Gujarat,Bombay Duck
+2.31,24.13,0.27,32.6,1,Mumbai,Croakers
+2.68,28.72,0.59,34.42,11,Kochi,Pomfret
+5.0,27.95,0.25,31.06,2,Kochi,Sardine
+4.97,27.5,0.36,33.27,6,Visakhapatnam,Sardine
+2.03,27.72,0.46,34.95,12,Kochi,Ribbonfish
+2.55,26.98,0.51,35.59,11,Visakhapatnam,Mackerel
+2.21,28.1,0.28,34.68,1,Mumbai,Mackerel
+1.87,30.74,0.47,35.02,7,Visakhapatnam,Tuna
+1.89,31.22,0.52,36.66,2,Gujarat,Tuna
+2.8,31.97,0.56,35.97,3,Mumbai,Tuna
+2.69,28.53,0.4,33.55,7,Visakhapatnam,Pomfret
+2.24,26.04,0.23,34.2,10,Chennai,Mackerel
+2.52,28.47,0.43,33.01,9,Chennai,Bombay Duck
+1.86,29.88,0.4,36.46,10,Visakhapatnam,Tuna
+1.58,30.8,0.57,35.68,7,Mumbai,Tuna
+2.39,30.74,0.47,35.14,6,Gujarat,Ribbonfish
+2.87,27.68,0.44,32.78,7,Mumbai,Pomfret
+2.88,26.24,0.24,31.3,9,Visakhapatnam,Croakers
+1.84,27.93,0.31,35.66,11,Visakhapatnam,Ribbonfish
+2.94,25.77,0.42,33.03,12,Visakhapatnam,Croakers
+2.73,25.64,0.39,34.22,11,Gujarat,Pomfret
+2.96,29.19,0.28,35.45,10,Chennai,Mackerel
+3.38,26.96,0.45,33.94,5,Kochi,Croakers
+1.91,26.19,0.45,32.38,10,Kochi,Pomfret
+3.67,27.95,0.31,30.77,2,Gujarat,Bombay Duck
+3.73,26.0,0.26,32.91,6,Visakhapatnam,Croakers
+3.42,27.75,0.34,33.6,6,Chennai,Croakers
+2.6,26.8,0.31,33.71,5,Visakhapatnam,Bombay Duck
+2.77,28.86,0.29,35.27,3,Gujarat,Ribbonfish
+2.97,26.65,0.39,33.73,8,Chennai,Mackerel
+3.28,27.97,0.52,34.87,1,Kochi,Mackerel
+3.03,28.97,0.49,35.36,8,Kochi,Mackerel
+3.9,24.8,0.36,33.39,9,Mumbai,Sardine
+2.12,30.43,0.51,34.22,8,Gujarat,Ribbonfish
+4.14,26.49,0.57,31.18,2,Kochi,Sardine
+3.17,24.12,0.47,33.54,8,Mumbai,Croakers
+2.37,29.44,0.41,35.21,12,Mumbai,Tuna
+2.61,27.2,0.35,35.69,6,Chennai,Ribbonfish
+2.03,28.2,0.33,34.66,8,Kochi,Ribbonfish
+1.58,31.95,0.4,35.01,2,Kochi,Tuna
+3.61,26.56,0.36,32.54,12,Visakhapatnam,Croakers
+2.22,28.3,0.59,35.32,2,Kochi,Mackerel
+2.57,29.47,0.45,34.07,2,Kochi,Ribbonfish
+2.43,27.35,0.34,35.91,10,Gujarat,Ribbonfish
+3.52,26.34,0.45,32.73,6,Kochi,Croakers
+2.28,30.71,0.33,35.28,11,Gujarat,Tuna
+2.52,29.57,0.22,35.92,10,Gujarat,Ribbonfish
+2.28,26.13,0.42,34.26,7,Kochi,Mackerel
+3.45,25.27,0.27,33.8,8,Kochi,Croakers
+2.33,25.61,0.22,34.25,10,Kochi,Pomfret
+2.74,26.4,0.57,32.26,6,Mumbai,Pomfret
+2.68,29.94,0.44,35.41,6,Chennai,Ribbonfish
+4.32,27.83,0.43,32.38,3,Kochi,Sardine
+1.85,25.86,0.53,32.55,4,Mumbai,Pomfret
+3.7,27.89,0.4,31.48,10,Kochi,Bombay Duck
+3.48,25.77,0.45,33.21,4,Visakhapatnam,Croakers
+2.53,29.82,0.28,34.27,1,Chennai,Mackerel
+2.41,27.0,0.54,34.94,1,Visakhapatnam,Croakers
+3.48,25.8,0.33,33.4,6,Chennai,Croakers
+3.69,27.15,0.37,32.2,4,Mumbai,Croakers
+2.98,30.35,0.49,34.19,8,Visakhapatnam,Ribbonfish
+3.44,26.06,0.37,34.25,8,Gujarat,Croakers
+2.4,30.99,0.29,34.74,3,Mumbai,Ribbonfish
+2.66,28.15,0.36,30.67,10,Kochi,Bombay Duck
+1.9,29.83,0.58,35.42,4,Kochi,Ribbonfish
+1.89,29.41,0.49,35.31,3,Chennai,Ribbonfish
+3.58,26.06,0.31,31.01,8,Chennai,Bombay Duck
+1.58,30.69,0.29,35.59,2,Gujarat,Tuna
+3.89,26.99,0.34,33.36,8,Chennai,Bombay Duck
+1.94,27.98,0.47,34.46,4,Kochi,Ribbonfish
+3.35,27.46,0.23,33.94,2,Visakhapatnam,Croakers
+2.33,29.94,0.57,35.18,1,Gujarat,Ribbonfish
+2.1,25.83,0.41,32.87,4,Mumbai,Pomfret
+2.32,26.4,0.47,33.02,2,Gujarat,Croakers
+1.89,25.81,0.25,32.83,5,Mumbai,Pomfret
+2.19,28.79,0.3,33.25,9,Chennai,Pomfret
+2.67,28.95,0.42,34.26,8,Gujarat,Pomfret
+4.38,25.91,0.55,33.25,5,Kochi,Sardine
+1.81,25.78,0.47,32.69,2,Visakhapatnam,Pomfret
+2.05,28.72,0.26,36.76,8,Kochi,Tuna
+2.92,28.48,0.46,35.08,10,Visakhapatnam,Ribbonfish
+1.86,28.92,0.45,35.6,2,Kochi,Tuna
+3.28,29.73,0.43,33.93,8,Gujarat,Mackerel
+3.09,25.45,0.33,31.54,3,Mumbai,Croakers
+2.75,28.31,0.31,33.24,5,Gujarat,Pomfret
+2.54,28.95,0.45,35.79,3,Visakhapatnam,Ribbonfish
+2.99,30.53,0.51,34.56,9,Mumbai,Ribbonfish
+2.34,30.68,0.32,35.98,3,Chennai,Ribbonfish
+2.3,28.72,0.47,35.67,5,Mumbai,Ribbonfish
+2.95,28.93,0.25,35.71,10,Visakhapatnam,Ribbonfish
+2.01,27.88,0.45,34.16,12,Kochi,Ribbonfish
+2.63,25.33,0.58,32.58,5,Mumbai,Croakers
+1.87,26.55,0.59,32.62,10,Visakhapatnam,Pomfret
+1.83,28.31,0.48,35.45,10,Chennai,Ribbonfish
+3.69,27.9,0.42,33.75,1,Visakhapatnam,Croakers
+2.09,27.31,0.4,35.39,7,Mumbai,Mackerel
+2.77,28.97,0.24,31.72,9,Gujarat,Bombay Duck
+2.26,31.1,0.51,36.82,9,Gujarat,Tuna
+3.11,28.96,0.54,35.12,11,Mumbai,Mackerel
+4.97,25.8,0.45,31.7,11,Chennai,Sardine
+2.43,28.51,0.35,35.88,12,Mumbai,Tuna
+2.49,29.7,0.45,35.45,9,Gujarat,Tuna
+3.6,24.5,0.25,31.69,8,Visakhapatnam,Sardine
+2.26,26.73,0.34,33.15,7,Gujarat,Mackerel
+2.46,29.17,0.53,35.01,8,Visakhapatnam,Tuna
+3.52,24.53,0.38,31.55,6,Visakhapatnam,Sardine
+3.11,26.65,0.51,33.65,5,Kochi,Bombay Duck
+4.01,27.66,0.24,33.54,1,Kochi,Bombay Duck
+3.11,29.23,0.22,34.32,4,Kochi,Mackerel
+2.16,28.51,0.45,34.89,3,Kochi,Pomfret
+1.83,28.66,0.29,35.08,12,Visakhapatnam,Tuna
+1.89,25.22,0.39,34.32,3,Chennai,Pomfret
+2.86,28.14,0.22,31.98,8,Mumbai,Bombay Duck
+2.27,29.59,0.32,34.97,10,Mumbai,Ribbonfish
+2.35,27.86,0.35,35.42,6,Mumbai,Mackerel
+3.54,27.36,0.43,32.14,7,Kochi,Bombay Duck
+2.79,27.26,0.21,33.96,9,Gujarat,Bombay Duck
+2.29,27.89,0.5,35.3,6,Kochi,Ribbonfish
+3.75,27.33,0.26,32.3,8,Visakhapatnam,Bombay Duck
+3.26,27.14,0.55,32.13,2,Chennai,Bombay Duck
+4.9,26.49,0.21,32.86,9,Visakhapatnam,Sardine
+2.29,26.11,0.27,31.5,5,Gujarat,Croakers
+3.42,27.06,0.3,35.28,5,Mumbai,Mackerel
+4.67,25.96,0.21,32.69,11,Kochi,Sardine
+3.75,28.94,0.48,30.26,7,Visakhapatnam,Bombay Duck
+2.61,27.51,0.41,33.99,2,Gujarat,Croakers
+2.08,26.59,0.32,34.63,2,Kochi,Pomfret
+2.78,25.62,0.56,31.59,9,Chennai,Croakers
+4.73,25.49,0.55,33.63,7,Visakhapatnam,Sardine
+2.73,26.06,0.29,35.45,2,Visakhapatnam,Mackerel
+2.99,26.55,0.39,33.27,8,Kochi,Pomfret
+2.51,27.22,0.42,31.94,11,Chennai,Bombay Duck
+3.19,29.46,0.4,34.94,12,Visakhapatnam,Mackerel
+3.27,27.48,0.3,33.02,11,Gujarat,Sardine
+2.57,31.81,0.23,36.23,8,Kochi,Tuna
+3.4,28.77,0.48,33.8,8,Gujarat,Bombay Duck
+2.71,28.73,0.3,34.43,11,Gujarat,Ribbonfish
+2.64,28.22,0.44,34.95,12,Visakhapatnam,Pomfret
+3.04,25.55,0.42,32.31,4,Visakhapatnam,Sardine
+2.22,28.96,0.6,33.43,10,Chennai,Mackerel
+2.34,26.09,0.37,31.36,3,Mumbai,Croakers
+2.18,26.13,0.44,35.37,7,Chennai,Mackerel
+2.95,28.06,0.58,33.24,10,Gujarat,Pomfret
+3.57,27.83,0.42,31.07,9,Chennai,Sardine
+4.12,24.49,0.39,33.29,6,Gujarat,Sardine
+2.0,31.22,0.51,36.51,1,Mumbai,Tuna
+1.65,30.59,0.42,35.39,11,Mumbai,Tuna
+2.65,28.63,0.44,36.95,6,Mumbai,Tuna
+3.09,26.03,0.5,33.48,9,Mumbai,Mackerel
+3.9,28.48,0.52,32.17,2,Gujarat,Bombay Duck
+2.85,26.76,0.39,33.5,3,Gujarat,Mackerel
+3.95,28.24,0.37,33.34,8,Visakhapatnam,Bombay Duck
+1.97,27.35,0.54,35.79,5,Kochi,Ribbonfish
+3.81,24.8,0.4,32.02,6,Gujarat,Sardine
+2.61,28.81,0.46,33.11,5,Chennai,Mackerel
+2.69,28.83,0.3,34.94,1,Kochi,Ribbonfish
+2.69,27.97,0.43,31.99,10,Visakhapatnam,Croakers
+3.03,27.83,0.57,33.21,8,Visakhapatnam,Croakers
+2.34,26.87,0.51,31.84,1,Chennai,Croakers
+3.42,28.37,0.46,35.17,2,Mumbai,Mackerel
+3.64,25.77,0.34,34.48,6,Chennai,Croakers
+2.49,25.35,0.43,32.68,6,Visakhapatnam,Pomfret
+2.5,26.33,0.58,35.84,7,Chennai,Mackerel
+3.29,27.92,0.42,30.2,1,Kochi,Bombay Duck
+2.27,26.41,0.24,32.42,2,Visakhapatnam,Croakers
+2.33,26.12,0.42,33.36,5,Chennai,Mackerel
+2.45,29.46,0.23,34.34,12,Chennai,Mackerel
+1.83,30.3,0.33,35.93,9,Chennai,Ribbonfish
+2.54,29.54,0.32,33.62,2,Chennai,Mackerel
+2.57,31.85,0.24,35.96,12,Mumbai,Tuna
+3.23,29.24,0.56,34.35,8,Chennai,Mackerel
+2.12,27.94,0.25,32.22,10,Chennai,Pomfret
+2.45,30.05,0.26,35.02,9,Chennai,Ribbonfish
+2.62,26.45,0.6,33.57,6,Chennai,Croakers
+4.64,27.14,0.53,31.74,6,Mumbai,Sardine
+3.7,27.52,0.24,32.79,9,Gujarat,Bombay Duck
+2.33,28.48,0.56,35.75,9,Kochi,Mackerel
+3.46,24.02,0.3,33.55,6,Chennai,Sardine
+3.33,26.26,0.49,32.32,12,Chennai,Sardine
+3.23,26.25,0.47,31.83,5,Mumbai,Bombay Duck
+2.74,30.2,0.48,35.49,4,Chennai,Ribbonfish
+2.66,29.22,0.41,34.65,11,Visakhapatnam,Mackerel
+2.86,27.71,0.27,33.53,4,Mumbai,Croakers
+2.65,26.13,0.49,32.21,11,Visakhapatnam,Pomfret
+4.37,27.44,0.31,33.36,6,Gujarat,Sardine
+2.87,30.22,0.46,34.73,6,Kochi,Ribbonfish
+2.65,28.01,0.3,35.24,2,Gujarat,Tuna
+3.29,27.9,0.25,31.67,9,Chennai,Sardine
+2.69,24.56,0.3,32.56,7,Gujarat,Croakers
+2.77,25.73,0.44,34.26,7,Gujarat,Pomfret
+3.54,26.53,0.51,31.94,5,Kochi,Bombay Duck
+4.38,27.91,0.27,32.67,12,Mumbai,Sardine
+2.84,28.37,0.53,32.45,5,Visakhapatnam,Bombay Duck
+2.4,26.13,0.43,33.03,10,Visakhapatnam,Pomfret
+2.32,28.62,0.26,35.35,4,Chennai,Mackerel
+4.63,27.39,0.39,33.73,10,Gujarat,Sardine
+2.62,28.97,0.5,32.04,7,Kochi,Bombay Duck
+2.22,30.02,0.31,34.55,2,Gujarat,Ribbonfish
+2.06,29.19,0.4,35.11,12,Kochi,Ribbonfish
+2.12,28.37,0.47,36.09,4,Kochi,Tuna
+4.08,26.57,0.48,32.95,1,Mumbai,Bombay Duck
+3.67,25.16,0.42,31.99,1,Kochi,Croakers
+4.36,25.03,0.49,32.72,9,Visakhapatnam,Sardine
+3.57,24.88,0.48,32.29,12,Gujarat,Sardine
+2.59,24.49,0.41,31.69,9,Visakhapatnam,Croakers
+3.39,28.27,0.6,35.86,9,Kochi,Mackerel
+3.31,27.88,0.52,34.3,11,Visakhapatnam,Croakers
+3.54,24.66,0.43,32.76,11,Visakhapatnam,Croakers
+1.94,30.66,0.43,34.99,5,Kochi,Ribbonfish
+3.04,29.78,0.55,34.21,2,Chennai,Mackerel
+2.51,30.44,0.22,36.42,7,Kochi,Tuna
+3.13,26.5,0.58,32.65,8,Kochi,Sardine
+3.47,25.91,0.3,32.47,3,Chennai,Croakers
+3.34,25.27,0.55,33.03,6,Chennai,Sardine
+4.03,28.35,0.59,30.65,8,Chennai,Bombay Duck
+4.9,26.96,0.31,32.98,5,Visakhapatnam,Sardine
+2.14,27.31,0.23,34.09,7,Gujarat,Ribbonfish
+1.95,30.46,0.35,35.02,4,Visakhapatnam,Ribbonfish
+2.52,25.2,0.46,32.17,3,Visakhapatnam,Pomfret
+2.33,26.75,0.24,33.87,8,Kochi,Croakers
+3.13,28.3,0.6,30.07,4,Kochi,Bombay Duck
+3.45,26.22,0.55,34.08,6,Kochi,Mackerel
+2.55,27.09,0.31,32.26,11,Chennai,Pomfret
+2.55,27.65,0.47,35.66,12,Mumbai,Mackerel
+2.57,27.07,0.21,34.14,7,Gujarat,Croakers
+3.0,26.72,0.53,32.59,1,Gujarat,Croakers
+2.59,28.78,0.24,31.44,3,Kochi,Bombay Duck
+2.54,27.49,0.58,34.1,4,Mumbai,Ribbonfish
+2.32,30.3,0.21,34.3,8,Visakhapatnam,Ribbonfish
+2.88,29.19,0.44,34.77,6,Gujarat,Ribbonfish
+2.61,29.59,0.45,34.93,8,Visakhapatnam,Mackerel
+3.33,24.77,0.42,32.41,9,Kochi,Sardine
+3.55,28.74,0.48,33.26,8,Chennai,Bombay Duck
+3.04,26.9,0.29,32.12,3,Gujarat,Bombay Duck
+2.91,26.36,0.41,33.99,5,Visakhapatnam,Croakers
+2.9,25.61,0.48,34.23,8,Chennai,Pomfret
+3.9,26.38,0.27,30.88,3,Kochi,Bombay Duck
+4.01,27.93,0.45,30.22,2,Chennai,Bombay Duck
+2.9,27.42,0.51,34.79,3,Chennai,Mackerel
+2.44,27.88,0.57,33.17,8,Mumbai,Pomfret
+2.48,29.01,0.26,36.91,3,Mumbai,Tuna
+4.73,26.86,0.27,32.74,7,Kochi,Sardine
+2.44,27.74,0.43,34.21,11,Visakhapatnam,Pomfret
+2.39,24.85,0.47,34.81,9,Gujarat,Croakers
+3.79,26.25,0.45,31.14,11,Chennai,Sardine
+2.19,30.29,0.23,35.94,10,Chennai,Ribbonfish
+2.35,28.73,0.36,32.68,8,Visakhapatnam,Pomfret
+2.15,29.83,0.3,35.34,8,Kochi,Ribbonfish
+2.07,28.8,0.44,36.0,2,Chennai,Tuna
+2.19,30.03,0.2,34.05,4,Chennai,Ribbonfish
+3.5,27.69,0.54,33.88,3,Mumbai,Croakers
+4.42,27.68,0.58,32.55,8,Chennai,Sardine
+2.33,29.24,0.31,36.25,8,Chennai,Tuna
+2.83,24.45,0.42,32.9,12,Kochi,Croakers
+2.46,31.01,0.21,35.25,7,Mumbai,Tuna
+4.05,24.74,0.38,33.89,8,Mumbai,Sardine
+3.8,28.67,0.45,32.26,5,Visakhapatnam,Bombay Duck
+2.88,27.05,0.58,34.65,1,Mumbai,Ribbonfish
+3.16,25.25,0.52,34.18,7,Gujarat,Croakers
+2.47,27.03,0.31,34.43,8,Chennai,Pomfret
+2.43,29.88,0.45,35.25,5,Gujarat,Tuna
+3.26,26.92,0.47,32.4,2,Visakhapatnam,Sardine
+2.37,28.32,0.39,36.6,12,Kochi,Tuna
+2.37,24.86,0.49,33.1,11,Gujarat,Croakers
+1.75,30.37,0.39,35.6,8,Mumbai,Tuna
+1.67,30.65,0.44,36.63,7,Gujarat,Tuna
+2.53,27.78,0.35,34.19,5,Kochi,Ribbonfish
+2.1,27.55,0.55,35.05,4,Visakhapatnam,Mackerel
+2.53,26.28,0.57,30.1,11,Chennai,Bombay Duck
+3.24,27.97,0.46,32.99,2,Visakhapatnam,Bombay Duck
+2.85,25.39,0.48,34.18,8,Mumbai,Croakers
+2.31,26.3,0.39,32.04,7,Gujarat,Pomfret
+2.54,28.31,0.5,35.22,6,Chennai,Tuna
+2.51,28.32,0.2,33.54,9,Gujarat,Pomfret
+2.01,29.5,0.49,36.8,4,Chennai,Tuna
+2.73,30.96,0.48,35.88,4,Visakhapatnam,Tuna
+3.32,24.14,0.45,32.44,10,Mumbai,Croakers
+1.8,30.51,0.41,36.0,12,Kochi,Tuna
+2.49,30.59,0.45,35.9,9,Chennai,Ribbonfish
+2.84,28.63,0.46,35.78,10,Mumbai,Ribbonfish
+2.93,26.57,0.39,34.32,5,Chennai,Croakers
+1.87,25.13,0.39,32.04,12,Visakhapatnam,Pomfret
+2.06,27.51,0.34,35.06,7,Visakhapatnam,Ribbonfish
+1.88,29.24,0.31,36.73,5,Chennai,Tuna
+3.5,26.68,0.52,32.08,3,Visakhapatnam,Croakers
+2.79,27.36,0.36,35.18,1,Mumbai,Ribbonfish
+2.82,29.83,0.55,35.18,10,Gujarat,Mackerel
+2.76,26.14,0.51,32.2,9,Kochi,Croakers
+3.99,25.78,0.38,31.29,5,Mumbai,Sardine
+3.32,26.32,0.59,35.03,4,Visakhapatnam,Mackerel
+3.03,26.79,0.4,31.94,9,Gujarat,Bombay Duck
+2.07,29.58,0.47,35.26,9,Kochi,Mackerel
+3.83,26.99,0.38,33.17,10,Mumbai,Bombay Duck
+3.89,27.45,0.52,33.42,10,Kochi,Sardine
+2.17,29.59,0.46,34.56,7,Kochi,Mackerel
+4.09,27.21,0.26,32.85,4,Mumbai,Sardine
+3.37,27.88,0.27,30.56,10,Mumbai,Bombay Duck
+2.63,31.11,0.27,35.37,8,Chennai,Tuna
+3.71,26.86,0.23,31.28,12,Visakhapatnam,Croakers
+2.13,26.14,0.52,33.08,11,Gujarat,Pomfret
+2.19,27.32,0.21,34.45,7,Kochi,Mackerel
+1.62,29.93,0.28,35.15,4,Visakhapatnam,Tuna
+2.9,27.37,0.5,34.98,4,Chennai,Pomfret
+3.59,26.92,0.2,32.61,6,Visakhapatnam,Croakers
+2.48,29.1,0.36,36.91,6,Gujarat,Tuna
+4.34,24.02,0.52,32.12,4,Gujarat,Sardine
+3.52,27.06,0.37,31.44,8,Gujarat,Bombay Duck
+3.38,25.19,0.22,33.71,10,Gujarat,Croakers
+3.51,25.9,0.33,31.5,3,Visakhapatnam,Sardine
+3.75,27.58,0.22,32.57,5,Mumbai,Bombay Duck
+3.03,26.28,0.39,35.93,12,Kochi,Mackerel
+2.01,30.83,0.43,34.31,4,Chennai,Ribbonfish
+2.25,25.26,0.47,34.85,3,Mumbai,Pomfret
+1.95,30.31,0.5,35.41,3,Mumbai,Tuna
+1.89,30.71,0.42,36.39,2,Chennai,Tuna
+3.73,26.04,0.35,33.96,6,Gujarat,Bombay Duck
+2.89,29.51,0.24,35.55,5,Mumbai,Mackerel
+2.14,28.26,0.51,34.03,4,Kochi,Ribbonfish
+2.85,28.53,0.41,30.96,11,Chennai,Bombay Duck
+2.3,27.1,0.44,35.27,9,Chennai,Ribbonfish
+2.92,24.16,0.59,33.85,8,Chennai,Croakers
+2.7,24.77,0.27,34.43,3,Gujarat,Croakers
+2.53,25.27,0.28,34.53,5,Mumbai,Pomfret
+2.57,31.01,0.28,35.31,2,Gujarat,Tuna
+1.67,30.21,0.33,36.15,10,Kochi,Tuna
+2.2,30.82,0.21,35.52,2,Gujarat,Tuna
+2.44,30.9,0.48,35.37,8,Mumbai,Ribbonfish
+2.42,26.01,0.47,34.11,11,Kochi,Croakers
+2.63,25.67,0.22,33.8,12,Visakhapatnam,Pomfret
+1.69,30.23,0.37,35.27,11,Mumbai,Tuna
+2.15,27.34,0.34,34.73,3,Visakhapatnam,Mackerel
+2.17,28.81,0.23,34.64,6,Visakhapatnam,Pomfret
+2.35,28.9,0.47,35.0,5,Visakhapatnam,Ribbonfish
+2.56,28.94,0.36,33.49,2,Mumbai,Pomfret
+3.4,29.05,0.25,35.99,9,Gujarat,Mackerel
+2.74,29.54,0.4,33.84,8,Gujarat,Mackerel
+2.34,25.69,0.59,31.63,1,Gujarat,Croakers
+2.94,28.06,0.44,35.62,8,Gujarat,Ribbonfish
+1.52,30.39,0.48,35.57,2,Chennai,Tuna
+2.84,28.26,0.3,32.59,3,Gujarat,Bombay Duck
+2.78,28.24,0.53,36.28,1,Mumbai,Tuna
+2.66,29.18,0.41,35.73,1,Visakhapatnam,Mackerel
+2.65,27.8,0.5,33.64,5,Chennai,Croakers
+2.8,27.7,0.46,32.84,9,Gujarat,Croakers
+2.29,28.82,0.29,36.42,10,Chennai,Tuna
+2.15,28.52,0.54,35.46,5,Mumbai,Mackerel
+3.29,26.36,0.59,30.33,5,Chennai,Bombay Duck
+3.21,28.68,0.25,34.05,4,Chennai,Mackerel
+4.89,26.35,0.26,33.61,5,Mumbai,Sardine
+1.99,27.05,0.55,32.73,1,Kochi,Pomfret
+2.6,28.84,0.22,33.37,4,Chennai,Pomfret
+3.45,26.24,0.23,33.22,12,Gujarat,Bombay Duck
+1.71,31.32,0.2,36.44,5,Kochi,Tuna
+2.59,28.27,0.23,34.0,11,Kochi,Bombay Duck
+2.65,29.74,0.34,36.27,8,Mumbai,Tuna
+3.75,24.66,0.29,32.93,12,Chennai,Croakers
+2.54,31.55,0.55,36.68,5,Mumbai,Tuna
+2.16,28.05,0.26,32.29,12,Gujarat,Pomfret
+2.87,29.79,0.38,33.33,5,Kochi,Mackerel
+2.42,28.41,0.36,33.88,12,Visakhapatnam,Pomfret
+2.51,28.7,0.6,30.2,4,Gujarat,Bombay Duck
+4.07,24.82,0.49,33.1,8,Kochi,Sardine
+4.12,28.66,0.29,32.21,12,Mumbai,Bombay Duck
+2.08,28.05,0.34,32.57,1,Gujarat,Pomfret
+2.22,27.53,0.4,34.02,11,Chennai,Mackerel
+1.84,25.99,0.49,34.38,9,Mumbai,Pomfret
+3.87,27.23,0.36,30.17,11,Visakhapatnam,Bombay Duck
+2.37,27.95,0.51,33.09,2,Mumbai,Pomfret
+4.28,25.13,0.31,32.82,1,Visakhapatnam,Sardine
+2.02,27.42,0.23,32.67,1,Gujarat,Pomfret
+3.46,28.71,0.34,33.14,11,Kochi,Mackerel
+2.55,27.85,0.48,34.64,10,Visakhapatnam,Mackerel
+4.97,25.71,0.47,33.91,5,Gujarat,Sardine
+2.43,28.57,0.52,35.64,6,Visakhapatnam,Mackerel
+2.17,29.01,0.27,35.0,8,Chennai,Tuna
+2.38,25.3,0.27,34.41,7,Visakhapatnam,Pomfret
+4.03,24.64,0.5,32.56,8,Mumbai,Sardine
+2.25,26.59,0.31,33.15,12,Gujarat,Pomfret
+2.42,27.74,0.21,35.25,1,Kochi,Mackerel
+3.41,27.08,0.55,31.67,3,Chennai,Sardine
+1.84,27.16,0.35,34.36,6,Chennai,Ribbonfish
+3.0,28.88,0.33,31.15,4,Chennai,Bombay Duck
+4.2,24.6,0.41,32.4,10,Chennai,Sardine
+3.53,26.02,0.5,33.43,4,Gujarat,Croakers
+2.63,28.86,0.36,34.8,9,Kochi,Mackerel
+2.14,29.83,0.25,34.07,10,Visakhapatnam,Mackerel
+3.18,24.7,0.4,32.59,12,Gujarat,Croakers
+1.82,31.49,0.37,36.22,12,Visakhapatnam,Tuna
+2.57,31.36,0.28,36.68,10,Mumbai,Tuna
+3.16,27.28,0.24,33.97,2,Gujarat,Bombay Duck
+2.66,27.75,0.59,32.81,6,Kochi,Bombay Duck
+2.25,28.87,0.3,33.68,11,Visakhapatnam,Pomfret
+2.02,29.81,0.33,35.4,11,Visakhapatnam,Ribbonfish
+1.56,31.35,0.59,36.14,9,Chennai,Tuna
+2.55,28.67,0.25,33.03,3,Chennai,Mackerel
+3.98,27.64,0.31,33.8,2,Chennai,Bombay Duck
+1.74,28.78,0.34,35.65,3,Chennai,Tuna
+1.52,29.69,0.51,35.25,12,Kochi,Tuna
+2.66,25.13,0.37,33.21,3,Chennai,Croakers
+2.96,28.53,0.51,34.32,10,Mumbai,Ribbonfish
+1.7,28.33,0.36,36.06,11,Kochi,Tuna
+3.52,24.34,0.42,31.85,1,Kochi,Croakers
+3.1,24.22,0.24,34.07,11,Mumbai,Croakers
+4.46,27.76,0.41,31.98,4,Kochi,Sardine
+3.06,26.57,0.34,32.56,4,Mumbai,Croakers
+2.39,26.91,0.27,34.65,6,Mumbai,Mackerel
+4.86,24.3,0.24,33.29,4,Mumbai,Sardine
+4.59,27.14,0.43,31.1,10,Visakhapatnam,Sardine
+4.2,27.6,0.24,32.11,8,Chennai,Sardine
+3.58,26.36,0.55,32.84,4,Kochi,Bombay Duck
+2.46,29.39,0.26,35.23,5,Visakhapatnam,Ribbonfish
+2.63,27.38,0.54,34.7,3,Kochi,Mackerel
+4.19,24.06,0.36,33.93,5,Gujarat,Sardine
+2.73,27.1,0.35,35.16,9,Gujarat,Ribbonfish
+2.35,27.7,0.3,34.27,4,Chennai,Mackerel
+3.86,25.02,0.29,33.87,8,Visakhapatnam,Sardine
+2.24,25.76,0.24,31.69,6,Gujarat,Croakers
+3.43,24.19,0.45,31.55,3,Visakhapatnam,Sardine
+4.81,26.25,0.21,31.39,4,Kochi,Sardine
+2.48,28.56,0.44,35.26,12,Chennai,Tuna
+3.47,27.99,0.43,33.36,5,Gujarat,Sardine
+2.98,27.55,0.22,35.27,2,Mumbai,Ribbonfish
+2.67,29.65,0.33,34.32,9,Gujarat,Ribbonfish
+2.75,26.4,0.45,31.69,3,Visakhapatnam,Croakers
+2.31,30.54,0.24,35.68,5,Kochi,Ribbonfish
+3.76,24.32,0.48,32.6,11,Kochi,Sardine
+1.89,27.57,0.31,33.51,12,Mumbai,Pomfret
+4.59,24.69,0.28,33.02,7,Chennai,Sardine
+2.04,26.6,0.44,35.66,5,Kochi,Mackerel
+3.68,25.29,0.32,32.74,7,Kochi,Sardine
+3.16,26.75,0.24,34.48,3,Chennai,Croakers
+2.52,24.42,0.24,32.84,10,Kochi,Croakers
+2.76,28.11,0.43,32.6,7,Chennai,Bombay Duck
+2.79,28.24,0.45,34.54,3,Chennai,Ribbonfish
+2.62,25.83,0.29,34.08,6,Chennai,Pomfret
+4.16,28.63,0.5,33.82,11,Kochi,Bombay Duck
+4.02,28.69,0.4,31.71,12,Kochi,Bombay Duck
+1.83,27.15,0.45,34.31,1,Visakhapatnam,Pomfret
+3.6,24.93,0.42,33.8,9,Visakhapatnam,Croakers
+4.01,26.63,0.36,31.03,12,Chennai,Bombay Duck
+4.91,26.39,0.56,32.09,8,Mumbai,Sardine
+2.1,29.21,0.27,35.73,4,Mumbai,Mackerel
+2.12,25.48,0.22,34.69,6,Chennai,Pomfret
+2.34,25.36,0.48,33.78,10,Visakhapatnam,Pomfret
+1.59,28.06,0.44,35.22,7,Mumbai,Tuna
+3.75,28.14,0.28,30.66,12,Kochi,Bombay Duck
+3.08,27.65,0.3,33.7,7,Visakhapatnam,Bombay Duck
+1.89,29.37,0.26,36.65,10,Visakhapatnam,Tuna
+3.04,26.07,0.53,31.87,1,Gujarat,Sardine
+2.3,30.04,0.46,34.03,5,Chennai,Ribbonfish
+1.66,29.79,0.28,35.18,6,Visakhapatnam,Tuna
+2.93,26.11,0.55,30.87,4,Mumbai,Bombay Duck
+2.34,27.53,0.41,32.37,7,Chennai,Pomfret
+3.59,27.16,0.51,32.33,3,Mumbai,Croakers
+2.63,28.86,0.41,32.59,12,Mumbai,Pomfret
+2.4,29.37,0.47,35.48,12,Gujarat,Tuna
+1.81,29.23,0.32,34.72,2,Gujarat,Ribbonfish
+4.72,27.72,0.53,31.81,1,Kochi,Sardine
+2.25,30.1,0.24,35.82,3,Kochi,Tuna
+3.3,25.63,0.36,34.8,10,Visakhapatnam,Croakers
+2.03,27.22,0.6,35.95,2,Mumbai,Ribbonfish
+2.42,30.54,0.51,34.32,7,Mumbai,Ribbonfish
+4.84,27.08,0.37,33.14,3,Visakhapatnam,Sardine
+2.91,27.07,0.57,31.41,10,Gujarat,Bombay Duck
+2.11,29.9,0.56,34.18,1,Kochi,Ribbonfish
+2.85,26.77,0.5,31.21,5,Visakhapatnam,Bombay Duck
+1.84,27.37,0.41,35.95,12,Chennai,Ribbonfish
+3.17,26.25,0.6,32.47,11,Chennai,Sardine
+3.35,28.45,0.3,33.46,2,Visakhapatnam,Bombay Duck
+2.29,25.4,0.2,32.41,8,Visakhapatnam,Pomfret
+4.14,26.91,0.44,31.64,12,Mumbai,Bombay Duck
+3.72,28.43,0.47,32.66,10,Gujarat,Bombay Duck
+2.0,26.47,0.3,32.39,8,Visakhapatnam,Pomfret
+2.33,29.04,0.43,35.43,6,Visakhapatnam,Mackerel
+1.86,30.62,0.35,34.07,6,Visakhapatnam,Ribbonfish
+3.74,26.92,0.4,31.63,7,Visakhapatnam,Croakers
+2.94,28.54,0.5,34.38,1,Gujarat,Mackerel
+3.48,27.59,0.48,33.5,8,Visakhapatnam,Mackerel
+1.63,30.14,0.3,36.55,3,Gujarat,Tuna
+2.76,25.69,0.41,34.27,10,Chennai,Croakers
+3.23,29.82,0.48,33.39,9,Gujarat,Mackerel
+4.17,27.05,0.49,32.04,5,Visakhapatnam,Bombay Duck
+3.7,26.14,0.24,33.87,1,Visakhapatnam,Sardine
+3.22,27.66,0.23,35.22,2,Chennai,Mackerel
+4.79,26.61,0.32,32.8,9,Mumbai,Sardine
+2.44,28.91,0.31,35.83,4,Visakhapatnam,Mackerel
+2.46,24.78,0.34,32.25,12,Chennai,Croakers
+2.2,27.73,0.41,33.27,2,Visakhapatnam,Mackerel
+2.16,28.24,0.48,35.05,9,Chennai,Ribbonfish
+3.33,28.53,0.4,33.82,9,Visakhapatnam,Mackerel
+4.09,24.77,0.23,33.68,1,Mumbai,Sardine
+3.6,24.28,0.56,34.8,8,Visakhapatnam,Croakers
+1.81,27.93,0.43,35.55,1,Kochi,Ribbonfish
+4.37,26.13,0.39,33.3,3,Kochi,Sardine
+3.92,28.6,0.37,33.99,4,Mumbai,Bombay Duck
+2.37,30.13,0.6,34.42,10,Gujarat,Ribbonfish
+4.05,24.13,0.27,32.87,9,Mumbai,Sardine
+2.25,27.82,0.41,33.94,3,Visakhapatnam,Mackerel
+3.52,25.23,0.3,32.13,6,Mumbai,Sardine
+4.67,25.06,0.5,32.35,11,Mumbai,Sardine
+2.05,29.12,0.28,35.13,12,Gujarat,Mackerel
+2.06,25.76,0.59,35.0,7,Gujarat,Pomfret
+2.55,29.64,0.45,34.22,6,Mumbai,Mackerel
+2.2,27.6,0.47,35.32,6,Gujarat,Ribbonfish
+3.76,27.58,0.43,33.32,9,Kochi,Bombay Duck
+2.92,25.93,0.54,32.83,2,Gujarat,Pomfret
+1.88,31.56,0.4,36.63,2,Kochi,Tuna
+4.01,25.4,0.35,33.99,5,Visakhapatnam,Sardine
+2.0,30.65,0.34,34.24,12,Visakhapatnam,Ribbonfish
+4.93,24.11,0.21,31.05,4,Mumbai,Sardine
+1.99,31.61,0.28,36.14,7,Visakhapatnam,Tuna
+2.85,25.97,0.53,31.8,2,Gujarat,Croakers
+2.21,25.43,0.26,32.71,9,Mumbai,Pomfret
+4.67,25.78,0.49,33.6,1,Kochi,Sardine
+2.93,28.72,0.21,35.16,11,Chennai,Ribbonfish
+2.09,26.67,0.6,32.73,4,Chennai,Pomfret
+3.01,26.5,0.28,32.65,5,Kochi,Bombay Duck
+2.64,28.14,0.53,34.87,4,Kochi,Ribbonfish
+3.4,26.46,0.55,31.56,12,Kochi,Bombay Duck
+3.47,25.64,0.4,34.28,11,Chennai,Croakers
+2.65,25.1,0.48,33.58,7,Gujarat,Pomfret
+2.87,28.8,0.45,34.29,4,Gujarat,Pomfret
+2.75,28.84,0.23,33.65,9,Mumbai,Pomfret
+2.75,28.23,0.57,35.79,7,Mumbai,Ribbonfish
+2.55,28.31,0.24,35.73,7,Mumbai,Tuna
+3.0,26.54,0.35,34.46,7,Kochi,Pomfret
+1.84,25.02,0.41,32.66,9,Mumbai,Pomfret
+3.13,28.88,0.25,32.13,12,Visakhapatnam,Bombay Duck
+2.75,27.21,0.56,34.56,9,Kochi,Ribbonfish
+2.01,29.64,0.53,35.68,10,Chennai,Ribbonfish
+2.4,28.68,0.5,34.62,8,Kochi,Mackerel
+2.68,30.02,0.5,36.3,5,Gujarat,Tuna
+2.76,27.6,0.26,32.2,10,Gujarat,Bombay Duck
+1.7,28.46,0.53,36.08,7,Gujarat,Tuna
+4.07,25.3,0.22,33.36,1,Gujarat,Sardine
+2.98,29.38,0.26,35.52,6,Gujarat,Ribbonfish
+3.73,26.96,0.56,34.26,3,Mumbai,Croakers
+2.92,28.28,0.54,34.68,10,Chennai,Mackerel
+2.47,28.08,0.42,35.43,1,Mumbai,Tuna
+2.41,29.54,0.23,34.61,6,Kochi,Mackerel
+2.88,29.53,0.37,34.98,11,Chennai,Mackerel
+1.95,25.09,0.32,33.21,10,Gujarat,Pomfret
+2.32,26.81,0.39,34.59,3,Chennai,Croakers
+2.09,31.26,0.47,35.93,9,Visakhapatnam,Tuna
+4.14,26.2,0.49,32.63,8,Mumbai,Sardine
+2.02,26.27,0.44,33.05,5,Mumbai,Pomfret
+1.96,27.69,0.29,32.65,12,Mumbai,Pomfret
+2.38,29.43,0.46,35.23,7,Chennai,Ribbonfish
+2.77,26.92,0.59,30.49,6,Visakhapatnam,Bombay Duck
+3.21,28.69,0.34,33.25,8,Visakhapatnam,Mackerel
+4.02,26.11,0.6,32.03,1,Kochi,Bombay Duck
+2.1,28.1,0.47,36.26,1,Kochi,Tuna
+3.9,26.55,0.37,33.3,9,Kochi,Bombay Duck
+3.93,27.03,0.57,33.83,10,Mumbai,Sardine
+2.32,28.13,0.23,35.48,2,Mumbai,Tuna
+2.99,30.12,0.45,35.05,12,Kochi,Ribbonfish
+2.16,29.35,0.44,34.99,2,Chennai,Mackerel
+4.36,26.32,0.53,33.55,3,Kochi,Sardine
+3.51,24.68,0.56,31.21,12,Mumbai,Sardine
+1.98,27.12,0.44,34.74,7,Gujarat,Pomfret
+1.93,31.49,0.36,35.17,12,Visakhapatnam,Tuna
+2.95,29.15,0.57,34.94,10,Kochi,Ribbonfish
+2.07,27.74,0.32,34.3,11,Kochi,Pomfret
+2.83,28.71,0.36,33.94,4,Kochi,Bombay Duck
+1.84,27.7,0.6,33.72,10,Mumbai,Pomfret
+3.09,25.84,0.52,33.62,8,Gujarat,Sardine
+2.95,27.57,0.36,32.12,2,Gujarat,Croakers
+3.79,27.51,0.37,33.58,3,Gujarat,Bombay Duck
+2.92,30.38,0.28,35.83,2,Mumbai,Ribbonfish
+2.42,24.5,0.33,34.98,5,Kochi,Croakers
+1.9,31.57,0.37,36.79,2,Mumbai,Tuna
+2.48,26.05,0.48,34.58,12,Chennai,Pomfret
+2.99,29.16,0.34,34.5,10,Mumbai,Ribbonfish
+2.33,30.73,0.43,34.6,8,Kochi,Ribbonfish
+3.0,26.99,0.27,31.48,5,Visakhapatnam,Sardine
+3.34,28.46,0.46,33.73,1,Mumbai,Mackerel
+2.31,31.06,0.4,35.02,2,Kochi,Tuna
+4.0,28.02,0.59,33.83,2,Gujarat,Bombay Duck
+3.36,26.38,0.46,34.01,3,Kochi,Mackerel
+2.64,28.25,0.47,34.72,1,Gujarat,Ribbonfish
+3.46,28.27,0.29,30.32,11,Chennai,Bombay Duck
+4.37,25.49,0.44,31.91,6,Kochi,Sardine
+2.8,29.81,0.48,35.27,11,Mumbai,Mackerel
+2.6,29.3,0.45,34.74,9,Kochi,Ribbonfish
+2.57,27.06,0.37,33.46,2,Mumbai,Mackerel
+2.72,26.19,0.48,32.02,4,Mumbai,Pomfret
+1.86,29.58,0.29,34.17,6,Gujarat,Ribbonfish
+2.38,28.61,0.32,36.13,2,Gujarat,Tuna
+2.82,27.16,0.47,31.17,9,Mumbai,Bombay Duck
+4.99,26.68,0.49,31.46,8,Gujarat,Sardine
+3.22,24.16,0.27,31.3,8,Chennai,Croakers
+2.97,30.23,0.45,34.72,5,Gujarat,Ribbonfish
+2.27,28.98,0.46,36.87,1,Mumbai,Tuna
+2.52,27.14,0.43,33.06,2,Visakhapatnam,Bombay Duck
+3.03,25.74,0.38,34.66,7,Visakhapatnam,Croakers
+2.55,26.15,0.35,30.53,10,Gujarat,Bombay Duck
+3.66,26.94,0.26,32.49,4,Kochi,Bombay Duck
+3.01,24.06,0.47,31.47,9,Gujarat,Sardine
+3.25,28.21,0.41,31.01,10,Mumbai,Bombay Duck
+3.86,26.49,0.33,32.22,10,Mumbai,Sardine
+3.44,27.78,0.34,32.24,4,Kochi,Sardine
+3.73,27.52,0.59,33.01,5,Kochi,Sardine
+3.62,27.47,0.29,31.58,1,Chennai,Croakers
+3.07,26.29,0.6,32.16,6,Kochi,Sardine
+2.76,29.85,0.26,35.86,9,Gujarat,Tuna
+2.51,27.22,0.43,31.14,8,Chennai,Bombay Duck
+3.16,29.25,0.3,33.76,4,Gujarat,Mackerel
+2.49,30.8,0.35,34.41,7,Mumbai,Ribbonfish
+3.56,26.33,0.31,32.26,11,Gujarat,Croakers
+3.5,28.39,0.46,32.51,1,Gujarat,Bombay Duck
+1.51,30.92,0.34,35.8,6,Gujarat,Tuna
+2.39,30.05,0.41,35.29,11,Mumbai,Ribbonfish
+3.67,28.0,0.49,30.46,8,Gujarat,Bombay Duck
+2.58,30.01,0.25,35.57,4,Visakhapatnam,Tuna
+4.75,27.71,0.56,32.89,3,Gujarat,Sardine
+1.94,28.33,0.38,34.33,8,Visakhapatnam,Pomfret
+2.12,29.98,0.29,35.38,8,Kochi,Ribbonfish
+2.57,26.2,0.22,33.96,4,Chennai,Bombay Duck
+2.37,27.9,0.27,34.25,1,Mumbai,Croakers
+2.39,31.17,0.42,35.44,8,Visakhapatnam,Tuna
+3.28,26.73,0.51,30.68,6,Kochi,Bombay Duck
+4.96,25.45,0.54,32.31,6,Kochi,Sardine
