@@ -10,7 +10,7 @@ def train_and_save_model():
     """Train model from ocean.csv if model.pkl doesn't exist."""
     df = pd.read_csv("ocean.csv")
     feature_cols = ["chlorophyll", "sst", "ssh", "salinity", "month", "location"]
-    target_col = "fish_species"
+    target_col = "fish_name"
 
     # Always encode location (handles both string and numeric)
     le_loc = LabelEncoder()
@@ -49,38 +49,48 @@ def index():
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    if model is None:
-        return jsonify({"error": "Model not loaded. Provide model.pkl or ocean.csv."}), 500
 
     data = request.get_json()
-    try:
-        location_val = str(data["location"])
-        if hasattr(le_loc, "classes_"):
-            if location_val in le_loc.classes_:
-                location_val = le_loc.transform([location_val])[0]
-            else:
-                location_val = 0  # fallback for unknown location
 
-        features = np.array([[
-            float(data["chlorophyll"]),
-            float(data["sst"]),
-            float(data["ssh"]),
-            float(data["salinity"]),
-            int(data["month"]),
-            float(location_val)
-        ]])
+    chlorophyll = float(data["chlorophyll"])
+    sst = float(data["sst"])
+    ssh = float(data["ssh"])
+    salinity = float(data["salinity"])
+    month = int(data["month"])
+    location = data["location"]
 
-        proba = model.predict_proba(features)[0]
-        classes = le_fish.inverse_transform(np.arange(len(proba)))
+    # Encode location
+    location_encoded = le_loc.transform([location])[0]
 
-        ranked = sorted(zip(classes, proba), key=lambda x: x[1], reverse=True)
-        results = [{"fish": str(f), "confidence": round(float(c) * 100, 1)} for f, c in ranked[:5]]
+    features = [[
+        chlorophyll,
+        sst,
+        ssh,
+        salinity,
+        month,
+        location_encoded
+    ]]
 
-        return jsonify({"predictions": results})
+    # Predict probabilities
+    probs = model.predict_proba(features)[0]
 
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
+    # Top 5 predictions
+    top_indices = probs.argsort()[-5:][::-1]
 
+    predictions = []
+
+    for idx in top_indices:
+        fish_name = le_fish.inverse_transform([idx])[0]
+        confidence = round(probs[idx] * 100, 2)
+
+        predictions.append({
+            "fish": fish_name,
+            "confidence": confidence
+        })
+
+    return jsonify({
+        "predictions": predictions
+    })
 if __name__ == "__main__":
     import os
 
