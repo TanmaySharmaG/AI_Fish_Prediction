@@ -52,7 +52,7 @@ def predict():
     if model is None:
         return jsonify({"error": "Model not loaded. Provide model.pkl or ocean.csv."}), 500
 
-    data = request.get_json()
+    data = request.form
     try:
         location_val = str(data["location"])
         if hasattr(le_loc, "classes_"):
