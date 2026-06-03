@@ -332,15 +332,18 @@ function switchMode(mode) {
   const isQuick = mode === 'quick';
   document.getElementById('tab-advanced').classList.toggle('active', !isQuick);
   document.getElementById('tab-quick').classList.toggle('active', isQuick);
-  document.getElementById('adv-header').style.display   = isQuick ? 'none' : '';
-  document.getElementById('quick-header').style.display = isQuick ? 'block' : 'none';
-  document.getElementById('predict-btn').style.display  = isQuick ? 'none' : '';
-  // Hide the advanced input fields when in quick mode
-  const advForm = document.querySelector('.input-panel .form-grid');
-  if (advForm) advForm.style.display = isQuick ? 'none' : '';
-  // Hide Species Atlas shortcut in quick mode for cleanliness
+  document.getElementById('adv-header').style.display    = isQuick ? 'none' : '';
+  document.getElementById('quick-header').style.display  = isQuick ? 'block' : 'none';
+  document.getElementById('predict-btn').style.display   = isQuick ? 'none' : '';
+
+  // Hide only the ADVANCED form-grid (not the one inside quick-header)
+  const advFormGrid = document.querySelector('.input-panel > .form-grid');
+  if (advFormGrid) advFormGrid.style.display = isQuick ? 'none' : '';
+
+  // Hide Species Atlas shortcut in quick mode
   const atlas = document.querySelector('a[href="/species"]');
   if (atlas && atlas.closest('.input-panel')) atlas.style.display = isQuick ? 'none' : '';
+
   // Reset results
   document.getElementById('results').style.display = 'none';
   document.getElementById('pie-panel').style.display = 'none';
