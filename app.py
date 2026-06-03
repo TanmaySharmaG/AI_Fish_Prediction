@@ -114,6 +114,55 @@ def predict():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 400
+    @app.route("/quick_predict", methods=["POST"])
+def quick_predict():
+    if model is None:
+        return jsonify({"error": "Model not loaded."}), 500
+
+    data = request.get_json()
+    location_str = data.get("location", "")
+    try:
+        month = int(data.get("month", 0))
+        if not (1 <= month <= 12):
+            raise ValueError
+    except (TypeError, ValueError):
+        return jsonify({"error": "Invalid month."}), 422
+
+    try:
+        df = pd.read_csv("ocean.csv")
+    except FileNotFoundError:
+        return jsonify({"error": "ocean.csv not found."}), 500
+
+    subset = df[(df["location"] == location_str) & (df["month"] == month)]
+    if subset.empty:
+        return jsonify({"error": f"No records found for {location_str} in month {month}."}), 404
+
+    est = {
+        "chlorophyll": round(float(subset["chlorophyll"].median()), 4),
+        "sst":         round(float(subset["sst"].median()), 2),
+        "ssh":         round(float(subset["ssh"].median()), 3),
+        "salinity":    round(float(subset["salinity"].median()), 2),
+    }
+
+    loc_val = location_str
+    if hasattr(le_loc, "classes_") and location_str in le_loc.classes_:
+        loc_val = le_loc.transform([location_str])[0]
+    else:
+        loc_val = 0
+
+    features = np.array([[est["chlorophyll"], est["sst"], est["ssh"],
+                          est["salinity"], month, float(loc_val)]])
+    proba   = model.predict_proba(features)[0]
+    classes = le_fish.inverse_transform(np.arange(len(proba)))
+    ranked  = sorted(zip(classes, proba), key=lambda x: x[1], reverse=True)
+    predictions = [{"fish": str(f), "confidence": round(float(c)*100, 1)} for f, c in ranked[:5]]
+
+    return jsonify({
+        "mode": "quick",
+        "records_used": len(subset),
+        "estimated_conditions": est,
+        "predictions": predictions
+    })
 
 
 if __name__ == "__main__":
