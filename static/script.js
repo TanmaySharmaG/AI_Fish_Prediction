@@ -24,7 +24,7 @@ const FISH_DATA = {
 const RULES = {
   chlorophyll: { min: 0.01, max: 5,   label: "Chlorophyll", unit: "mg/m³" },
   sst:         { min: 5,    max: 40,  label: "SST",         unit: "°C"    },
-  ssh:         { min: -2,   max: 2,   label: "SSH",         unit: "m"     },
+  ssh:         { min: 0,    max: 5,   label: "SSH",         unit: "m"     },
   salinity:    { min: 20,   max: 40,  label: "Salinity",    unit: "PSU"   }
 };
 
