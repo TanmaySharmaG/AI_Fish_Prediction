@@ -777,3 +777,119 @@ input.valid {
   .pie-inner-wrap { flex-direction: column; align-items: center; }
   #pie-chart { width: 160px !important; height: 160px !important; }
 }
+/* ── MODE TABS ──────────────────────────────────────────── */
+.mode-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background: rgba(0,20,50,0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(0,230,255,0.12);
+}
+.mode-tab {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 9px 14px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: rgba(160,210,230,0.5);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.mode-tab:hover {
+  color: rgba(0,230,255,0.8);
+  background: rgba(0,230,255,0.06);
+}
+.mode-tab.active {
+  background: rgba(0,230,255,0.12);
+  border-color: rgba(0,230,255,0.35);
+  color: #00e6ff;
+  box-shadow: 0 0 14px rgba(0,230,255,0.1);
+}
+#tab-quick.active {
+  background: rgba(0,255,163,0.1);
+  border-color: rgba(0,255,163,0.35);
+  color: #00ffa3;
+  box-shadow: 0 0 14px rgba(0,255,163,0.1);
+}
+
+/* ── QUICK NOTICE ─────────────────────────────────────── */
+.quick-notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  margin-top: 4px;
+  border-radius: 8px;
+  background: rgba(0,255,163,0.06);
+  border: 1px solid rgba(0,255,163,0.2);
+  color: rgba(0,255,163,0.75);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.5px;
+}
+
+/* ── QUICK CONDITIONS CARD ────────────────────────────── */
+.quick-cond-card {
+  background: rgba(0,255,163,0.04);
+  border: 1px solid rgba(0,255,163,0.2);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+  animation: fadeSlideUp 0.4s ease both;
+}
+.qcc-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #00ffa3;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+.qcc-badge {
+  margin-left: auto;
+  padding: 2px 9px;
+  border-radius: 20px;
+  background: rgba(0,255,163,0.12);
+  border: 1px solid rgba(0,255,163,0.3);
+  font-size: 10px;
+  color: #00ffa3;
+}
+.qcc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.qcc-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.qcc-label {
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  color: rgba(160,210,230,0.6);
+  letter-spacing: 0.5px;
+}
+.qcc-val {
+  font-size: 18px;
+  font-family: 'Orbitron', monospace;
+  font-weight: 600;
+  color: #c8e8ff;
+}
+.qcc-unit {
+  font-size: 10px;
+  color: rgba(160,210,230,0.5);
+  font-family: 'JetBrains Mono', monospace;
+}

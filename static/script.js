@@ -326,3 +326,156 @@ async function predict() {
     btn.disabled = false;
   }
 }
+// ── QUICK MODE ──────────────────────────────────────────────
+
+function switchMode(mode) {
+  const isQuick = mode === 'quick';
+  document.getElementById('tab-advanced').classList.toggle('active', !isQuick);
+  document.getElementById('tab-quick').classList.toggle('active', isQuick);
+  document.getElementById('adv-header').style.display   = isQuick ? 'none' : '';
+  document.getElementById('quick-header').style.display = isQuick ? 'block' : 'none';
+  document.getElementById('predict-btn').style.display  = isQuick ? 'none' : '';
+  // Hide Species Atlas shortcut in quick mode for cleanliness
+  const atlas = document.querySelector('a[href="/species"]');
+  if (atlas && atlas.closest('.input-panel')) atlas.style.display = isQuick ? 'none' : '';
+  // Reset results
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('pie-panel').style.display = 'none';
+}
+
+async function quickPredict() {
+  const month    = parseInt(document.getElementById('q-month').value);
+  const location = document.getElementById('q-location').value;
+
+  const btn        = document.getElementById('quick-btn');
+  const results    = document.getElementById('results');
+  const loader     = document.getElementById('loader');
+  const list       = document.getElementById('fish-list');
+  const errWrap    = document.getElementById('error-msg');
+  const statusEl   = document.getElementById('result-status');
+  const metaEl     = document.getElementById('result-meta');
+  const loaderStep = document.getElementById('loader-step');
+  const loaderBar  = document.getElementById('loader-bar');
+
+  btn.disabled = true;
+  results.style.display = 'block';
+  results.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  loader.style.display = 'flex';
+  list.innerHTML = '';
+  errWrap.style.display = 'none';
+  statusEl.className = 'panel-indicator active';
+  statusEl.innerHTML = '<span class="ind-dot active"></span>PROCESSING';
+  metaEl.textContent = 'Estimating historical ocean conditions…';
+
+  const quickSteps = [
+    'Loading marine database…',
+    'Filtering by location & month…',
+    'Computing median parameters…',
+    'Running RandomForest model…',
+    'Ranking predictions…'
+  ];
+  let step = 0;
+  loaderBar.style.width = '0%';
+  const si = setInterval(() => {
+    if (step < quickSteps.length) {
+      loaderStep.textContent = quickSteps[step];
+      loaderBar.style.width = ((step + 1) / quickSteps.length * 85) + '%';
+      step++;
+    }
+  }, 320);
+
+  try {
+    const res  = await fetch('/quick_predict', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ month, location })
+    });
+    const data = await res.json();
+
+    clearInterval(si);
+    loaderBar.style.width = '100%';
+    await new Promise(r => setTimeout(r, 300));
+    loader.style.display = 'none';
+
+    if (data.error) {
+      errWrap.style.display = 'flex';
+      document.getElementById('error-text').textContent = data.error;
+      statusEl.className = 'panel-indicator';
+      statusEl.innerHTML = '<span class="ind-dot"></span>ERROR';
+      showToast('QUICK MODE ERROR', data.error);
+      return;
+    }
+
+    statusEl.className = 'panel-indicator active';
+    statusEl.innerHTML = '<span class="ind-dot active"></span>COMPLETE';
+    metaEl.textContent = `Quick Mode · ${data.records_used} records used · Top: ${data.predictions[0].fish}`;
+
+    // Estimated conditions card
+    const ec = data.estimated_conditions;
+    const condCard = document.createElement('div');
+    condCard.className = 'quick-cond-card';
+    condCard.innerHTML = `
+      <div class="qcc-title">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Estimated Ocean Conditions
+        <span class="qcc-badge">${data.records_used} records</span>
+      </div>
+      <div class="qcc-grid">
+        <div class="qcc-item"><span class="qcc-label chl-icon">● Chlorophyll</span><span class="qcc-val">${ec.chlorophyll} <span class="qcc-unit">mg/m³</span></span></div>
+        <div class="qcc-item"><span class="qcc-label sst-icon">● SST</span><span class="qcc-val">${ec.sst} <span class="qcc-unit">°C</span></span></div>
+        <div class="qcc-item"><span class="qcc-label ssh-icon">● SSH</span><span class="qcc-val">${ec.ssh} <span class="qcc-unit">m</span></span></div>
+        <div class="qcc-item"><span class="qcc-label sal-icon">● Salinity</span><span class="qcc-val">${ec.salinity} <span class="qcc-unit">PSU</span></span></div>
+      </div>
+    `;
+    list.appendChild(condCard);
+
+    // Fish cards (reuse existing render logic)
+    data.predictions.forEach((p, i) => {
+      const fd   = FISH_DATA[p.fish] || { sci: 'Species spp.', market: '—', emoji: '🐟' };
+      const isTop = i === 0;
+      const div  = document.createElement('div');
+      div.className = 'fish-card' + (isTop ? ' rank-1' : '');
+      div.style.animationDelay = (i * 0.07) + 's';
+      const imgSrc = `/static/images/${p.fish.toLowerCase().replace(/ /g, '_')}.jpg`;
+      div.innerHTML = `
+        <div class="fish-top">
+          <div class="fish-rank-badge">${String(i + 1).padStart(2, '0')}</div>
+          <div class="fish-img-wrap">
+            <img src="${imgSrc}" alt="${p.fish}"
+              onerror="this.style.display='none';this.parentElement.querySelector('.fish-emoji').style.display='block'">
+            <span class="fish-emoji" style="display:none">${fd.emoji}</span>
+          </div>
+          <div class="fish-info">
+            <div class="fish-name">${p.fish}</div>
+            <div class="fish-sci">${fd.sci}</div>
+          </div>
+          <div class="fish-right">
+            <div class="fish-pct">${p.confidence}%</div>
+            <div class="fish-market">${fd.market}</div>
+          </div>
+        </div>
+        <div class="fish-meta-row">
+          ${isTop ? '<span class="best-badge"><span class="best-dot"></span>BEST MATCH</span>' : '<span></span>'}
+          <div class="bar-track"><div class="bar-fill" data-w="${p.confidence}"></div></div>
+        </div>
+      `;
+      list.appendChild(div);
+    });
+
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      document.querySelectorAll('.bar-fill').forEach(b => { b.style.width = b.dataset.w + '%'; });
+    }));
+
+    renderPieChart(data.predictions);
+
+  } catch (err) {
+    clearInterval(si);
+    loader.style.display = 'none';
+    errWrap.style.display = 'flex';
+    document.getElementById('error-text').textContent = 'Connection error. Ensure Flask is running on port 5000.';
+    statusEl.className = 'panel-indicator';
+    statusEl.innerHTML = '<span class="ind-dot"></span>OFFLINE';
+  } finally {
+    btn.disabled = false;
+  }
+}
