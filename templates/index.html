@@ -32,6 +32,24 @@
       <span>Marine Intelligence System v2.4</span>
       <div class="nav-badge">LIVE</div>
     </div>
+    <!-- ── Nav Links ── -->
+    <div style="display:flex;gap:4px;margin-left:20px;">
+      <a href="/"
+         style="padding:6px 14px;font-size:11px;letter-spacing:1px;border-radius:20px;
+                background:rgba(0,230,255,0.12);border:1px solid rgba(0,230,255,0.35);
+                color:#00e6ff;text-decoration:none;font-family:'JetBrains Mono',monospace;">
+        Dashboard
+      </a>
+      <a href="/species"
+         style="padding:6px 14px;font-size:11px;letter-spacing:1px;border-radius:20px;
+                background:rgba(0,230,255,0.05);border:1px solid rgba(0,230,255,0.15);
+                color:rgba(160,210,230,0.7);text-decoration:none;font-family:'JetBrains Mono',monospace;
+                transition:all 0.2s;"
+         onmouseover="this.style.background='rgba(0,230,255,0.12)';this.style.color='#00e6ff'"
+         onmouseout="this.style.background='rgba(0,230,255,0.05)';this.style.color='rgba(160,210,230,0.7)'">
+        Species Atlas
+      </a>
+    </div>
     <div class="nav-meta">
       <span id="nav-time"></span>
     </div>
@@ -103,7 +121,8 @@
             <input type="number" id="chlorophyll" step="0.01" min="0.01" max="5" placeholder="0.01 – 5.00" autocomplete="off">
             <span class="input-suffix">chl-a</span>
           </div>
-          <div class="field-hint">Valid: 0.01 – 5.00 mg/m³</div><div class="field-error" id="err-chlorophyll"></div>
+          <div class="field-hint">Valid: 0.01 – 5.00 mg/m³</div>
+          <div class="field-error" id="err-chlorophyll"></div>
         </div>
 
         <div class="field-group">
@@ -116,7 +135,8 @@
             <input type="number" id="sst" step="0.1" min="5" max="40" placeholder="5 – 40" autocomplete="off">
             <span class="input-suffix">SST</span>
           </div>
-          <div class="field-hint">Valid: 5 – 40 °C</div><div class="field-error" id="err-sst"></div>
+          <div class="field-hint">Valid: 5 – 40 °C</div>
+          <div class="field-error" id="err-sst"></div>
         </div>
 
         <div class="field-group">
@@ -129,7 +149,8 @@
             <input type="number" id="ssh" step="0.01" min="0" max="5" placeholder="0.00 – 5.00" autocomplete="off">
             <span class="input-suffix">SSH</span>
           </div>
-          <div class="field-hint">Valid: 0 – 5 m</div><div class="field-error" id="err-ssh"></div>
+          <div class="field-hint">Valid: 0 – 5 m</div>
+          <div class="field-error" id="err-ssh"></div>
         </div>
 
         <div class="field-group">
@@ -142,7 +163,8 @@
             <input type="number" id="salinity" step="0.1" min="20" max="40" placeholder="20 – 40" autocomplete="off">
             <span class="input-suffix">PSU</span>
           </div>
-          <div class="field-hint">Valid: 20 – 40 PSU</div><div class="field-error" id="err-salinity"></div>
+          <div class="field-hint">Valid: 20 – 40 PSU</div>
+          <div class="field-error" id="err-salinity"></div>
         </div>
 
         <div class="field-group">
@@ -193,6 +215,20 @@
           <span class="btn-arr">→</span>
         </span>
       </button>
+
+      <!-- Shortcut to Species Atlas -->
+      <a href="/species" style="
+        display:flex;align-items:center;justify-content:center;gap:8px;
+        margin-top:10px;padding:10px;border-radius:10px;
+        background:rgba(0,230,255,0.04);border:1px dashed rgba(0,230,255,0.2);
+        font-size:11px;color:rgba(0,230,255,0.7);text-decoration:none;
+        font-family:'JetBrains Mono',monospace;letter-spacing:1px;
+        transition:all 0.2s;"
+        onmouseover="this.style.background='rgba(0,230,255,0.08)';this.style.borderColor='rgba(0,230,255,0.4)';this.style.color='#00e6ff'"
+        onmouseout="this.style.background='rgba(0,230,255,0.04)';this.style.borderColor='rgba(0,230,255,0.2)';this.style.color='rgba(0,230,255,0.7)'">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        VIEW SPECIES HABITAT ATLAS →
+      </a>
 
       <!-- Pie Chart (inside input panel) -->
       <div class="pie-inner" id="pie-panel" style="display:none">
@@ -298,7 +334,6 @@
 
   <script src="/static/script.js"></script>
   <script>
-    // Clock
     function tick() {
       const now = new Date();
       document.getElementById('nav-time').textContent =
@@ -307,7 +342,6 @@
     tick(); setInterval(tick, 1000);
     document.getElementById('footer-year').textContent = new Date().getFullYear();
 
-    // Particles
     const canvas = document.getElementById('particles-canvas');
     const ctx = canvas.getContext('2d');
     let W, H, particles = [];

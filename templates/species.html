@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OceanCast AI — Species Habitat Atlas</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    /* ─── Species Page Styles ─── */
+    .species-hero {
+      padding: 100px 40px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .species-hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0,230,255,0.07);
+      border: 1px solid rgba(0,230,255,0.2);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 10px;
+      letter-spacing: 3px;
+      color: rgba(0,230,255,0.8);
+      margin-bottom: 18px;
+    }
+    .species-hero-tag .tag-dot {
+      width: 6px; height: 6px; background: #00e6ff;
+      border-radius: 50%; box-shadow: 0 0 8px #00e6ff;
+      animation: pulse-glow 2s ease-in-out infinite;
+    }
+    .species-page-title {
+      font-family: 'Orbitron', monospace;
+      font-size: clamp(28px, 4vw, 48px);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+    .species-page-title span { color: #00e6ff; }
+    .species-page-sub {
+      font-size: 13px;
+      color: rgba(160,200,220,0.7);
+      max-width: 600px;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+
+    /* ─── Filter Bar ─── */
+    .filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+      padding: 0 40px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .filter-label {
+      font-size: 10px;
+      letter-spacing: 2px;
+      color: rgba(100,160,180,0.7);
+      margin-right: 4px;
+    }
+    .filter-btn {
+      background: rgba(0,230,255,0.05);
+      border: 1px solid rgba(0,230,255,0.15);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 11px;
+      color: rgba(160,210,230,0.8);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.5px;
+    }
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: rgba(0,230,255,0.15);
+      border-color: rgba(0,230,255,0.5);
+      color: #00e6ff;
+      box-shadow: 0 0 12px rgba(0,230,255,0.15);
+    }
+    .search-wrap {
+      margin-left: auto;
+      position: relative;
+    }
+    .search-wrap svg {
+      position: absolute;
+      left: 10px; top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.4;
+    }
+    .search-input {
+      background: rgba(0,230,255,0.05);
+      border: 1px solid rgba(0,230,255,0.15);
+      border-radius: 20px;
+      padding: 7px 14px 7px 34px;
+      font-size: 12px;
+      color: #c8e8ff;
+      font-family: 'JetBrains Mono', monospace;
+      outline: none;
+      width: 200px;
+      transition: all 0.2s;
+    }
+    .search-input::placeholder { color: rgba(100,160,180,0.5); }
+    .search-input:focus {
+      border-color: rgba(0,230,255,0.4);
+      background: rgba(0,230,255,0.08);
+      width: 240px;
+    }
+
+    /* ─── Species Grid ─── */
+    .species-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+      padding: 0 40px 60px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* ─── Species Card ─── */
+    .sp-card {
+      background: rgba(2, 18, 38, 0.85);
+      border: 1px solid rgba(0,230,255,0.1);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+      cursor: pointer;
+      animation: card-in 0.5s ease both;
+      backdrop-filter: blur(10px);
+    }
+    .sp-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(0,230,255,0.35);
+      box-shadow: 0 16px 48px rgba(0,0,0,0.5), 0 0 30px rgba(0,230,255,0.08);
+    }
+    .sp-card.hidden { display: none; }
+
+    @keyframes card-in {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Card header stripe */
+    .sp-header {
+      position: relative;
+      padding: 18px 20px 14px;
+      border-bottom: 1px solid rgba(0,230,255,0.08);
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .sp-header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--sp-color, #00e6ff), transparent);
+      opacity: 0.7;
+    }
+    .sp-emoji-wrap {
+      width: 52px; height: 52px;
+      border-radius: 12px;
+      background: rgba(0,230,255,0.06);
+      border: 1px solid rgba(0,230,255,0.12);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+      flex-shrink: 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .sp-emoji-wrap::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(circle at center, var(--sp-color, rgba(0,230,255,0.15)) 0%, transparent 70%);
+      opacity: 0.4;
+    }
+    .sp-name-block { flex: 1; }
+    .sp-name {
+      font-family: 'Orbitron', monospace;
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .sp-sci {
+      font-size: 11px;
+      font-style: italic;
+      color: rgba(130,180,200,0.7);
+      margin-bottom: 6px;
+    }
+    .sp-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+    .sp-tag {
+      font-size: 9px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      letter-spacing: 1px;
+      border: 1px solid;
+    }
+    .tag-warm  { background: rgba(255,120,50,0.1);  border-color: rgba(255,120,50,0.3);  color: #ff8c50; }
+    .tag-cold  { background: rgba(50,150,255,0.1);  border-color: rgba(50,150,255,0.3);  color: #5ab0ff; }
+    .tag-deep  { background: rgba(100,50,200,0.1);  border-color: rgba(100,50,200,0.3);  color: #a070ff; }
+    .tag-coast { background: rgba(0,200,150,0.1);   border-color: rgba(0,200,150,0.3);   color: #00d4a0; }
+    .tag-open  { background: rgba(0,180,255,0.1);   border-color: rgba(0,180,255,0.3);   color: #00c8ff; }
+    .tag-fresh { background: rgba(100,200,100,0.1); border-color: rgba(100,200,100,0.3); color: #80d080; }
+    .sp-market {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: rgba(0,230,255,0.8);
+      margin-top: 4px;
+    }
+
+    /* ─── Condition Bars ─── */
+    .sp-conditions {
+      padding: 14px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .cond-row { display: flex; flex-direction: column; gap: 4px; }
+    .cond-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .cond-label {
+      font-size: 10px;
+      letter-spacing: 1px;
+      color: rgba(120,170,190,0.7);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .cond-label .cond-icon { font-size: 11px; }
+    .cond-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: rgba(200,230,240,0.9);
+    }
+    .cond-track {
+      height: 4px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 2px;
+      position: relative;
+      overflow: visible;
+    }
+    /* optimal zone fill */
+    .cond-zone {
+      position: absolute;
+      height: 100%;
+      border-radius: 2px;
+      opacity: 0.85;
+      transition: width 0.8s ease;
+    }
+    /* range indicator dot */
+    .cond-dot {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      border: 2px solid rgba(2,18,38,0.9);
+      transition: left 0.8s ease;
+      z-index: 2;
+    }
+    /* tick labels below bar */
+    .cond-ticks {
+      display: flex;
+      justify-content: space-between;
+      font-size: 8px;
+      color: rgba(80,120,140,0.6);
+      font-family: 'JetBrains Mono', monospace;
+      margin-top: 1px;
+    }
+
+    /* ─── Season Row ─── */
+    .sp-seasons {
+      padding: 0 20px 16px;
+      border-top: 1px solid rgba(0,230,255,0.06);
+      margin-top: 4px;
+      padding-top: 12px;
+    }
+    .season-label {
+      font-size: 9px;
+      letter-spacing: 2px;
+      color: rgba(100,150,170,0.6);
+      margin-bottom: 6px;
+    }
+    .season-months {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2px;
+    }
+    .s-month {
+      height: 18px;
+      border-radius: 3px;
+      background: rgba(255,255,255,0.04);
+      transition: background 0.3s;
+      position: relative;
+    }
+    .s-month.peak    { background: var(--sp-color, rgba(0,230,255,0.7)); opacity: 0.85; }
+    .s-month.good    { background: var(--sp-color, rgba(0,230,255,0.35)); opacity: 0.6; }
+    .s-month.low     { background: rgba(255,255,255,0.07); }
+    .s-month:hover::after {
+      content: attr(data-m);
+      position: absolute;
+      bottom: 22px; left: 50%;
+      transform: translateX(-50%);
+      background: rgba(2,18,38,0.95);
+      border: 1px solid rgba(0,230,255,0.2);
+      padding: 2px 6px;
+      font-size: 9px;
+      color: #00e6ff;
+      border-radius: 4px;
+      white-space: nowrap;
+      z-index: 10;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .season-legend {
+      display: flex;
+      gap: 12px;
+      margin-top: 5px;
+    }
+    .s-leg {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 9px;
+      color: rgba(100,150,170,0.6);
+    }
+    .s-leg-dot {
+      width: 8px; height: 8px;
+      border-radius: 2px;
+    }
+
+    /* ─── Modal ─── */
+    .sp-modal-bg {
+      position: fixed; inset: 0;
+      background: rgba(0,5,15,0.85);
+      backdrop-filter: blur(8px);
+      z-index: 200;
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.3s;
+    }
+    .sp-modal-bg.open { opacity: 1; pointer-events: all; }
+    .sp-modal {
+      background: rgba(2, 18, 40, 0.98);
+      border: 1px solid rgba(0,230,255,0.25);
+      border-radius: 20px;
+      max-width: 640px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      position: relative;
+      transform: translateY(20px);
+      transition: transform 0.3s;
+      box-shadow: 0 40px 80px rgba(0,0,0,0.8), 0 0 40px rgba(0,230,255,0.08);
+    }
+    .sp-modal-bg.open .sp-modal { transform: translateY(0); }
+    .modal-close {
+      position: absolute;
+      top: 16px; right: 16px;
+      width: 30px; height: 30px;
+      background: rgba(0,230,255,0.08);
+      border: 1px solid rgba(0,230,255,0.2);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      color: rgba(0,230,255,0.7);
+      font-size: 14px;
+      transition: all 0.2s;
+      z-index: 10;
+    }
+    .modal-close:hover { background: rgba(0,230,255,0.15); color: #00e6ff; }
+    .modal-hero {
+      padding: 30px;
+      border-bottom: 1px solid rgba(0,230,255,0.1);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .modal-emoji {
+      font-size: 52px;
+      width: 80px; height: 80px;
+      background: rgba(0,230,255,0.06);
+      border: 1px solid rgba(0,230,255,0.15);
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .modal-fish-name {
+      font-family: 'Orbitron', monospace;
+      font-size: 24px;
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .modal-fish-sci { font-style: italic; color: rgba(130,180,200,0.7); margin-bottom: 8px; }
+    .modal-fish-market { font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #00e6ff; }
+    .modal-body { padding: 24px 30px; }
+    .modal-section-title {
+      font-size: 10px;
+      letter-spacing: 3px;
+      color: rgba(0,230,255,0.6);
+      margin-bottom: 14px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(0,230,255,0.08);
+    }
+    .modal-param-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .modal-param {
+      background: rgba(0,230,255,0.04);
+      border: 1px solid rgba(0,230,255,0.1);
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+    .modal-param-name {
+      font-size: 10px;
+      letter-spacing: 1px;
+      color: rgba(120,170,190,0.7);
+      margin-bottom: 4px;
+    }
+    .modal-param-range {
+      font-family: 'Orbitron', monospace;
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 2px;
+    }
+    .modal-param-unit { font-size: 11px; color: rgba(0,230,255,0.7); }
+    .modal-param-note { font-size: 10px; color: rgba(100,150,170,0.6); margin-top: 4px; line-height: 1.4; }
+    .modal-tip {
+      background: rgba(0,230,255,0.05);
+      border-left: 3px solid rgba(0,230,255,0.4);
+      border-radius: 0 8px 8px 0;
+      padding: 12px 14px;
+      font-size: 12px;
+      color: rgba(160,210,230,0.85);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .modal-tip strong { color: #00e6ff; font-weight: 600; }
+
+    /* ─── Page count ─── */
+    .species-count-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 40px;
+      max-width: 1200px;
+      margin: 0 auto 20px;
+    }
+    .count-text { font-size: 11px; color: rgba(100,150,170,0.6); font-family: 'JetBrains Mono', monospace; }
+    .count-text span { color: #00e6ff; }
+    .view-toggle { display: flex; gap: 4px; }
+    .view-btn {
+      width: 30px; height: 30px;
+      background: rgba(0,230,255,0.05);
+      border: 1px solid rgba(0,230,255,0.15);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer;
+      color: rgba(0,230,255,0.5);
+      transition: all 0.2s;
+    }
+    .view-btn.active, .view-btn:hover { background: rgba(0,230,255,0.12); color: #00e6ff; border-color: rgba(0,230,255,0.35); }
+
+    /* list view */
+    .species-grid.list-view {
+      grid-template-columns: 1fr;
+    }
+    .species-grid.list-view .sp-card {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+    }
+    .species-grid.list-view .sp-header { border-bottom: none; border-right: 1px solid rgba(0,230,255,0.08); }
+    .species-grid.list-view .sp-seasons { border-top: none; border-left: 1px solid rgba(0,230,255,0.08); padding-top: 14px; }
+
+    @keyframes pulse-glow {
+      0%,100% { box-shadow: 0 0 4px #00e6ff; }
+      50%      { box-shadow: 0 0 12px #00e6ff; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Animated background (same as main page) -->
+  <div class="ocean-bg">
+    <canvas id="particles-canvas"></canvas>
+    <div class="wave-layer wave1"></div>
+    <div class="wave-layer wave2"></div>
+    <div class="wave-layer wave3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Top Navigation -->
+  <nav class="topnav">
+    <div class="nav-brand">
+      <div class="brand-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+          <path d="M2 12h20M12 2c-2.76 3.33-4 7-4 10s1.24 6.67 4 10M12 2c2.76 3.33 4 7 4 10s-1.24 6.67-4 10"/>
+        </svg>
+      </div>
+      <span class="brand-name">OceanCast <span class="brand-ai">AI</span></span>
+    </div>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      <span>Marine Intelligence System v2.4</span>
+      <div class="nav-badge">LIVE</div>
+    </div>
+    <!-- Nav links -->
+    <div style="display:flex;gap:4px;margin-left:20px;">
+      <a href="/" style="padding:6px 14px;font-size:11px;letter-spacing:1px;border-radius:20px;background:rgba(0,230,255,0.05);border:1px solid rgba(0,230,255,0.15);color:rgba(160,210,230,0.7);text-decoration:none;font-family:'JetBrains Mono',monospace;transition:all 0.2s;" onmouseover="this.style.background='rgba(0,230,255,0.12)';this.style.color='#00e6ff'" onmouseout="this.style.background='rgba(0,230,255,0.05)';this.style.color='rgba(160,210,230,0.7)'">Dashboard</a>
+      <a href="/species" style="padding:6px 14px;font-size:11px;letter-spacing:1px;border-radius:20px;background:rgba(0,230,255,0.12);border:1px solid rgba(0,230,255,0.35);color:#00e6ff;text-decoration:none;font-family:'JetBrains Mono',monospace;">Species Atlas</a>
+    </div>
+    <div class="nav-meta">
+      <span id="nav-time"></span>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="species-hero">
+    <div class="species-hero-tag"><span class="tag-dot"></span>HABITAT INTELLIGENCE ATLAS</div>
+    <h1 class="species-page-title">Species Optimal<br><span>Conditions Guide</span></h1>
+    <p class="species-page-sub">
+      Explore ideal oceanographic parameters for all 20 tracked marine species —
+      temperature ranges, salinity thresholds, chlorophyll zones, and peak seasonal windows
+      based on multi-year Indian coastal data.
+    </p>
+  </section>
+
+  <!-- Filter + Search -->
+  <div class="filter-bar">
+    <span class="filter-label">FILTER</span>
+    <button class="filter-btn active" data-filter="all" onclick="setFilter('all',this)">All Species</button>
+    <button class="filter-btn" data-filter="warm"  onclick="setFilter('warm',this)">Warm Water</button>
+    <button class="filter-btn" data-filter="cold"  onclick="setFilter('cold',this)">Cold Water</button>
+    <button class="filter-btn" data-filter="coast" onclick="setFilter('coast',this)">Coastal</button>
+    <button class="filter-btn" data-filter="open"  onclick="setFilter('open',this)">Open Ocean</button>
+    <button class="filter-btn" data-filter="deep"  onclick="setFilter('deep',this)">Deep Water</button>
+    <div class="search-wrap">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input class="search-input" type="text" id="search-inp" placeholder="Search species…" oninput="searchSpecies(this.value)">
+    </div>
+  </div>
+
+  <!-- Count bar -->
+  <div class="species-count-bar">
+    <div class="count-text">Showing <span id="visible-count">20</span> of 20 species</div>
+    <div class="view-toggle">
+      <div class="view-btn active" id="grid-btn" onclick="setView('grid')" title="Grid view">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      </div>
+      <div class="view-btn" id="list-btn" onclick="setView('list')" title="List view">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- Species Grid -->
+  <div class="species-grid" id="species-grid"></div>
+
+  <!-- Modal -->
+  <div class="sp-modal-bg" id="modal-bg" onclick="closeModal(event)">
+    <div class="sp-modal" id="modal-box">
+      <div class="modal-close" onclick="closeModal()">✕</div>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand">
+      <span>OceanCast AI</span><span class="footer-sep">·</span><span>Marine Intelligence Dashboard</span>
+    </div>
+    <div class="footer-meta">
+      Built with RandomForest · Flask · Python<span class="footer-sep">·</span><span id="footer-year"></span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script>
+  // ──────────────────────────────────────────────
+  // DATA: Best conditions for each species
+  // ──────────────────────────────────────────────
+  const SPECIES_DATA = [
+    {
+      name: "Anchovy",
+      sci: "Engraulis encrasicolus",
+      emoji: "🐟",
+      market: "₹80–120/kg",
+      color: "#4dc8ff",
+      tags: ["coast","cold"],
+      habitat: "Coastal, shallow pelagic",
+      conditions: {
+        sst:          { min: 18, max: 26, ideal: 22, absMin: 5, absMax: 40, unit: "°C", note: "Thrives in cool upwelling zones" },
+        salinity:     { min: 28, max: 36, ideal: 32, absMin: 20, absMax: 40, unit: "PSU", note: "Moderate salinity coastal waters" },
+        chlorophyll:  { min: 0.5, max: 3.0, ideal: 1.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "High productivity, feeds on plankton" },
+        ssh:          { min: 0.2, max: 2.5, ideal: 1.2, absMin: 0, absMax: 5, unit: "m", note: "Calm coastal shelf waters" }
+      },
+      seasons: [0,1,2,2,1,0,0,0,1,2,2,1], // 0=low,1=good,2=peak
+      tip: "Best caught during <strong>pre-monsoon (Oct–Jan)</strong> when coastal upwelling is strongest. Look for SST drops near river mouths."
+    },
+    {
+      name: "Barracuda",
+      sci: "Sphyraena barracuda",
+      emoji: "🐠",
+      market: "₹200–300/kg",
+      color: "#00e6ff",
+      tags: ["warm","coast","open"],
+      habitat: "Reef edges, open coastal",
+      conditions: {
+        sst:          { min: 25, max: 35, ideal: 30, absMin: 5, absMax: 40, unit: "°C", note: "Highly thermophilic predator" },
+        salinity:     { min: 30, max: 38, ideal: 34, absMin: 20, absMax: 40, unit: "PSU", note: "Prefers higher salinity marine zones" },
+        chlorophyll:  { min: 0.1, max: 1.5, ideal: 0.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Clear, oligotrophic reef waters" },
+        ssh:          { min: 0.5, max: 4.0, ideal: 2.0, absMin: 0, absMax: 5, unit: "m", note: "Elevated SSH indicates reef structure" }
+      },
+      seasons: [1,2,2,1,0,0,0,0,1,2,2,1],
+      tip: "<strong>Peak season Oct–Jan</strong>. Found near reef structures; correlate with higher SSH (>1.5m). Avoid low chlorophyll offshore."
+    },
+    {
+      name: "Bombay Duck",
+      sci: "Harpadon nehereus",
+      emoji: "🐡",
+      market: "₹60–100/kg",
+      color: "#a0c8ff",
+      tags: ["coast","warm"],
+      habitat: "Estuarine, shallow muddy floor",
+      conditions: {
+        sst:          { min: 22, max: 32, ideal: 27, absMin: 5, absMax: 40, unit: "°C", note: "Warm estuarine and coastal waters" },
+        salinity:     { min: 20, max: 32, ideal: 26, absMin: 20, absMax: 40, unit: "PSU", note: "Low-mid salinity; near freshwater input" },
+        chlorophyll:  { min: 1.0, max: 4.0, ideal: 2.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Turbid, nutrient-rich coastal zones" },
+        ssh:          { min: 0.1, max: 2.0, ideal: 0.8, absMin: 0, absMax: 5, unit: "m", note: "Shallow shelf, low SSH zones" }
+      },
+      seasons: [2,2,1,0,0,0,1,1,2,2,2,2],
+      tip: "<strong>Best year-round except Mar–May</strong>. Peaks near estuaries with high chlorophyll. Mumbai and Gujarat coasts prime zones."
+    },
+    {
+      name: "Catfish",
+      sci: "Silurus glanis",
+      emoji: "🐟",
+      market: "₹120–180/kg",
+      color: "#c0a0ff",
+      tags: ["fresh","coast"],
+      habitat: "Estuarine, brackish to freshwater",
+      conditions: {
+        sst:          { min: 20, max: 30, ideal: 25, absMin: 5, absMax: 40, unit: "°C", note: "Warm, slow-moving waters" },
+        salinity:     { min: 20, max: 28, ideal: 23, absMin: 20, absMax: 40, unit: "PSU", note: "Low salinity brackish to fresh" },
+        chlorophyll:  { min: 1.5, max: 5.0, ideal: 3.0, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Nutrient-dense turbid waters" },
+        ssh:          { min: 0.0, max: 1.5, ideal: 0.5, absMin: 0, absMax: 5, unit: "m", note: "Very shallow benthic habitat" }
+      },
+      seasons: [0,0,1,2,2,1,1,1,2,2,1,0],
+      tip: "<strong>Peak Apr–May and Sep–Oct</strong> near river deltas. Responds strongly to post-monsoon freshwater flush with elevated chlorophyll."
+    },
+    {
+      name: "Cod",
+      sci: "Gadus morhua",
+      emoji: "🐠",
+      market: "₹350–500/kg",
+      color: "#80c8ff",
+      tags: ["cold","deep"],
+      habitat: "Cold deep-water demersal",
+      conditions: {
+        sst:          { min: 8, max: 20, ideal: 14, absMin: 5, absMax: 40, unit: "°C", note: "Strictly cold-water species" },
+        salinity:     { min: 30, max: 38, ideal: 34, absMin: 20, absMax: 40, unit: "PSU", note: "Normal marine salinity" },
+        chlorophyll:  { min: 0.3, max: 2.0, ideal: 1.0, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Moderate productivity zones" },
+        ssh:          { min: 1.0, max: 4.5, ideal: 2.5, absMin: 0, absMax: 5, unit: "m", note: "Deeper continental shelf zones" }
+      },
+      seasons: [2,2,1,0,0,0,0,0,0,1,1,2],
+      tip: "<strong>Nov–Feb best window</strong>. Rare in Indian coastal zones; found in deeper cold upwelling pockets. SST must be below 20°C."
+    },
+    {
+      name: "Croakers",
+      sci: "Sciaenidae spp.",
+      emoji: "🐡",
+      market: "₹150–220/kg",
+      color: "#ffd080",
+      tags: ["coast","warm"],
+      habitat: "Sandy bottom, nearshore demersal",
+      conditions: {
+        sst:          { min: 22, max: 32, ideal: 27, absMin: 5, absMax: 40, unit: "°C", note: "Warm nearshore demersal habitat" },
+        salinity:     { min: 25, max: 36, ideal: 30, absMin: 20, absMax: 40, unit: "PSU", note: "Mid-range coastal salinity" },
+        chlorophyll:  { min: 0.8, max: 3.5, ideal: 1.8, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Moderately productive sandy benthic zones" },
+        ssh:          { min: 0.2, max: 2.5, ideal: 1.0, absMin: 0, absMax: 5, unit: "m", note: "Shallow coastal shelf" }
+      },
+      seasons: [1,1,2,2,1,0,0,1,2,2,1,1],
+      tip: "<strong>Mar–Apr and Sep–Oct peak</strong>. Sandy benthic zones with moderate chlorophyll. East coast (Chennai, Vizag) particularly productive."
+    },
+    {
+      name: "Grouper",
+      sci: "Epinephelus spp.",
+      emoji: "🐟",
+      market: "₹400–600/kg",
+      color: "#ff9070",
+      tags: ["warm","deep","open"],
+      habitat: "Reef and rocky substrate",
+      conditions: {
+        sst:          { min: 24, max: 34, ideal: 29, absMin: 5, absMax: 40, unit: "°C", note: "Tropical reef habitat" },
+        salinity:     { min: 32, max: 38, ideal: 35, absMin: 20, absMax: 40, unit: "PSU", note: "High salinity oceanic reef waters" },
+        chlorophyll:  { min: 0.1, max: 1.2, ideal: 0.4, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Clear oligotrophic reef waters" },
+        ssh:          { min: 1.5, max: 5.0, ideal: 3.0, absMin: 0, absMax: 5, unit: "m", note: "Elevated SSH near reef structures" }
+      },
+      seasons: [0,1,2,2,2,1,0,0,1,2,2,1],
+      tip: "<strong>Mar–May and Oct–Nov peak</strong>. Lakshadweep and Andaman reefs prime zones. High SSH (>2.5m) correlates with reef presence."
+    },
+    {
+      name: "Herring",
+      sci: "Clupea harengus",
+      emoji: "🐠",
+      market: "₹90–140/kg",
+      color: "#60d8c0",
+      tags: ["cold","coast","open"],
+      habitat: "Pelagic schooling, coastal shelf",
+      conditions: {
+        sst:          { min: 10, max: 22, ideal: 16, absMin: 5, absMax: 40, unit: "°C", note: "Cold-water schooling species" },
+        salinity:     { min: 28, max: 36, ideal: 32, absMin: 20, absMax: 40, unit: "PSU", note: "Moderate-high salinity oceanic" },
+        chlorophyll:  { min: 0.5, max: 3.0, ideal: 1.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "High plankton density areas" },
+        ssh:          { min: 0.5, max: 3.5, ideal: 1.8, absMin: 0, absMax: 5, unit: "m", note: "Open shelf, moderate depths" }
+      },
+      seasons: [2,1,0,0,0,0,0,0,0,1,2,2],
+      tip: "<strong>Nov–Jan best season</strong>. Follows cold upwelling fronts. Kerala and Karnataka coasts during northeast monsoon season."
+    },
+    {
+      name: "Hilsa",
+      sci: "Tenualosa ilisha",
+      emoji: "🐡",
+      market: "₹500–1200/kg",
+      color: "#c0d8ff",
+      tags: ["coast","fresh"],
+      habitat: "Anadromous, river estuaries",
+      conditions: {
+        sst:          { min: 20, max: 30, ideal: 25, absMin: 5, absMax: 40, unit: "°C", note: "Warm estuarine migration routes" },
+        salinity:     { min: 20, max: 30, ideal: 24, absMin: 20, absMax: 40, unit: "PSU", note: "Low salinity river plume zones" },
+        chlorophyll:  { min: 1.0, max: 4.5, ideal: 2.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "High productivity river plumes" },
+        ssh:          { min: 0.1, max: 1.8, ideal: 0.7, absMin: 0, absMax: 5, unit: "m", note: "Shallow estuarine channels" }
+      },
+      seasons: [0,0,0,0,0,1,2,2,2,1,0,0],
+      tip: "<strong>July–Sep peak</strong> during monsoon upstream migration. West Bengal and Odisha coasts. Low salinity + high chlorophyll signals."
+    },
+    {
+      name: "Kingfish",
+      sci: "Scomberomorus cavalla",
+      emoji: "🐟",
+      market: "₹250–400/kg",
+      color: "#00d4a0",
+      tags: ["warm","open","coast"],
+      habitat: "Pelagic, coastal and offshore",
+      conditions: {
+        sst:          { min: 24, max: 34, ideal: 29, absMin: 5, absMax: 40, unit: "°C", note: "Warm pelagic environment" },
+        salinity:     { min: 30, max: 38, ideal: 34, absMin: 20, absMax: 40, unit: "PSU", note: "High salinity oceanic waters" },
+        chlorophyll:  { min: 0.2, max: 1.5, ideal: 0.7, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Moderate clarity, follows prey" },
+        ssh:          { min: 1.0, max: 4.5, ideal: 2.5, absMin: 0, absMax: 5, unit: "m", note: "Offshore elevated SSH zones" }
+      },
+      seasons: [1,2,2,1,0,0,0,0,1,2,2,1],
+      tip: "<strong>Oct–Feb prime season</strong>. Fast-moving pelagic predator. Target areas where warm currents push chlorophyll fronts inshore."
+    },
+    {
+      name: "Mackerel",
+      sci: "Scomber scombrus",
+      emoji: "🐠",
+      market: "₹100–160/kg",
+      color: "#80e0a0",
+      tags: ["cold","coast","open"],
+      habitat: "Pelagic shoaling species",
+      conditions: {
+        sst:          { min: 16, max: 26, ideal: 21, absMin: 5, absMax: 40, unit: "°C", note: "Cool-temperate coastal pelagic" },
+        salinity:     { min: 28, max: 36, ideal: 33, absMin: 20, absMax: 40, unit: "PSU", note: "Normal marine salinity" },
+        chlorophyll:  { min: 0.5, max: 3.0, ideal: 1.8, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Productive upwelling zones" },
+        ssh:          { min: 0.3, max: 3.0, ideal: 1.4, absMin: 0, absMax: 5, unit: "m", note: "Moderate depth coastal shelf" }
+      },
+      seasons: [1,1,0,0,0,0,0,1,2,2,2,1],
+      tip: "<strong>Sep–Nov peak</strong> along Kerala and Goa coast. Follows cool upwelling fronts. High chlorophyll (>1.0) signals good concentrations."
+    },
+    {
+      name: "Pomfret",
+      sci: "Pampus argenteus",
+      emoji: "🐡",
+      market: "₹400–700/kg",
+      color: "#e0d0a0",
+      tags: ["warm","coast"],
+      habitat: "Demersal coastal, sandy substrate",
+      conditions: {
+        sst:          { min: 22, max: 32, ideal: 27, absMin: 5, absMax: 40, unit: "°C", note: "Tropical coastal demersal" },
+        salinity:     { min: 28, max: 37, ideal: 33, absMin: 20, absMax: 40, unit: "PSU", note: "Moderate-high marine salinity" },
+        chlorophyll:  { min: 0.5, max: 2.5, ideal: 1.2, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Productive but not turbid zones" },
+        ssh:          { min: 0.5, max: 3.0, ideal: 1.5, absMin: 0, absMax: 5, unit: "m", note: "Mid-depth coastal shelf" }
+      },
+      seasons: [2,2,1,0,0,0,1,1,2,2,2,2],
+      tip: "<strong>Oct–Feb and July–Aug peak</strong>. Premium species — Mumbai, Ratnagiri. Mid-salinity coastal waters with moderate SSH."
+    },
+    {
+      name: "Ribbonfish",
+      sci: "Trichiurus lepturus",
+      emoji: "🐟",
+      market: "₹80–130/kg",
+      color: "#d0e8f8",
+      tags: ["coast","warm"],
+      habitat: "Coastal demersal, sandy-mud",
+      conditions: {
+        sst:          { min: 22, max: 32, ideal: 27, absMin: 5, absMax: 40, unit: "°C", note: "Warm coastal demersal" },
+        salinity:     { min: 25, max: 36, ideal: 31, absMin: 20, absMax: 40, unit: "PSU", note: "Mid marine salinity" },
+        chlorophyll:  { min: 0.8, max: 3.5, ideal: 2.0, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Nutrient-rich benthic zones" },
+        ssh:          { min: 0.2, max: 3.0, ideal: 1.2, absMin: 0, absMax: 5, unit: "m", note: "Shallow to mid shelf" }
+      },
+      seasons: [0,0,1,2,2,1,1,2,2,2,1,0],
+      tip: "<strong>Apr–Sep peak</strong>. Follows warm mid-shelf currents. East coast yield highest ribbonfish densities during pre-monsoon."
+    },
+    {
+      name: "Salmon",
+      sci: "Salmo salar",
+      emoji: "🐠",
+      market: "₹600–900/kg",
+      color: "#ffa080",
+      tags: ["cold","deep","open"],
+      habitat: "Deep cold oceanic, anadromous",
+      conditions: {
+        sst:          { min: 8, max: 18, ideal: 13, absMin: 5, absMax: 40, unit: "°C", note: "Cold deep-water species" },
+        salinity:     { min: 30, max: 38, ideal: 34, absMin: 20, absMax: 40, unit: "PSU", note: "Full marine salinity" },
+        chlorophyll:  { min: 0.3, max: 2.0, ideal: 1.0, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Cold productive upwelling zones" },
+        ssh:          { min: 1.0, max: 5.0, ideal: 3.0, absMin: 0, absMax: 5, unit: "m", note: "Deeper offshore waters" }
+      },
+      seasons: [2,2,1,0,0,0,0,0,0,0,1,2],
+      tip: "<strong>Nov–Feb only</strong>. Extremely rare in Indian waters; occurs during unusual cold-water intrusions. SST must be below 18°C."
+    },
+    {
+      name: "Sardine",
+      sci: "Sardina pilchardus",
+      emoji: "🐡",
+      market: "₹50–90/kg",
+      color: "#60c0d0",
+      tags: ["coast","cold"],
+      habitat: "Nearshore schooling, pelagic",
+      conditions: {
+        sst:          { min: 18, max: 28, ideal: 23, absMin: 5, absMax: 40, unit: "°C", note: "Cool-warm coastal surface waters" },
+        salinity:     { min: 28, max: 36, ideal: 32, absMin: 20, absMax: 40, unit: "PSU", note: "Standard coastal salinity" },
+        chlorophyll:  { min: 1.0, max: 5.0, ideal: 2.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Very high plankton — filter feeder" },
+        ssh:          { min: 0.1, max: 2.0, ideal: 0.8, absMin: 0, absMax: 5, unit: "m", note: "Shallow nearshore, low SSH" }
+      },
+      seasons: [1,1,0,0,0,0,1,2,2,2,2,1],
+      tip: "<strong>Aug–Nov peak</strong>. Follows chlorophyll blooms during SW monsoon transition. Kerala coast records highest catch. Filter feeder — target high chlorophyll zones."
+    },
+    {
+      name: "Seer Fish",
+      sci: "Scomberomorus lineolatus",
+      emoji: "🐟",
+      market: "₹300–500/kg",
+      color: "#00c8ff",
+      tags: ["warm","open","coast"],
+      habitat: "Coastal pelagic, mid-shelf",
+      conditions: {
+        sst:          { min: 24, max: 34, ideal: 29, absMin: 5, absMax: 40, unit: "°C", note: "Warm coastal and offshore pelagic" },
+        salinity:     { min: 30, max: 38, ideal: 34, absMin: 20, absMax: 40, unit: "PSU", note: "High marine salinity preferred" },
+        chlorophyll:  { min: 0.2, max: 1.8, ideal: 0.8, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Clear to moderate productivity" },
+        ssh:          { min: 1.0, max: 4.5, ideal: 2.5, absMin: 0, absMax: 5, unit: "m", note: "Moderate-deep coastal shelf" }
+      },
+      seasons: [1,2,2,1,0,0,0,0,1,2,2,1],
+      tip: "<strong>Oct–Feb peak</strong>. Premium table fish. Follows warm coastal currents. West coast (Goa, Mumbai) prime grounds in winter."
+    },
+    {
+      name: "Shark",
+      sci: "Carcharhinus spp.",
+      emoji: "🦈",
+      market: "₹180–280/kg",
+      color: "#b0c0d8",
+      tags: ["warm","deep","open"],
+      habitat: "Coastal to pelagic, various depth",
+      conditions: {
+        sst:          { min: 20, max: 34, ideal: 27, absMin: 5, absMax: 40, unit: "°C", note: "Wide thermal tolerance" },
+        salinity:     { min: 28, max: 38, ideal: 33, absMin: 20, absMax: 40, unit: "PSU", note: "Marine to high-salinity" },
+        chlorophyll:  { min: 0.1, max: 3.0, ideal: 1.0, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Follows prey, any productivity zone" },
+        ssh:          { min: 0.5, max: 5.0, ideal: 2.5, absMin: 0, absMax: 5, unit: "m", note: "Coastal to deep-sea range" }
+      },
+      seasons: [1,1,2,2,1,1,1,1,2,2,1,1],
+      tip: "<strong>Mar–Apr and Sep–Oct peak</strong>. Wide habitat range across coast. High SSH + warm SST correlates with species abundance."
+    },
+    {
+      name: "Snapper",
+      sci: "Lutjanus spp.",
+      emoji: "🐠",
+      market: "₹200–350/kg",
+      color: "#ff8060",
+      tags: ["warm","coast","deep"],
+      habitat: "Reef associated, tropical",
+      conditions: {
+        sst:          { min: 24, max: 34, ideal: 29, absMin: 5, absMax: 40, unit: "°C", note: "Tropical reef environment" },
+        salinity:     { min: 30, max: 38, ideal: 35, absMin: 20, absMax: 40, unit: "PSU", note: "High salinity reef waters" },
+        chlorophyll:  { min: 0.1, max: 1.5, ideal: 0.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Clear reef waters preferred" },
+        ssh:          { min: 1.0, max: 5.0, ideal: 3.0, absMin: 0, absMax: 5, unit: "m", note: "Deeper reef structures" }
+      },
+      seasons: [0,1,2,2,2,1,0,0,1,2,2,1],
+      tip: "<strong>Mar–May and Oct–Nov peak</strong>. Reef-associated; Andaman and Nicobar prime grounds. Target high SSH + warm SST zones."
+    },
+    {
+      name: "Tilapia",
+      sci: "Oreochromis niloticus",
+      emoji: "🐟",
+      market: "₹120–180/kg",
+      color: "#80e080",
+      tags: ["fresh","coast"],
+      habitat: "Brackish, estuarine, freshwater",
+      conditions: {
+        sst:          { min: 20, max: 30, ideal: 25, absMin: 5, absMax: 40, unit: "°C", note: "Warm, turbid estuarine waters" },
+        salinity:     { min: 20, max: 28, ideal: 23, absMin: 20, absMax: 40, unit: "PSU", note: "Low salinity estuarine/brackish" },
+        chlorophyll:  { min: 2.0, max: 5.0, ideal: 3.5, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Very high turbid nutrient-rich zones" },
+        ssh:          { min: 0.0, max: 1.5, ideal: 0.5, absMin: 0, absMax: 5, unit: "m", note: "Very shallow benthic habitat" }
+      },
+      seasons: [0,0,1,2,2,2,1,2,2,2,1,0],
+      tip: "<strong>Apr–Oct extended season</strong>. Found in aquaculture ponds and tidal rivers. High chlorophyll estuaries near river outflows."
+    },
+    {
+      name: "Tuna",
+      sci: "Thunnus albacares",
+      emoji: "🐠",
+      market: "₹250–450/kg",
+      color: "#0de0b4",
+      tags: ["warm","open","deep"],
+      habitat: "Pelagic offshore, open ocean",
+      conditions: {
+        sst:          { min: 24, max: 34, ideal: 29, absMin: 5, absMax: 40, unit: "°C", note: "Highly migratory warm pelagic" },
+        salinity:     { min: 32, max: 38, ideal: 35, absMin: 20, absMax: 40, unit: "PSU", note: "High salinity oceanic waters" },
+        chlorophyll:  { min: 0.1, max: 1.2, ideal: 0.4, absMin: 0.01, absMax: 5, unit: "mg/m³", note: "Clear oligotrophic blue waters" },
+        ssh:          { min: 2.0, max: 5.0, ideal: 3.5, absMin: 0, absMax: 5, unit: "m", note: "Deep offshore elevated SSH" }
+      },
+      seasons: [2,2,1,0,0,0,1,1,1,1,2,2],
+      tip: "<strong>Nov–Feb and July–Aug</strong>. Offshore EEZ zones, 50–200km from coast. Very high SSH (>2.5m) and warm SST are key indicators."
+    }
+  ];
+
+  // ──────────────────────────────────────────────
+  // Render
+  // ──────────────────────────────────────────────
+  const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const COND_ICONS = { sst:'🌡', salinity:'🧂', chlorophyll:'🌿', ssh:'🌊' };
+  const COND_LABELS = { sst:'Sea Surface Temp', salinity:'Salinity', chlorophyll:'Chlorophyll', ssh:'Sea Surface Height' };
+
+  function pctInRange(val, absMin, absMax) {
+    return ((val - absMin) / (absMax - absMin)) * 100;
+  }
+
+  function buildCondBar(key, c, color) {
+    const zoneLeft  = pctInRange(c.min, c.absMin, c.absMax);
+    const zoneWidth = pctInRange(c.max, c.absMin, c.absMax) - zoneLeft;
+    const idealLeft = pctInRange(c.ideal, c.absMin, c.absMax);
+    return `
+      <div class="cond-row">
+        <div class="cond-top">
+          <div class="cond-label"><span class="cond-icon">${COND_ICONS[key]}</span>${COND_LABELS[key]}</div>
+          <div class="cond-val">${c.min}–${c.max} ${c.unit}</div>
+        </div>
+        <div class="cond-track">
+          <div class="cond-zone" style="left:${zoneLeft}%;width:${zoneWidth}%;background:${color}40;border:1px solid ${color}60"></div>
+          <div class="cond-dot" style="left:calc(${idealLeft}% - 4px);background:${color};box-shadow:0 0 6px ${color}"></div>
+        </div>
+        <div class="cond-ticks"><span>${c.absMin}</span><span>${((c.absMin+c.absMax)/2).toFixed(1)}</span><span>${c.absMax}</span></div>
+      </div>`;
+  }
+
+  function buildSeasonBar(seasons, color) {
+    return seasons.map((s,i) => {
+      const cls = s===2?'peak':s===1?'good':'low';
+      return `<div class="s-month ${cls}" style="--sp-color:${color}" data-m="${MONTHS[i]}"></div>`;
+    }).join('');
+  }
+
+  function buildCard(sp) {
+    const tagHTML = sp.tags.map(t => `<span class="sp-tag tag-${t}">${t}</span>`).join('');
+    const condHTML = Object.entries(sp.conditions).map(([k,c]) => buildCondBar(k,c,sp.color)).join('');
+    const seasonHTML = buildSeasonBar(sp.seasons, sp.color);
+    return `
+      <div class="sp-card" style="--sp-color:${sp.color}" data-tags="${sp.tags.join(',')}" data-name="${sp.name.toLowerCase()}" onclick="openModal('${sp.name}')">
+        <div class="sp-header" style="--sp-color:${sp.color}">
+          <div class="sp-emoji-wrap" style="--sp-color:${sp.color}20">${sp.emoji}</div>
+          <div class="sp-name-block">
+            <div class="sp-name">${sp.name}</div>
+            <div class="sp-sci">${sp.sci}</div>
+            <div class="sp-tags">${tagHTML}</div>
+            <div class="sp-market">${sp.market}</div>
+          </div>
+        </div>
+        <div class="sp-conditions">${condHTML}</div>
+        <div class="sp-seasons">
+          <div class="season-label">SEASONAL AVAILABILITY</div>
+          <div class="season-months">${seasonHTML}</div>
+          <div class="season-legend">
+            <div class="s-leg"><div class="s-leg-dot" style="background:${sp.color}"></div>Peak</div>
+            <div class="s-leg"><div class="s-leg-dot" style="background:${sp.color}60"></div>Good</div>
+            <div class="s-leg"><div class="s-leg-dot" style="background:rgba(255,255,255,0.07)"></div>Low</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function renderGrid() {
+    const grid = document.getElementById('species-grid');
+    grid.innerHTML = SPECIES_DATA.map((sp, i) => {
+      const card = buildCard(sp);
+      return card.replace('class="sp-card"', `class="sp-card" style="--sp-color:${sp.color};animation-delay:${i*0.04}s"`);
+    }).join('');
+    updateCount();
+  }
+
+  function updateCount() {
+    const visible = document.querySelectorAll('.sp-card:not(.hidden)').length;
+    document.getElementById('visible-count').textContent = visible;
+  }
+
+  // ──────────────────────────────────────────────
+  // Filter + Search
+  // ──────────────────────────────────────────────
+  let currentFilter = 'all';
+  let currentSearch = '';
+
+  function applyFilters() {
+    const cards = document.querySelectorAll('.sp-card');
+    cards.forEach(card => {
+      const tags = card.dataset.tags || '';
+      const name = card.dataset.name || '';
+      const matchFilter = currentFilter === 'all' || tags.includes(currentFilter);
+      const matchSearch = name.includes(currentSearch.toLowerCase());
+      card.classList.toggle('hidden', !(matchFilter && matchSearch));
+    });
+    updateCount();
+  }
+
+  function setFilter(filter, btn) {
+    currentFilter = filter;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+  }
+
+  function searchSpecies(val) {
+    currentSearch = val.toLowerCase();
+    applyFilters();
+  }
+
+  // ──────────────────────────────────────────────
+  // View toggle
+  // ──────────────────────────────────────────────
+  function setView(v) {
+    const grid = document.getElementById('species-grid');
+    document.getElementById('grid-btn').classList.toggle('active', v==='grid');
+    document.getElementById('list-btn').classList.toggle('active', v==='list');
+    grid.classList.toggle('list-view', v==='list');
+  }
+
+  // ──────────────────────────────────────────────
+  // Modal
+  // ──────────────────────────────────────────────
+  function openModal(name) {
+    const sp = SPECIES_DATA.find(s => s.name === name);
+    if (!sp) return;
+
+    const paramHTML = Object.entries(sp.conditions).map(([k,c]) => `
+      <div class="modal-param">
+        <div class="modal-param-name">${COND_ICONS[k]} ${COND_LABELS[k]}</div>
+        <div class="modal-param-range">${c.min}–${c.max}</div>
+        <div class="modal-param-unit">${c.unit} &nbsp;·&nbsp; Ideal: ${c.ideal} ${c.unit}</div>
+        <div class="modal-param-note">${c.note}</div>
+      </div>`).join('');
+
+    const seasonHTML = buildSeasonBar(sp.seasons, sp.color);
+    const tagHTML = sp.tags.map(t => `<span class="sp-tag tag-${t}">${t}</span>`).join('');
+
+    document.getElementById('modal-content').innerHTML = `
+      <div class="modal-hero" style="border-top: 3px solid ${sp.color}40">
+        <div class="modal-emoji">${sp.emoji}</div>
+        <div>
+          <div class="modal-fish-name" style="color:${sp.color}">${sp.name}</div>
+          <div class="modal-fish-sci">${sp.sci}</div>
+          <div style="display:flex;gap:6px;margin:6px 0">${tagHTML}</div>
+          <div class="modal-fish-market">${sp.market}</div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-section-title">OPTIMAL CONDITIONS</div>
+        <div class="modal-param-grid">${paramHTML}</div>
+
+        <div class="modal-section-title">FISHING TIP</div>
+        <div class="modal-tip">${sp.tip}</div>
+
+        <div class="modal-section-title">SEASONAL CALENDAR</div>
+        <div style="margin-bottom:8px">
+          <div style="display:grid;grid-template-columns:repeat(12,1fr);gap:3px;margin-bottom:4px">
+            ${sp.seasons.map((s,i) => {
+              const cls = s===2?'peak':s===1?'good':'low';
+              return `<div class="s-month ${cls}" style="--sp-color:${sp.color};height:24px;border-radius:4px" data-m="${MONTHS[i]}"></div>`;
+            }).join('')}
+          </div>
+          <div style="display:flex;justify-content:space-between">${MONTHS.map(m=>`<span style="font-size:9px;color:rgba(100,150,170,0.6);font-family:'JetBrains Mono',monospace">${m}</span>`).join('')}</div>
+        </div>
+        <div class="season-legend" style="margin-bottom:8px">
+          <div class="s-leg"><div class="s-leg-dot" style="background:${sp.color}"></div>Peak season</div>
+          <div class="s-leg"><div class="s-leg-dot" style="background:${sp.color}60"></div>Good availability</div>
+          <div class="s-leg"><div class="s-leg-dot" style="background:rgba(255,255,255,0.07)"></div>Low / avoid</div>
+        </div>
+
+        <div class="modal-section-title">HABITAT</div>
+        <div style="font-size:12px;color:rgba(160,200,220,0.8);line-height:1.6">${sp.habitat}</div>
+      </div>`;
+
+    document.getElementById('modal-bg').classList.add('open');
+  }
+
+  function closeModal(e) {
+    if (!e || e.target === document.getElementById('modal-bg') || e.currentTarget === document.querySelector('.modal-close')) {
+      document.getElementById('modal-bg').classList.remove('open');
+    }
+  }
+
+  document.addEventListener('keydown', e => { if(e.key==='Escape') document.getElementById('modal-bg').classList.remove('open'); });
+
+  // ──────────────────────────────────────────────
+  // Init
+  // ──────────────────────────────────────────────
+  renderGrid();
+
+  // Clock
+  function tick() {
+    const now = new Date();
+    document.getElementById('nav-time').textContent =
+      now.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+  }
+  tick(); setInterval(tick, 1000);
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+  // Particles
+  const canvas = document.getElementById('particles-canvas');
+  const pctx = canvas.getContext('2d');
+  let W, H, particles = [];
+  function resize() { W = canvas.width = innerWidth; H = canvas.height = innerHeight; }
+  resize(); window.addEventListener('resize', resize);
+  for (let i = 0; i < 60; i++) particles.push({
+    x: Math.random()*9999, y: Math.random()*9999,
+    r: Math.random()*1.5+0.3,
+    vx: (Math.random()-0.5)*0.3,
+    vy: (Math.random()-0.5)*0.3,
+    a: Math.random()*0.5+0.1
+  });
+  function animParticles() {
+    pctx.clearRect(0,0,W,H);
+    particles.forEach(p => {
+      p.x = ((p.x+p.vx)%W+W)%W;
+      p.y = ((p.y+p.vy)%H+H)%H;
+      pctx.beginPath();
+      pctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      pctx.fillStyle = `rgba(0,230,255,${p.a})`;
+      pctx.fill();
+    });
+    requestAnimationFrame(animParticles);
+  }
+  animParticles();
+  </script>
+</body>
+</html>
