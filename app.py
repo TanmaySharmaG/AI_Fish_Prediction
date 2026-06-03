@@ -114,7 +114,9 @@ def predict():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 400
-    @app.route("/quick_predict", methods=["POST"])
+
+
+@app.route("/quick_predict", methods=["POST"])
 def quick_predict():
     if model is None:
         return jsonify({"error": "Model not loaded."}), 500
