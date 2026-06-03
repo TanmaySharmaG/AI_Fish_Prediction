@@ -335,6 +335,9 @@ function switchMode(mode) {
   document.getElementById('adv-header').style.display   = isQuick ? 'none' : '';
   document.getElementById('quick-header').style.display = isQuick ? 'block' : 'none';
   document.getElementById('predict-btn').style.display  = isQuick ? 'none' : '';
+  // Hide the advanced input fields when in quick mode
+  const advForm = document.querySelector('.input-panel .form-grid');
+  if (advForm) advForm.style.display = isQuick ? 'none' : '';
   // Hide Species Atlas shortcut in quick mode for cleanliness
   const atlas = document.querySelector('a[href="/species"]');
   if (atlas && atlas.closest('.input-panel')) atlas.style.display = isQuick ? 'none' : '';
