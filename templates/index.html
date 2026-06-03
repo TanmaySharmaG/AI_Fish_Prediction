@@ -94,7 +94,20 @@
 
     <!-- Input Panel -->
     <section class="panel input-panel">
-      <div class="panel-header">
+      <!-- Mode Tabs -->
+      <div class="mode-tabs">
+        <button class="mode-tab active" id="tab-advanced" onclick="switchMode('advanced')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg>
+          Advanced Mode
+        </button>
+        <button class="mode-tab" id="tab-quick" onclick="switchMode('quick')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Quick Mode
+        </button>
+      </div>
+
+      <!-- Advanced Mode Header -->
+      <div id="adv-header" class="panel-header">
         <div class="panel-title-row">
           <div class="panel-icon">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/><path d="M22.54 6.08a15 15 0 010 11.84M1.46 6.08a15 15 0 000 11.84"/></svg>
@@ -107,6 +120,67 @@
         <div class="panel-indicator">
           <span class="ind-dot"></span>READY
         </div>
+      </div>
+
+      <!-- Quick Mode Header + Form -->
+      <div id="quick-header" style="display:none">
+        <div class="panel-header">
+          <div class="panel-title-row">
+            <div class="panel-icon" style="background:rgba(0,255,163,0.12);border-color:rgba(0,255,163,0.3)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00ffa3" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <div>
+              <h2 class="panel-title">Quick Mode</h2>
+              <p class="panel-sub">AI estimates ocean conditions from historical data</p>
+            </div>
+          </div>
+          <div class="panel-indicator active" style="color:#00ffa3;border-color:rgba(0,255,163,0.3)">
+            <span class="ind-dot active" style="background:#00ffa3;box-shadow:0 0 8px #00ffa3"></span>AUTO
+          </div>
+        </div>
+        <div class="quick-notice">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          Historical conditions estimated using marine database records.
+        </div>
+        <div class="form-grid" style="margin-top:16px">
+          <div class="field-group">
+            <label class="field-label">
+              <span class="field-icon mon-icon">▲</span>
+              Month <span class="field-unit">seasonal</span>
+            </label>
+            <div class="input-wrap select-wrap">
+              <select id="q-month">
+                <option value="1">January</option><option value="2">February</option>
+                <option value="3">March</option><option value="4">April</option>
+                <option value="5">May</option><option value="6">June</option>
+                <option value="7">July</option><option value="8">August</option>
+                <option value="9">September</option><option value="10">October</option>
+                <option value="11">November</option><option value="12">December</option>
+              </select>
+            </div>
+          </div>
+          <div class="field-group">
+            <label class="field-label">
+              <span class="field-icon loc-icon">◆</span>
+              Location Zone <span class="field-unit">region</span>
+            </label>
+            <div class="input-wrap select-wrap">
+              <select id="q-location">
+                <option value="Kochi">Kochi</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Visakhapatnam">Visakhapatnam</option>
+                <option value="Mangalore">Mangalore</option>
+                <option value="Tuticorin">Tuticorin</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button id="quick-btn" onclick="quickPredict()" style="margin-top:18px;width:100%;position:relative;overflow:hidden;padding:15px 28px;border-radius:12px;border:1px solid rgba(0,255,163,0.5);background:linear-gradient(135deg,rgba(0,255,163,0.12),rgba(0,180,120,0.08));color:#00ffa3;font-family:'Orbitron',monospace;font-size:13px;font-weight:700;letter-spacing:2px;cursor:pointer;transition:all 0.3s;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:8px"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          RUN QUICK PREDICTION
+          <span style="margin-left:8px">→</span>
+        </button>
       </div>
 
       <div class="form-grid">
