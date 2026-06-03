@@ -477,8 +477,8 @@ select option { background: #020c18; color: var(--text); }
 }
 
 .fish-img-wrap {
-  width: 44px; height: 44px; flex-shrink: 0;
-  border-radius: 8px; overflow: hidden;
+  width: 80px; height: 80px; flex-shrink: 0;
+  border-radius: 10px; overflow: hidden;
   border: 1px solid var(--border);
   background: rgba(0,20,50,0.8);
   display: flex; align-items: center; justify-content: center;
@@ -489,7 +489,7 @@ select option { background: #020c18; color: var(--text); }
   transition: transform 0.3s, filter 0.3s;
 }
 .fish-card:hover .fish-img-wrap img { transform: scale(1.08); filter: saturate(1.4) brightness(1); }
-.fish-emoji { font-size: 1.4rem; }
+.fish-emoji { font-size: 2rem; }
 
 .fish-info { flex: 1; min-width: 0; }
 .fish-name {
