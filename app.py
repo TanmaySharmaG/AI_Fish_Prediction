@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 VALIDATION_RULES = {
     "chlorophyll": (0.01, 5,   "Chlorophyll must be between 0.01 and 5 mg/m³"),
     "sst":         (5,   40,   "SST must be between 5 and 40 °C"),
-    "ssh":         (-2,  2,    "SSH must be between -2 and +2 m"),
+    "ssh":         (0,   5,    "SSH must be between 0 and 5 m"),
     "salinity":    (20,  40,   "Salinity must be between 20 and 40 PSU"),
     "month":       (1,   12,   "Month must be between 1 and 12"),
 }
@@ -31,7 +31,6 @@ def train_and_save_model():
     feature_cols = ["chlorophyll", "sst", "ssh", "salinity", "month", "location"]
     target_col = "fish_species"
 
-    # Encode location if categorical
     le_loc = LabelEncoder()
     if df["location"].dtype == object:
         df["location"] = le_loc.fit_transform(df["location"])
@@ -63,9 +62,20 @@ if not os.path.exists(MODEL_PATH):
 else:
     model, le_fish, le_loc = load_model()
 
+
+# ── Routes ──────────────────────────────────────────────────
+
 @app.route("/")
 def index():
+    """Main prediction dashboard."""
     return render_template("index.html")
+
+
+@app.route("/species")
+def species():
+    """Species Habitat Atlas page."""
+    return render_template("species.html")
+
 
 @app.route("/predict", methods=["POST"])
 def predict():
@@ -76,6 +86,7 @@ def predict():
     err = validate_inputs(data)
     if err:
         return jsonify({"error": err}), 422
+
     try:
         location_val = data["location"]
         if hasattr(le_loc, "classes_") and isinstance(location_val, str):
@@ -93,10 +104,10 @@ def predict():
             float(location_val)
         ]])
 
-        proba = model.predict_proba(features)[0]
+        proba   = model.predict_proba(features)[0]
         classes = le_fish.inverse_transform(np.arange(len(proba)))
 
-        ranked = sorted(zip(classes, proba), key=lambda x: x[1], reverse=True)
+        ranked  = sorted(zip(classes, proba), key=lambda x: x[1], reverse=True)
         results = [{"fish": str(f), "confidence": round(float(c) * 100, 1)} for f, c in ranked[:5]]
 
         return jsonify({"predictions": results})
@@ -104,5 +115,6 @@ def predict():
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(debug=True, port=5000)
