@@ -194,28 +194,21 @@
         </span>
       </button>
 
-    </section>
+      <!-- Pie Chart (inside input panel) -->
+      <div class="pie-inner" id="pie-panel" style="display:none">
+        <div class="pie-inner-header">
+          <div class="pie-inner-title">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
+            Fish Probability Distribution
+          </div>
+          <span class="pie-inner-sub">Real-time ensemble probability analysis</span>
+        </div>
+        <div class="pie-inner-wrap">
+          <canvas id="pie-chart"></canvas>
+          <div class="pie-legend" id="pie-legend"></div>
+        </div>
+      </div>
 
-    <!-- Pie Chart Panel -->
-    <section class="panel pie-panel" id="pie-panel" style="display:none">
-      <div class="panel-header">
-        <div class="panel-title-row">
-          <div class="panel-icon pie-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
-          </div>
-          <div>
-            <h2 class="panel-title">Fish Probability Distribution</h2>
-            <p class="panel-sub">Real-time ensemble probability analysis</p>
-          </div>
-        </div>
-        <div class="panel-indicator active" id="pie-status">
-          <span class="ind-dot active"></span>LIVE
-        </div>
-      </div>
-      <div class="pie-wrap">
-        <canvas id="pie-chart"></canvas>
-        <div class="pie-legend" id="pie-legend"></div>
-      </div>
     </section>
 
     <!-- Results Panel -->
