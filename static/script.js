@@ -121,6 +121,86 @@ Object.keys(RULES).forEach(id => {
   });
 });
 
+let pieChartInstance = null;
+
+const PIE_COLORS = [
+  { border: "rgba(0,230,255,1)",   bg: "rgba(0,230,255,0.18)"  },
+  { border: "rgba(0,100,255,1)",   bg: "rgba(0,100,255,0.18)"  },
+  { border: "rgba(0,255,163,1)",   bg: "rgba(0,255,163,0.15)"  },
+  { border: "rgba(180,100,255,1)", bg: "rgba(180,100,255,0.15)"},
+  { border: "rgba(255,180,50,1)",  bg: "rgba(255,180,50,0.15)" },
+];
+
+function renderPieChart(predictions) {
+  const top5 = predictions.slice(0,5);
+  const panel = document.getElementById("pie-panel");
+  const legend = document.getElementById("pie-legend");
+  panel.style.display = "block";
+
+  // Destroy old chart instance to avoid canvas reuse error
+  if (pieChartInstance) {
+    pieChartInstance.destroy();
+    pieChartInstance = null;
+  }
+
+  // Replace canvas to fully reset it
+  const oldCanvas = document.getElementById("pie-chart");
+  const newCanvas = document.createElement("canvas");
+  newCanvas.id = "pie-chart";
+  oldCanvas.parentNode.replaceChild(newCanvas, oldCanvas);
+
+  const ctx = newCanvas.getContext("2d");
+
+  const labels   = top5.map(p => p.fish);
+  const values   = top5.map(p => p.confidence);
+  const borders  = top5.map((_,i) => PIE_COLORS[i].border);
+  const bgs      = top5.map((_,i) => PIE_COLORS[i].bg);
+
+  pieChartInstance = new Chart(ctx, {
+    type: "doughnut",
+    data: {
+      labels,
+      datasets: [{
+        data: values,
+        backgroundColor: bgs,
+        borderColor: borders,
+        borderWidth: 2,
+        hoverBorderWidth: 3,
+        hoverOffset: 10,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      cutout: "62%",
+      animation: { animateRotate: true, duration: 1000, easing: "easeInOutQuart" },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: "rgba(2,15,40,0.95)",
+          borderColor: "rgba(0,200,255,0.3)",
+          borderWidth: 1,
+          titleColor: "#00e6ff",
+          bodyColor: "#c8e8ff",
+          padding: 12,
+          callbacks: {
+            label: ctx => ` ${ctx.parsed.toFixed(1)}% probability`
+          }
+        }
+      }
+    }
+  });
+
+  // Custom legend
+  legend.innerHTML = top5.map((p,i) => `
+    <div class="pie-leg-item">
+      <span class="pie-leg-dot" style="background:${PIE_COLORS[i].border};box-shadow:0 0 6px ${PIE_COLORS[i].border}"></span>
+      <span class="pie-leg-name">${p.fish}</span>
+      <span class="pie-leg-pct">${p.confidence}%</span>
+    </div>
+  `).join("");
+}
+
 async function predict() {
   const errors = validateAll();
   if (errors.length > 0) {
@@ -232,6 +312,8 @@ async function predict() {
     requestAnimationFrame(() => requestAnimationFrame(() => {
       document.querySelectorAll(".bar-fill").forEach(b => { b.style.width = b.dataset.w + "%"; });
     }));
+
+    renderPieChart(data.predictions);
 
   } catch (err) {
     clearInterval(stepInterval);
