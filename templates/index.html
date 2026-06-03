@@ -99,10 +99,10 @@
             <span class="field-unit">mg/m³</span>
           </label>
           <div class="input-wrap">
-            <input type="number" id="chlorophyll" step="0.01" placeholder="0.45" autocomplete="off">
+            <input type="number" id="chlorophyll" step="0.01" min="0.01" max="5" placeholder="0.01 – 5.00" autocomplete="off">
             <span class="input-suffix">chl-a</span>
           </div>
-          <div class="field-hint">Phytoplankton concentration</div>
+          <div class="field-hint">Valid: 0.01 – 5.00 mg/m³</div><div class="field-error" id="err-chlorophyll"></div>
         </div>
 
         <div class="field-group">
@@ -112,10 +112,10 @@
             <span class="field-unit">°C</span>
           </label>
           <div class="input-wrap">
-            <input type="number" id="sst" step="0.1" placeholder="28.5" autocomplete="off">
+            <input type="number" id="sst" step="0.1" min="5" max="40" placeholder="5 – 40" autocomplete="off">
             <span class="input-suffix">SST</span>
           </div>
-          <div class="field-hint">Surface water temperature</div>
+          <div class="field-hint">Valid: 5 – 40 °C</div><div class="field-error" id="err-sst"></div>
         </div>
 
         <div class="field-group">
@@ -125,10 +125,10 @@
             <span class="field-unit">m</span>
           </label>
           <div class="input-wrap">
-            <input type="number" id="ssh" step="0.01" placeholder="0.12" autocomplete="off">
+            <input type="number" id="ssh" step="0.01" min="-2" max="2" placeholder="-2.00 – 2.00" autocomplete="off">
             <span class="input-suffix">SSH</span>
           </div>
-          <div class="field-hint">Anomaly from mean sea level</div>
+          <div class="field-hint">Valid: −2 to +2 m</div><div class="field-error" id="err-ssh"></div>
         </div>
 
         <div class="field-group">
@@ -138,10 +138,10 @@
             <span class="field-unit">PSU</span>
           </label>
           <div class="input-wrap">
-            <input type="number" id="salinity" step="0.1" placeholder="34.2" autocomplete="off">
+            <input type="number" id="salinity" step="0.1" min="20" max="40" placeholder="20 – 40" autocomplete="off">
             <span class="input-suffix">PSU</span>
           </div>
-          <div class="field-hint">Practical salinity units</div>
+          <div class="field-hint">Valid: 20 – 40 PSU</div><div class="field-error" id="err-salinity"></div>
         </div>
 
         <div class="field-group">
