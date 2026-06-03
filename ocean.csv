@@ -1,4 +1,4 @@
-chlorophyll,sst,ssh,salinity,month,location,fish_name
+chlorophyll,sst,ssh,salinity,month,location,fish_species
 2.66,28.89,0.35,32.26,7,Visakhapatnam,Pomfret
 1.86,13.54,0.65,34.96,6,Mumbai,Cod
 4.76,26.22,0.45,29.9,3,Gujarat,Hilsa
